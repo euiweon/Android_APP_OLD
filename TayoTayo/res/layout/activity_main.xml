@@ -1,0 +1,667 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+   <LinearLayout
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+		<net.daum.mf.map.api.MapView
+		    android:id="@+id/daumMapView"
+		    android:layout_width="match_parent" 
+		    android:layout_height="match_parent" />
+
+	</LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/top_menu_1"
+			android:layout_width="480px"
+			android:layout_height="67px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/top_1"
+					android:layout_width="120px"
+					android:layout_height="67px"
+					android:background="@drawable/sms_2"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/top_2"
+					android:layout_width="120px"
+					android:layout_height="67px"
+					android:background="@drawable/favorite_1"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/top_3"
+					android:layout_width="120px"
+					android:layout_height="67px"
+					android:background="@drawable/option_1"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/top_4"
+					android:layout_width="120px"
+					android:layout_height="67px"
+					android:background="@drawable/history_1"
+					android:layout_gravity="left"/>
+			
+		</LinearLayout>
+	 </LinearLayout>
+	 
+    <FrameLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<FrameLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="76px"
+			android:orientation="horizontal"  
+			android:background="@drawable/low_bar" >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="466px"
+					android:layout_height="67px"
+					android:layout_marginLeft="7px"
+                	android:layout_marginTop="7px"
+					android:background="@drawable/call_bt"
+					android:layout_gravity="left"/>
+		</FrameLayout>
+	 </FrameLayout>
+	 
+     <FrameLayout
+         android:id="@+id/pop_menu_1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:visibility="gone" >
+
+		<ImageView
+		        android:id="@+id/back_image_view_1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/black" />
+		 <FrameLayout 
+	        android:id="@+id/pop_menu_1_1"
+		    android:layout_width="465px"
+		    android:layout_height="400px"  
+		    android:layout_marginLeft="7px"
+            android:layout_marginTop="200px"
+		    android:background="@drawable/destination_bg"
+		    android:orientation="vertical"
+		    >	
+		    <ListView
+			     android:id="@+id/select_list_2"
+			     android:layout_width="455px"
+			     android:layout_height="198px"
+			     android:layout_marginLeft="2px"
+            	 android:layout_marginTop="55px"
+			     android:background="#FFFFFF"
+			      />
+
+		    <ImageView
+		        android:id="@+id/image_view_1"
+					android:layout_width="447px"
+					android:layout_height="53px"
+					android:layout_marginLeft="7px"
+                	android:layout_marginTop="263px"
+					android:background="@drawable/text_box"
+					android:layout_gravity="left"/>
+		    <TextView
+		        android:id="@+id/dest_data"
+		        android:layout_width="440px"
+		        android:layout_height="43px"
+		        android:layout_marginLeft="15px"
+		        android:layout_marginTop="273px"
+		        android:text="새로 입력 "
+		        android:textSize="30px" >
+		    </TextView>
+		    
+		    <ImageView
+                android:id="@+id/select_bt1"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="238px"
+                android:layout_marginTop="328px"
+                android:background="@drawable/select_bt" />
+		    
+		    <ImageView
+                android:id="@+id/select_bt2"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="7px"
+                android:layout_marginTop="328px"
+                android:background="@drawable/ignore_bt" />
+
+		</FrameLayout>
+	</FrameLayout>
+	
+     <FrameLayout
+         android:id="@+id/pop_menu_2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+          >
+
+        <FrameLayout
+             android:id="@+id/pop_menu_title_2"
+             android:layout_width="match_parent"
+             android:layout_height="60px"
+             android:background="@drawable/top_bar"
+             android:orientation="vertical"
+             >
+            <TextView
+                 android:id="@+id/popup_title_text"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+               	 android:layout_marginTop="7px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="목적지 검색"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="40px" />
+	    </FrameLayout> 
+	    <FrameLayout
+             android:id="@+id/pop_menu_title_2_2"
+             android:layout_width="match_parent"
+             android:layout_height="63px"
+             android:layout_marginTop="60px"
+             android:background="@drawable/search_bar"
+             android:orientation="vertical"
+             >
+            <EditText
+                android:id="@+id/popup_title_text_2"
+               	android:layout_width="340px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15px"
+		        android:layout_marginTop="15px"
+		        android:background="@null"
+		        android:hint="목적지를 입력하세요"
+		        android:textColor="#000000"
+		        android:textCursorDrawable="@null"
+		        android:textSize="25px"/>
+            
+            <ImageView
+				android:id="@+id/popup_bottom_2"
+				android:layout_width="111px"
+				android:layout_height="52px"
+				android:layout_marginLeft="360px"
+	            android:layout_marginTop="7px"
+				android:background="@drawable/search_bt"
+				android:layout_gravity="left"/>
+	    </FrameLayout> 
+	    
+	    
+	     <FrameLayout
+	        android:id="@+id/popup_bottom_menu_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_gravity="bottom"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	
+			<FrameLayout
+				android:id="@+id/popup_bottom_menu_2_2"
+				android:layout_width="480px"
+				android:layout_height="76px"
+				android:orientation="horizontal"  
+				android:background="@drawable/low_bar" >
+				<ImageView
+						android:id="@+id/popup_bottom_2_2"
+						android:layout_width="466px"
+						android:layout_height="67px"
+						android:layout_marginLeft="7px"
+	                	android:layout_marginTop="7px"
+						android:background="@drawable/ok_bt"
+						android:layout_gravity="left"/>
+			</FrameLayout>
+		 </FrameLayout>
+	</FrameLayout>
+	
+     <FrameLayout
+         android:id="@+id/pop_menu_3"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/black"
+         android:orientation="vertical"
+         android:visibility="gone" >
+
+	     <ImageView
+		 	android:id="@+id/back_image_view_3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/loadingor" />
+	     
+	     <ProgressBar
+	         android:id="@+id/pop_menu_progress_3"
+	         style="?android:attr/progressBarStyleLarge"
+	         android:layout_width="100px"
+	         android:layout_height="100px"
+	         android:layout_marginLeft="190px"
+	         android:layout_marginTop="540px" />
+	     	     
+	     
+	</FrameLayout>     
+	
+     <FrameLayout
+         android:id="@+id/pop_menu_4"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" >
+
+	     <ImageView
+		 	android:id="@+id/back_image_view_4"
+				android:layout_width="456px"
+				android:layout_height="70px"
+				android:layout_marginLeft="15px"
+	         	android:layout_marginTop="70px"
+				android:background="@drawable/location" />
+	     
+	     <TextView
+                 android:id="@+id/popup_title_text_number"
+                 android:layout_width="430px"
+                 android:layout_height="60px"
+               	 android:layout_marginLeft="25px"
+               	 android:layout_marginTop="80px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="서울21 영 1234 차량배차완료"
+                 android:textColor="#FFFFFF"
+                 android:textCursorDrawable="@null"
+                 android:textSize="30px" />
+	     <FrameLayout
+	        android:id="@+id/popup_bottom_menu_4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_gravity="bottom"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	
+			<FrameLayout
+				android:id="@+id/popup_bottom_menu_4"
+				android:layout_width="480px"
+				android:layout_height="76px"
+				android:orientation="horizontal"  
+				android:background="@drawable/low_bar" >
+				<ImageView
+						android:id="@+id/popup_bottom_4_bt_1"
+						android:layout_width="282px"
+						android:layout_height="64px"
+						android:layout_marginLeft="7px"
+	                	android:layout_marginTop="7px"
+						android:background="@drawable/take_on"
+						android:layout_gravity="left"/>
+				<ImageView
+						android:id="@+id/popup_bottom_4_bt_2"
+						android:layout_width="179px"
+						android:layout_height="64px"
+						android:layout_marginLeft="298px"
+	                	android:layout_marginTop="7px"
+						android:background="@drawable/cancel"
+						android:layout_gravity="left"/>
+			</FrameLayout>
+		 </FrameLayout>
+	</FrameLayout>   
+	
+     <FrameLayout
+         android:id="@+id/pop_menu_5"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" >
+
+		<ImageView
+		        android:id="@+id/back_image_view_5"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/black" />
+		 <FrameLayout 
+	        android:id="@+id/pop_menu_5_1"
+		    android:layout_width="465px"
+		    android:layout_height="236px"  
+		    android:layout_marginLeft="7px"
+            android:layout_marginTop="300px"
+		    android:background="@drawable/cancel_bg"
+		    android:orientation="vertical"
+		    >	
+
+
+		    <ImageView
+		        android:id="@+id/image_view_5"
+				android:layout_width="447px"
+				android:layout_height="53px"
+				android:layout_marginLeft="7px"
+                android:layout_marginTop="263px"
+				android:background="@drawable/text_box"
+					android:layout_gravity="left"/>
+		    <TextView
+		        android:id="@+id/cancel_data"
+		        android:layout_width="440px"
+		        android:layout_height="83px"
+		        android:layout_marginLeft="15px"
+		        android:layout_marginTop="63px"
+		        android:ellipsize="end"
+		        android:text="취소 "
+		        android:textSize="24px" >
+		    </TextView>
+		    
+		    <ImageView
+                android:id="@+id/yes_bt"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="238px"
+                android:layout_marginTop="163px"
+                android:background="@drawable/yes_bt" />
+		    
+		    <ImageView
+                android:id="@+id/no_bt"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="7px"
+                android:layout_marginTop="163px"
+                android:background="@drawable/no_bt" />
+
+		</FrameLayout>
+	</FrameLayout>
+	
+    <FrameLayout
+         android:id="@+id/pop_menu_6"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+          >
+
+        <FrameLayout
+             android:id="@+id/pop_menu_title_6"
+             android:layout_width="match_parent"
+             android:layout_height="60px"
+             android:background="@drawable/top_bar"
+             android:orientation="vertical"
+             >
+            <TextView
+                 android:id="@+id/popup_title_text_6"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+               	 android:layout_marginTop="7px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="목적지 추가 등록"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="40px" />
+	    </FrameLayout> 
+	    <FrameLayout
+             android:id="@+id/pop_menu_title_6_2"
+             android:layout_width="match_parent"
+             android:layout_height="63px"
+             android:layout_marginTop="60px"
+             android:background="@drawable/search_bar"
+             android:orientation="vertical"
+             >
+            <EditText
+                android:id="@+id/popup_title_text_6_6"
+               	android:layout_width="340px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15px"
+		        android:layout_marginTop="15px"
+		        android:background="@null"
+		        android:hint="목적지를 입력하세요"
+		        android:textColor="#000000"
+		        android:textCursorDrawable="@null"
+		        android:textSize="25px"/>
+            
+            <ImageView
+				android:id="@+id/popup_bottom_6"
+				android:layout_width="111px"
+				android:layout_height="52px"
+				android:layout_marginLeft="360px"
+	            android:layout_marginTop="7px"
+				android:background="@drawable/search_bt"
+				android:layout_gravity="left"/>
+	    </FrameLayout> 
+	    
+	    
+	     <FrameLayout
+	        android:id="@+id/popup_bottom_menu_6"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_gravity="bottom"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	
+			<FrameLayout
+				android:id="@+id/popup_bottom_menu_6_6"
+				android:layout_width="480px"
+				android:layout_height="76px"
+				android:orientation="horizontal"  
+				android:background="@drawable/low_bar" >
+				<ImageView
+						android:id="@+id/popup_bottom_6_6"
+						android:layout_width="466px"
+						android:layout_height="67px"
+						android:layout_marginLeft="7px"
+	                	android:layout_marginTop="7px"
+						android:background="@drawable/current_location"
+						android:layout_gravity="left"/>
+			</FrameLayout>
+		 </FrameLayout>
+	</FrameLayout>
+	
+    <FrameLayout
+         android:id="@+id/pop_menu_7"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" >
+
+		<ImageView
+		        android:id="@+id/back_image_view_7"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/black" />
+		 <FrameLayout 
+	        android:id="@+id/pop_menu_7_1"
+		    android:layout_width="465px"
+		    android:layout_height="236px"  
+		    android:layout_marginLeft="7px"
+            android:layout_marginTop="300px"
+		    android:background="@drawable/loca_bg"
+		    android:orientation="vertical"
+		    >	
+
+
+		    <ImageView
+		        android:id="@+id/image_view_7"
+				android:layout_width="447px"
+				android:layout_height="53px"
+				android:layout_marginLeft="7px"
+                android:layout_marginTop="263px"
+				android:background="@drawable/text_box"
+				android:layout_gravity="left"/>
+
+		    <EditText
+		        android:id="@+id/loca_data"
+		        android:layout_width="440px"
+		        android:layout_height="83px"
+		        android:layout_marginLeft="15px"
+		        android:layout_marginTop="63px"
+		        android:background="@null"
+		        android:inputType="textMultiLine"
+		        android:hint="장소명 등록"
+		        android:textSize="24px" >
+
+		    </EditText>
+		    
+		    <ImageView
+                android:id="@+id/yes_bt_7"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="238px"
+                android:layout_marginTop="163px"
+                android:background="@drawable/yes_bt" />
+		    
+		    <ImageView
+                android:id="@+id/no_bt_7"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="7px"
+                android:layout_marginTop="163px"
+                android:background="@drawable/no_bt" />
+
+		</FrameLayout>
+	</FrameLayout>
+	
+        <FrameLayout
+         android:id="@+id/pop_menu_8"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         >
+
+		<ImageView
+		        android:id="@+id/back_image_view_8"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/black" />
+		 <FrameLayout 
+	        android:id="@+id/pop_menu_8_1"
+		    android:layout_width="465px"
+		    android:layout_height="400px"  
+		    android:layout_marginLeft="7px"
+            android:layout_marginTop="200px"
+		    android:background="@drawable/call_option_bg"
+		    android:orientation="vertical"
+		    >	
+
+		      <ImageView
+                android:id="@+id/checkbox_1"
+                android:layout_width="38px"
+                android:layout_height="38px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="75px"
+                android:background="@drawable/box" />
+		      <ImageView
+                android:id="@+id/checkbox_2"
+                android:layout_width="38px"
+                android:layout_height="38px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="137px"
+                android:background="@drawable/box" />
+		      <ImageView
+                android:id="@+id/checkbox_3"
+                android:layout_width="38px"
+                android:layout_height="38px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="200px"
+                android:background="@drawable/box" />
+		      <ImageView
+                android:id="@+id/checkbox_4"
+                android:layout_width="38px"
+                android:layout_height="38px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="265px"
+                android:background="@drawable/check_bt" />
+		     
+		    
+		    <ImageView
+                android:id="@+id/select_bt8"
+                android:layout_width="430px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="328px"
+                android:background="@drawable/confirm_bt" />
+		    
+
+		</FrameLayout>
+	</FrameLayout>
+	
+    <FrameLayout
+        android:id="@+id/pop_menu_9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+		<ImageView
+		        android:id="@+id/back_image_view_9"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/black" />
+		 <FrameLayout 
+	        android:id="@+id/pop_menu_9_1"
+		    android:layout_width="465px"
+		    android:layout_height="400px"  
+		    android:layout_marginLeft="7px"
+            android:layout_marginTop="200px"
+		    android:background="@drawable/destination_bg1"
+		    android:orientation="vertical"
+		    >	
+		    <ListView
+			     android:id="@+id/select_list_9"
+			     android:layout_width="455px"
+			     android:layout_height="260px"
+			     android:layout_marginLeft="2px"
+            	 android:layout_marginTop="55px"
+			     android:background="#FFFFFF"
+			      />
+		    
+		    <ImageView
+                android:id="@+id/select_bt9_1"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="238px"
+                android:layout_marginTop="328px"
+                android:background="@drawable/call_bt_1" />
+		    
+		    <ImageView
+                android:id="@+id/select_bt9_2"
+                android:layout_width="218px"
+                android:layout_height="55px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="7px"
+                android:layout_marginTop="328px"
+                android:background="@drawable/cancel_bt1" />
+
+		</FrameLayout>
+	</FrameLayout>
+	
+	
+	
+	
+	
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+    
+	<LinearLayout
+	    android:id="@+id/audition_deteil_row_3"
+	    android:layout_width="match_parent"
+	    android:layout_height="45sp"
+	    android:background="@drawable/destination_list"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+		
+		<TextView
+		    android:id="@+id/audition_deteil_row_reply"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10px"
+		    android:layout_marginLeft="20px"
+		    android:layout_marginRight="20px"
+		    android:layout_marginTop="5px"
+		    android:ellipsize="end"
+		    android:gravity="center_horizontal"
+		    android:text="내용 내용 내용 "
+		    android:textColor="#000000"
+		    android:textSize="15dip" />
+
+	</LinearLayout>
+	
+</LinearLayout>

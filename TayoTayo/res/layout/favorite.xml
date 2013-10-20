@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/bg"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="740px"    
+		    android:layout_marginTop="60px"
+		    android:orientation="vertical"
+		    >
+
+           <ListView
+				    android:id="@+id/list_view"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent" >
+				</ListView>
+        </FrameLayout>     
+        <FrameLayout
+             android:id="@+id/title_bar"
+             android:layout_width="match_parent"
+             android:layout_height="60px"
+             android:background="@drawable/top_bar"
+             android:orientation="vertical"
+             >
+            <TextView
+                 android:id="@+id/title_logo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+               	 android:layout_marginTop="7px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="즐겨찾기"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="40px" />
+            <ImageView
+                android:id="@+id/plus"
+                android:layout_width="47px"
+                android:layout_height="46px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="431px"
+                android:layout_marginTop="7px"
+                android:background="@drawable/plus_bt" />
+                        
+	    </FrameLayout>     
+             
+   </FrameLayout>           
+</RelativeLayout>

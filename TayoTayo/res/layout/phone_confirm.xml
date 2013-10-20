@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/entry_number_bg"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="690px"    
+		    android:layout_marginTop="60px"
+		    android:orientation="vertical"
+		    >
+
+		    <EditText
+		        android:id="@+id/login_id_data"
+		        android:layout_width="400px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="40px"
+		        android:layout_marginTop="110px"
+		        android:background="@null"
+		        android:hint="휴대폰번호를 입력하세요"
+		        android:inputType="phone"
+		        android:textColor="#000000"
+		        android:textCursorDrawable="@null"
+		        android:textSize="35px" />
+             
+              <EditText
+                  android:id="@+id/login_pass_data"
+                  android:layout_width="400px"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="40px"
+                  android:layout_marginTop="395px"
+                  android:background="@null"
+                  android:hint="인증번호를 입력하세요"
+                  android:inputType="phone"
+                  android:textColor="#000000"
+                  android:textCursorDrawable="@null"
+                  android:textSize="37px" />
+		    
+           <ImageView
+                android:id="@+id/phone_request"
+                android:layout_width="220px"
+                android:layout_height="54px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="248px"
+                android:layout_marginTop="218px"
+                android:background="@drawable/ple_confirmnum" />
+           
+           <ImageView
+                android:id="@+id/phone_request2"
+                android:layout_width="220px"
+                android:layout_height="54px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="248px"
+                android:layout_marginTop="498px"
+                android:background="@drawable/confirm_check" />
+           
+        </FrameLayout>     
+        <FrameLayout
+             android:id="@+id/title_bar"
+             android:layout_width="match_parent"
+             android:layout_height="60px"
+             android:background="@drawable/top_bar"
+             android:orientation="vertical"
+             >
+            <TextView
+                 android:id="@+id/title_logo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 
+               	 android:layout_marginTop="7px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="사용자 휴대폰 등록"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="40px" />
+	    </FrameLayout>     
+             
+   </FrameLayout>           
+</RelativeLayout>

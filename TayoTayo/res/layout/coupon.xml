@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/coupon_bg"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="735px"    
+		    android:layout_marginTop="65px"
+		    android:orientation="vertical"
+		    >
+		    
+             <TextView
+                 android:id="@+id/title_title"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+               	 android:layout_marginTop="15px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text=" 현금 2만원 적립 "
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="30px" />
+
+           <ImageView
+                android:id="@+id/_request"
+                android:layout_width="220px"
+                android:layout_height="54px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="133px"
+                android:layout_marginTop="650px"
+                android:background="@drawable/ple_confirmnum" />
+           
+           <ImageView
+                android:id="@+id/coupon_image"
+                android:layout_width="410px"
+                android:layout_height="330px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="37px"
+                android:layout_marginTop="86px"
+               />
+           
+           <TextView
+                 android:id="@+id/desc"
+                 android:layout_width="match_parent"
+                 android:layout_height="130px"
+               	 android:layout_marginTop="445px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text=" 이 쿠폰은 어쩌구저꺼고 쿠폰 내용 장황하게 설망하자.ㅇㅇ라ㅣ러니러니"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="20px" />
+           
+        </FrameLayout>     
+        <FrameLayout
+             android:id="@+id/title_bar"
+             android:layout_width="match_parent"
+             android:layout_height="65px"
+             android:background="@drawable/top_bar"
+             android:orientation="vertical"
+             >
+            <TextView
+                 android:id="@+id/title_logo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 
+               	 android:layout_marginTop="7px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="쿠폰"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="40px" />
+	    </FrameLayout>         
+   </FrameLayout>           
+</RelativeLayout>
