@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#FFF4F4"
+	    android:id="@+id/event_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/update_head00"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/update_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="업데이트 사항"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	        
+
+	    </FrameLayout>
+	    
+	    <FrameLayout 
+	        android:id="@+id/update_head0"
+		    android:layout_width="480px"
+		    android:layout_height="190px"
+		    android:orientation="vertical"
+		    android:background="@drawable/m_app_003_image" >
+	    </FrameLayout>
+	    
+	    <FrameLayout 
+	        android:id="@+id/update_head1"
+		    android:layout_width="480px"
+		    android:layout_height="69px"
+		    android:orientation="vertical"
+		    android:layout_marginTop="88px"
+		    android:background="@drawable/m_app_029_btn_bg" >
+
+	        <TextView
+	            android:id="@+id/update_now"
+	            android:layout_width="wrap_content"
+	            android:layout_height="39px"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="12px"
+	            android:text="현재버전 : 1.0"
+	            android:textColor="#000000"
+	            android:textSize="20sp" />
+
+	    </FrameLayout>
+	    
+	    
+	    <FrameLayout 
+	        android:id="@+id/update_head2"
+		    android:layout_width="480px"
+		    android:layout_height="69px"
+		    android:orientation="vertical"
+		    android:layout_marginTop="7px"
+		    android:background="@drawable/m_app_029_btn_bg" >
+
+	        <TextView
+	            android:id="@+id/update_new"
+	            android:layout_width="wrap_content"
+	            android:layout_height="39px"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="12px"
+	            android:text="최신버전 : 1.0"
+	            android:textColor="#000000"
+	            android:textSize="20sp" />
+
+	    </FrameLayout>
+	    
+	    
+	    <FrameLayout 
+	        android:id="@+id/update_btn"
+		    android:layout_width="358px"
+		    android:layout_height="52px"
+		    android:orientation="vertical"
+		    android:layout_marginTop="144px"
+		    android:layout_marginLeft="63px"
+		    android:background="@drawable/m_app_029_btn" >
+	    </FrameLayout>
+	    
+
+	    	        
+	    
+    </LinearLayout>
+</RelativeLayout>

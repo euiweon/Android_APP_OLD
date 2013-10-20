@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#E2343B"
+	    android:id="@+id/qna_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/qna_head"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/qna_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="문의사항"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	         
+	         <ImageView
+				android:id="@+id/qna_write_btn"
+				android:layout_width="123px"
+				android:layout_height="42px"
+				android:layout_marginLeft="348px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_030_header_btn" />
+	        
+
+	    </FrameLayout>
+	    
+	    <FrameLayout 
+	        android:id="@+id/qna_body"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#E2343B">
+	         
+
+	        <LinearLayout
+	            android:id="@+id/qna_body1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#E2343B"
+	            android:orientation="vertical" 
+				>
+				<LinearLayout
+		            android:id="@+id/qna_body1_1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="#E2343B"
+		            android:orientation="horizontal" 
+					android:layout_marginTop="35px">
+					
+			         <EditText
+			             android:id="@+id/qna_find"
+			             android:layout_width="350px"
+			             android:layout_height="53px"
+			             android:layout_marginLeft="15px"
+			             android:ems="10"
+			             android:lines="1"
+			             android:singleLine="true"
+			             android:textSize="15sp" >
+
+			             <requestFocus /> 
+			          </EditText>
+				    <ImageView
+						android:id="@+id/qna_search"
+						android:layout_width="106px"
+						android:layout_height="42px"
+						
+			        	android:layout_marginTop="35px"
+			        	android:layout_gravity="left"
+						android:src="@drawable/m_app_005_btn" />
+					
+				</LinearLayout>
+
+				<ListView
+				    android:id="@+id/qna_list_view"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent" >
+				</ListView>
+
+			</LinearLayout>
+	     </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

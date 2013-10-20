@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/notice_row" 
+    android:orientation="vertical" android:background="#E2343B" >
+    
+    
+
+	<LinearLayout
+		 android:id="@+id/notice_row_2"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_marginLeft="10px"
+		 android:layout_marginTop="10px">
+	     <TextView
+	       	android:id="@+id/notice_row_title"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="[안내] 공지사항 제목이 나옵니다. 공지사항 제목이 나옵니다. 공지사항 제목이 나옵니다."
+	       	android:textColor="#FFFFFF"
+	    	android:textSize="25px" />
+	</LinearLayout >
+
+	<LinearLayout
+	    android:id="@+id/notice_row_3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    android:layout_marginBottom="10px"
+	    android:layout_marginRight="10px"
+	    android:orientation="vertical"
+	    android:layout_marginTop="10px" >
+
+	     <TextView
+	       	android:id="@+id/notice_row_desc"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="2012-05-12"
+	       	android:textColor="#FFFFFF"
+	    	android:textSize="18px" />
+	</LinearLayout >
+</LinearLayout>

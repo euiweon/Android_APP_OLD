@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+    
+    <FrameLayout 
+        android:id="@+id/home_head"
+	    android:layout_width="match_parent"
+	    android:layout_height="190px"
+	    android:orientation="vertical"
+	    android:background="@drawable/m_app_003_image" >
+	    
+        <ImageView
+			android:id="@+id/home_login"
+			android:layout_width="142px"
+			android:layout_height="43px"
+			
+			android:layout_marginLeft="7px"
+        	android:layout_marginTop="7px"
+        	android:layout_gravity="left"
+			android:src="@drawable/m_app_003_top_btn1" />
+        
+        <ImageView
+			android:id="@+id/home_recruit"
+			android:layout_width="142px"
+			android:layout_height="43px"
+			android:layout_marginLeft="330px"
+        	android:layout_marginTop="7px"
+        	android:layout_gravity="left"
+			android:src="@drawable/m_app_003_top_btn2" />
+    </FrameLayout>
+    
+    <FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="471px"
+	    android:orientation="vertical"
+	    android:id="@+id/home_middle"
+	     >
+        <ImageView
+			android:id="@+id/home_recruit2"
+			android:layout_width="358px"
+			android:layout_height="53px"
+			android:layout_marginLeft="63px"
+        	android:layout_marginTop="20px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_btn01" />
+        
+        <ImageView
+			android:id="@+id/home_edu"
+			android:layout_width="358px"
+			android:layout_height="53px"
+			android:layout_marginLeft="63px"
+        	android:layout_marginTop="80px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_btn02" />
+        
+        
+        <ImageView
+			android:id="@+id/home_scrap"
+			android:layout_width="358px"
+			android:layout_height="53px"
+			android:layout_marginLeft="63px"
+        	android:layout_marginTop="140px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_btn03" />
+        
+        <ImageView
+			android:id="@+id/home_event"
+			android:layout_width="358px"
+			android:layout_height="53px"
+			android:layout_marginLeft="63px"
+        	android:layout_marginTop="200px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_btn04" />
+        
+        <ImageView
+			android:id="@+id/home_myjob"
+			android:layout_width="358px"
+			android:layout_height="53px"
+			android:layout_marginLeft="63px"
+        	android:layout_marginTop="260px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_btn05" />
+        
+        <ImageView
+			android:id="@+id/home_setting"
+			android:layout_width="358px"
+			android:layout_height="53px"
+			android:layout_marginLeft="63px"
+        	android:layout_marginTop="320px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_btn06" />
+    </FrameLayout>
+    
+    <FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="139px"
+	    android:orientation="vertical"
+	    android:id="@+id/home_foot"
+	     >
+        
+        <ImageView
+			android:id="@+id/home_pr"
+			android:layout_width="match_parent"
+			android:layout_height="69px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_foot_btn01" />
+        
+        <ImageView
+			android:id="@+id/home_pc"
+			android:layout_width="match_parent"
+			android:layout_height="69px"
+        	android:layout_marginTop="70px"
+        	android:layout_gravity="left"
+			android:background="@drawable/m_app_003_foot_btn02" />
+        
+     </FrameLayout>  
+    
+
+
+</LinearLayout>

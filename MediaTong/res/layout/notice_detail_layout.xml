@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#E2343B"
+	    android:id="@+id/notice_detail_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/notice_detail_head"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/notice_detail_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="공지사항"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	        
+
+	    </FrameLayout>
+	    
+	    
+	    <FrameLayout 
+	        android:id="@+id/notice_detail_body"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#E2343B">
+	         
+			 <ScrollView
+		        android:id="@+id/notice_detail_scroll_view"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		         >
+
+				<LinearLayout
+					android:id="@+id/notice_detail_body1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="#E2343B"
+					android:orientation="vertical" 
+					>
+					
+					<LinearLayout
+						android:id="@+id/notice_detail_list_row_1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical" 
+						android:background="#FFFFFF">
+						<TextView
+							android:id="@+id/notice_detail_list_row_title"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="내용....."
+							android:textColor="#000000"
+							android:textSize="25px"
+							android:layout_marginLeft="15px" />
+					</LinearLayout>
+					
+					<LinearLayout
+						android:id="@+id/notice_detail_body1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="#E2343B"
+						android:orientation="vertical" 
+						android:layout_marginTop="10px"
+						>
+							
+						<TextView
+							android:id="@+id/notice_detail_list_row_content"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:text="채용 제목"
+							android:textColor="#FFFFFF"
+							android:textSize="25px"
+							android:layout_marginLeft="15px" />
+					</LinearLayout>
+
+
+	
+				</LinearLayout>
+			</ScrollView>
+	     </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edu_detail_list_row" 
+    android:orientation="vertical" android:background="#E2343B" >
+    
+    
+    <LinearLayout
+		 android:id="@+id/edu_detail_list_row_1"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical" android:layout_marginTop="10px"
+		 android:layout_marginLeft="10px">
+	     <TextView
+	       	android:id="@+id/edu_detail_list_row_name"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="회사이름"
+	       	android:textColor="#FFB4B4"
+	    	android:textSize="25px" />
+	</LinearLayout >
+	<LinearLayout
+		 android:id="@+id/edu_detail_list_row_2"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_marginLeft="10px">
+	     <TextView
+	       	android:id="@+id/edu_detail_list_row_title"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="채용 제목"
+	       	android:textColor="#FFFFFF"
+	    	android:textSize="25px" />
+	</LinearLayout >
+	<LinearLayout
+		 android:id="@+id/edu_detail_list_row_3"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_marginLeft="10px"
+		 android:layout_marginBottom="10px">
+	     <TextView
+	       	android:id="@+id/edu_detail_list_row_desc"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="마감일 2012-05-12 | 신입경력 | 학력무관| 서울 강남구 신사동"
+	       	android:textColor="#FFFFFF"
+	    	android:textSize="18px" />
+	</LinearLayout >
+    
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.rcsoft.mediatong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+    <permission
+        android:name="kr.co.rcsoft.mediatong.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="kr.co.rcsoft.mediatong.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.SEND" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".AppManagement"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        
+        <receiver
+            android:name="kr.co.rcsoft.mediatong.MyBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="kr.co.rcsoft.mediatong" />
+            </intent-filter>
+        </receiver>
+        <service android:name="kr.co.rcsoft.mediatong.MyIntentService" />
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntroEventActivity" android:screenOrientation="portrait" />
+        <activity android:name=".HomeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RecruitActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RecruitDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RecruitMoreDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RecruitFindActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EduListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EduDetailActivity" android:screenOrientation="portrait" />    
+        <activity android:name=".NaverMapActivity" android:screenOrientation="portrait" />      
+        <activity android:name=".EventDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EventMainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ScrapMainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ScrapDeleteActivity" android:screenOrientation="portrait" />    
+        <activity android:name=".NoticeDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".NoticeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".UpdateActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FAQActivity" android:screenOrientation="portrait" />   
+        <activity android:name=".QNAActivity" android:screenOrientation="portrait" />
+        <activity android:name=".QNADetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".QNAWriteActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SettingActivity" android:screenOrientation="portrait" /> 
+        <activity android:name=".MyJobSettingActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MyJobListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".Recruit2Activity" android:screenOrientation="portrait" />
+        
+        
+    </application>
+
+</manifest>

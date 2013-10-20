@@ -1,0 +1,522 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#E2343B"
+	    android:id="@+id/myjob_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/myjob_head"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/myjob_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="My Job 설정 변경"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	        
+
+	    </FrameLayout>
+	    
+	    
+	     <FrameLayout 
+	        android:id="@+id/myjob_body"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#E2343B">
+	         
+
+	        <LinearLayout
+	            android:id="@+id/myjob_body1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#E2343B"
+	            android:orientation="vertical" 
+				>
+				
+	            <LinearLayout
+					android:id="@+id/myjob_row_1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_1_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_1_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="관심직종"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_1_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_job1"
+							android:layout_width="147px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+						<Spinner
+							android:id="@+id/myjob_job2"
+							android:layout_width="147px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							
+							/>	
+							
+
+					</LinearLayout >
+				</LinearLayout > 
+				<LinearLayout
+					android:id="@+id/myjob_row_2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_2_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_2_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="성별"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_2_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_sex"
+							android:layout_width="301px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+					</LinearLayout >
+				</LinearLayout > 
+				<LinearLayout
+					android:id="@+id/myjob_row_3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_3_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_3_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="나이"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_3_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10"
+						>
+
+						<Spinner
+							android:id="@+id/myjob_old"
+							android:layout_width="301px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	 
+					</LinearLayout > 
+				</LinearLayout > 
+
+				
+				<LinearLayout
+					android:id="@+id/myjob_row_5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_5_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_5_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="성별"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_5_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_school"
+							android:layout_width="301px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+					</LinearLayout >
+				</LinearLayout >
+				
+				<LinearLayout
+					android:id="@+id/myjob_row_6"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_6_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_6_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="경력"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_6_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_carrier"
+							android:layout_width="301px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+					</LinearLayout >
+				</LinearLayout > 
+				<LinearLayout
+					android:id="@+id/myjob_row_7"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_7_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_7_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="희망연봉"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_7_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_money"
+							android:layout_width="301px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+					</LinearLayout >
+				</LinearLayout > 
+
+
+				<LinearLayout
+					android:id="@+id/myjob_row_8"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_8_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_8_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="근무희망지역"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_8_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_area1"
+							android:layout_width="147px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+						<Spinner
+							android:id="@+id/myjob_area2"
+							android:layout_width="147px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							
+							/>	
+							
+
+					</LinearLayout >
+				</LinearLayout > 
+
+
+				<LinearLayout
+					android:id="@+id/myjob_row_9"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" android:layout_marginTop="10px">
+							 
+					<LinearLayout
+						android:id="@+id/myjob_row_9_1"
+						android:layout_width="160px"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="0" >
+							
+						<TextView
+							android:id="@+id/myjob_row_9_1_text"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10px"
+							android:ellipsize="end"
+							android:gravity="left"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="고용형태"
+							android:textColor="#FFFFFF"
+							android:textSize="22px"
+							android:layout_marginTop="10px"/>
+					</LinearLayout >
+					
+					<LinearLayout
+						android:id="@+id/myjob_row_9_2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="right"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true"
+						android:layout_weight="10" >
+
+						<Spinner
+							android:id="@+id/myjob_type"
+							android:layout_width="301px"
+							android:layout_height="52px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="15px"
+							/>	  
+							
+					</LinearLayout >
+				</LinearLayout > 
+				<LinearLayout
+					android:id="@+id/myjob_row_10"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="left"
+					android:orientation="horizontal"
+					android:weightSum="10" 
+					android:layout_marginTop="32px">
+					<ImageView
+						android:id="@+id/myjob_setting"
+						android:layout_width="358px"
+						android:layout_height="53px"			
+						android:layout_marginLeft="63px"
+			        	android:layout_marginTop="12px"
+			        	android:layout_gravity="left"
+						android:src="@drawable/m_app_021_btn" />
+				</LinearLayout>
+			</LinearLayout>
+	     </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

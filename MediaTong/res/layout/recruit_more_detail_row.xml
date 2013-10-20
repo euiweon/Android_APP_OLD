@@ -1,0 +1,2054 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+    
+    <LinearLayout
+		 android:id="@+id/recruit_more_detail_list_row_1"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical" 
+		 android:background="#FFFFFF">
+	     <TextView
+	       	android:id="@+id/recruit_detail_list_row_name"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="채용 제목"
+	       	android:textColor="#000000"
+	    	android:textSize="25px"
+	    	android:layout_marginLeft="15px" />
+	</LinearLayout >
+	
+
+    <LinearLayout
+        android:id="@+id/recruit_more_detail_list_row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	     
+        <LinearLayout
+			 android:id="@+id/recruit_more_detail_list_row_2_1"
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:orientation="vertical" 
+			 >
+			 
+            <ImageView
+                android:id="@+id/recruit_more_detail_list_row_2_1_image"
+                android:layout_width="152px"
+                android:layout_height="116px"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/m_app_004_bar" android:scaleType="fitXY" 
+				android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"/>
+            
+		</LinearLayout >
+
+
+		<LinearLayout
+			 android:id="@+id/recruit_more_detail_list_row_2_2"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:orientation="vertical" 
+			 >
+			 <LinearLayout
+				 android:id="@+id/recruit_more_detail_list_row_2_2_1"
+				 android:layout_width="match_parent"
+				 android:layout_height="wrap_content"
+				 android:orientation="horizontal" 
+				 android:gravity="right"
+	        	 android:layout_weight="1"
+				 >
+				<ImageView
+					android:id="@+id/recruit_more_detail_list_row_2_2_1_image1"
+					android:layout_width="94px"
+					android:layout_height="42px"
+					android:background="@drawable/m_app_008_12" android:scaleType="fitXY" android:layout_marginTop="10px"
+					/>
+				<ImageView
+					android:id="@+id/recruit_more_detail_list_row_2_2_1_image2"
+					android:layout_width="94px"
+					android:layout_height="42px"
+					android:background="@drawable/m_app_008_14" android:scaleType="fitXY" android:layout_marginTop="10px"
+					android:layout_marginRight="15px"
+					/>
+			</LinearLayout > 
+			
+			 <LinearLayout
+				 android:id="@+id/recruit_more_detail_list_row_2_2_2"
+				 android:layout_width="match_parent"
+				 android:layout_height="wrap_content"
+				 android:orientation="horizontal" 
+				 android:gravity="left"
+	        	 android:layout_weight="1"
+				 >
+
+				<TextView
+				    android:id="@+id/recruit_detail_list_row_name"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="채용 제목"
+				    android:textColor="#FFFFFF"
+				    android:textSize="25px" />
+
+			</LinearLayout > 
+
+			
+		</LinearLayout > 
+	</LinearLayout >
+	
+
+	
+
+
+    <LinearLayout
+        android:id="@+id/recruit_more_detail_list_row_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2343B"
+        android:orientation="vertical"
+        android:visibility="gone" >
+	     
+         <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_1_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_1_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="모집업직종"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_1_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_1_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="2"
+				    android:maxLines="4"
+				    android:text="업종>방송 영상 CATV프로덕션> 프로덕션 직종> 방송 미술CG > CG"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+		
+         
+         <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px"
+              >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_2_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_2_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="근무지역"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_2_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_2_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="서울 강남구"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_3_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_3_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="주변지하철"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_3_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_3_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="서울>7호선>논현 7번출구"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_4_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_4_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="담당업무"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_4_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_4_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="모션그래픽"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_5_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_5_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="모집인원"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_5_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_5_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="2명"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_6_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_6_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="연봉"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_6_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_6_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="2400~2600 만원"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_7"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_7_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_7_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="고용형태"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_7_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_7_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="정규직"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_8"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_8_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_8_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="경력"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_8_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_8_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="5년이상"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_9"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_9_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_9_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="학력"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_9_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_9_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="대졸"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_10"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_10_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_10_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="성별"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_10_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_10_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="무관"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_11"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_11_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_11_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="우대조건"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_11_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_11_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="2"
+				    android:text="장애인, 취업보호대상자"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_12"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_12_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_12_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="우대전공"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_12_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_12_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="사범계열"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_13"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_13_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_13_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="자격증"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_13_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_13_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="2"
+				    android:text="MOS 2007"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_14"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_14_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_14_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="스킬"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_14_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_14_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="영상 > 파이널 컷 프로 \n 디자인 > 포토샵, 일러스트 \n 파워포인트"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_16"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_16_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_16_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="전형방법"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_16_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_16_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="서류 전령 필기전형  면접전형"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_17"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_17_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_17_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="제출서류"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_17_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_17_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="포트폴리오 이력서 자기소개서 자격증 사본"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_18"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_18_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_18_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="접수기간"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_18_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_18_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="2012-05-25 금 "
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_4_19"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px" >
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_4_19_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_19_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="접수방법"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_4_19_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_4_19_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="이메일 온라인 입사지원"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+	</LinearLayout >
+	
+    <LinearLayout
+        android:id="@+id/recruit_more_detail_list_row_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2343B"
+        android:orientation="vertical"
+        android:visibility="gone" 
+         >
+	     
+         <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_1_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_1_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="대표자"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_1_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_1_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="홍길동"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+		
+        <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_2_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_2_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="사원수"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_2_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_2_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="400명"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+        <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_3_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_3_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="자본금"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_3_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_3_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="1000억 5100만원"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_4_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_4_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="기업형태"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_4_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_4_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="중기업"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_5_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_5_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="업종"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_5_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_5_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="프로덕션"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_6_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_6_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="설립일"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_6_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_6_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="2001년 8월 1일"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_7"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_7_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_7_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="홈페이지"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_7_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_7_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="www.asdf.co.kr"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_8"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_8_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_8_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="전화번호"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_8_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_8_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="02-0000-0000"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_5_9"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_5_9_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_9_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="팩스번호"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_5_9_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_5_9_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="4"
+				    android:text="02-0000-0000"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout >
+		
+	</LinearLayout > 
+	<LinearLayout
+        android:id="@+id/recruit_more_detail_list_row_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2343B"
+        android:orientation="vertical"
+        android:visibility="gone" 
+         >
+	     
+         <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_6_1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_6_1_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_6_1_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="1"
+				    android:text="회사소개"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_6_1_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_6_1_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="회사소개 내용"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+	</LinearLayout>	
+
+	<LinearLayout
+	    android:id="@+id/recruit_more_detail_list_row_7"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#E2343B"
+	    android:orientation="vertical"
+	    android:visibility="gone" >
+	     
+         <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_7_1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_7_1_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_7_1_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="2"
+				    android:maxLines="2"
+				    android:text="연혁 및 실적"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_7_1_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_7_1_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="연혁 및 실적 내용이 나옵니다."
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+	</LinearLayout>	
+	
+
+	<LinearLayout
+	    android:id="@+id/recruit_more_detail_list_row_8"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#E2343B"
+	    android:orientation="horizontal"
+	    android:visibility="gone" >
+         
+	    <ImageView
+            android:id="@+id/recruit_more_detail_list_row_8_1_image"
+            android:layout_width="142px"
+            android:layout_height="116px"
+            android:layout_marginLeft="9dip"
+            android:background="@drawable/m_app_004_bar" android:scaleType="fitXY" 
+			android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"/>
+	    <ImageView
+            android:id="@+id/recruit_more_detail_list_row_8_2_image"
+            android:layout_width="142px"
+            android:layout_height="116px"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/m_app_004_bar" android:scaleType="fitXY" 
+			android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"/>
+	    <ImageView
+            android:id="@+id/recruit_more_detail_list_row_8_3_image"
+            android:layout_width="142px"
+            android:layout_height="116px"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/m_app_004_bar" android:scaleType="fitXY" 
+			android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"/>
+    </LinearLayout>	
+    
+
+		<LinearLayout
+		    android:id="@+id/recruit_more_detail_list_row_9"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#E2343B"
+		    android:orientation="vertical"
+		    android:visibility="gone" >
+	     
+         <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_9_1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_9_1_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_1_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="2"
+				    android:text="담당자"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_9_1_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_1_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="홍길동"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+		
+        <LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_9_2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_9_2_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_2_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="2"
+				    android:text="이메일"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_9_2_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_2_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="asdsda@naver.com"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_9_3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_9_3_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_3_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="2"
+				    android:text="연락처"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_9_3_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_3_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="000-0000-0000"
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+		
+		<LinearLayout
+             android:id="@+id/recruit_more_detail_list_row_9_4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:orientation="horizontal"
+             android:weightSum="10" android:layout_marginTop="5px">
+			 
+            <LinearLayout
+                android:id="@+id/recruit_more_detail_list_row_9_4_1"
+			    android:layout_width="140px"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="0" >
+	        
+				<TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_4_1_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="2"
+				    android:text="회사주소"
+				    android:textColor="#FFFFFF"
+				    android:textSize="23px" />
+		    </LinearLayout >
+	
+		    <LinearLayout
+		        android:id="@+id/recruit_more_detail_list_row_9_4_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="10" >
+		        
+		        <TextView
+				    android:id="@+id/recruit_more_detail_list_row_9_4_2_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="15px"
+				    android:ellipsize="end"
+				    android:gravity="left"
+				    android:lines="1"
+				    android:maxLines="10"
+				    android:text="서울시 강남구 "
+				    android:textColor="#FFb4b4"
+				    android:textSize="23px" />
+			</LinearLayout >
+		</LinearLayout > 
+	</LinearLayout>	
+	<LinearLayout
+		 android:id="@+id/recruit_more_detail_list_row_3"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical" 
+		 android:background="#232323">
+
+	     <TextView
+	         android:id="@+id/recruit_detail_list_row_name"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_marginBottom="10px"
+	         android:layout_marginLeft="15px"
+	         android:layout_marginTop="10px"
+	         android:ellipsize="end"
+	         android:gravity="center_horizontal"
+	         android:lines="1"
+	         android:maxLines="1"
+	         android:text="상세모집 보러가기"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25px" />
+	</LinearLayout >
+
+</LinearLayout>

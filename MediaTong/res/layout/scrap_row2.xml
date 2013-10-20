@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrap_2_row" 
+    android:orientation="vertical" android:background="#E2343B" >
+    
+    
+    <LinearLayout
+		 android:id="@+id/scrap_2_row_1"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical" android:layout_marginTop="10px"
+		 android:layout_marginLeft="10px">
+	     <TextView
+	       	android:id="@+id/scrap_2_row_name"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="회사이름"
+	       	android:textColor="#FFB4B4"
+	    	android:textSize="25px" />
+	</LinearLayout >
+	<LinearLayout
+		 android:id="@+id/scrap_2_row_2"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal"
+		 android:layout_marginLeft="10px"
+		 android:gravity="left"
+		 android:weightSum="10">
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_alignParentTop="true"
+		    android:layout_weight="9"
+		    android:gravity="center_vertical"
+		    android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/scrap_2_row_title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:maxLines="2"
+				android:text="채용 제목"
+				android:textColor="#FFFFFF"
+				android:textSize="25px" />
+
+	    </LinearLayout >
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:orientation="horizontal"
+	        android:layout_alignParentTop="true"
+	        android:layout_weight="1" >
+	        
+	        <ImageView
+	            android:id="@+id/scrap_delete_checkbox"
+	            android:layout_width="40px"
+	            android:layout_height="40px"
+	            android:src="@drawable/cb_check_on_off"
+	            android:text=" "
+	            android:gravity="left"
+	            android:layout_alignParentLeft="true"
+	        	android:layout_alignParentTop="true"
+	        	android:layout_marginRight="10px"
+	            android:textColor="#FFFFFF" />
+		</LinearLayout >
+	</LinearLayout >
+	<LinearLayout
+		 android:id="@+id/scrap_2_row_3"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_marginLeft="10px"
+		 android:layout_marginBottom="10px">
+	     <TextView
+	       	android:id="@+id/scrap_2_row_desc"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:ellipsize="end"
+	       	android:lines="1"
+	       	android:maxLines="1"
+	       	android:text="마감일 2012-05-12 | 신입경력 | 학력무관| 서울 강남구 신사동"
+	       	android:textColor="#FFFFFF"
+	    	android:textSize="18px" />
+	</LinearLayout >
+    
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/event_row" 
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+    <ImageView
+        android:id="@+id/event_row_1"
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:orientation="vertical"
+        android:scaleType="fitXY" >
+
+	</ImageView >  
+</LinearLayout>

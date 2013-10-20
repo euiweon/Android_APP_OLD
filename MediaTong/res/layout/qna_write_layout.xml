@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#E2343B"
+	    android:id="@+id/qna_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/qna_head"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/qna_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="문의하기"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	        
+
+	    </FrameLayout>
+	    
+	    
+	    <FrameLayout 
+	        android:id="@+id/qna_body"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#E2343B">
+
+		 <TextView
+			    android:id="@+id/qna_text_title1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="39px"
+			    android:text="제목"
+			    android:layout_marginLeft="15px"
+			    android:layout_gravity="left"
+			    android:layout_marginTop="12px"
+		        android:textColor="#FFFFFF" android:textSize="24sp"/>
+
+		<EditText
+             android:id="@+id/qna_write_title"
+             android:layout_width="450px"
+             android:layout_height="52px"
+             android:layout_marginTop="66px"
+             android:layout_marginLeft="15px"
+			 android:layout_gravity="left"
+             android:ems="10" 
+             android:textSize="24sp"
+             android:singleLine="true"
+             android:lines="1">
+
+             <requestFocus />
+         </EditText>
+
+		 <TextView
+			    android:id="@+id/qna_text_title2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="39px"
+			    android:text="문의 내용"
+			    android:layout_gravity="left"
+			    android:layout_marginLeft="15px"
+				android:layout_marginTop="130px"
+		        android:textColor="#FFFFFF" android:textSize="24sp"/>
+
+		<EditText
+             android:id="@+id/qna_write_content"
+             android:layout_width="450px"
+             android:layout_height="350px"
+             android:layout_marginTop="173px"
+             android:layout_marginLeft="15px"
+			 android:layout_gravity="left"
+             android:ems="10" 
+             android:textSize="24sp"
+             android:gravity="top"
+             android:inputType="textMultiLine" 
+             >
+         </EditText>
+         
+		 <ImageView
+				android:id="@+id/qna_write_btn"
+				android:layout_width="359px"
+				android:layout_height="52px"			
+				android:layout_marginLeft="64px"
+	        	android:layout_marginTop="566px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_032_btn" />
+	     </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

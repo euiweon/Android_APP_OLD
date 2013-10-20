@@ -1,0 +1,301 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#E2343B"
+	    android:id="@+id/setting_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/setting_head"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/setting_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="설정"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	        
+
+	    </FrameLayout>
+	    
+	    
+	     <FrameLayout 
+	        android:id="@+id/setting_body"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#E2343B">
+	         
+	        <LinearLayout
+	            android:id="@+id/setting_body1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#E2343B"
+	            android:orientation="vertical"
+				>
+				
+	            <LinearLayout
+					 android:id="@+id/setting_row_1"
+					 android:layout_width="match_parent"
+					 android:layout_height="wrap_content"
+					 android:orientation="vertical"
+					 
+					
+					 >
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="match_parent"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="로그인"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+				</LinearLayout >
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+				
+	            <LinearLayout
+					 android:id="@+id/setting_row_2"
+					 android:layout_width="match_parent"
+					 android:layout_height="wrap_content"
+					 android:orientation="vertical"
+					 
+					
+					 >
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="match_parent"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="공지사항"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+				</LinearLayout >
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+	            
+	            <LinearLayout
+					 android:id="@+id/setting_row_3"
+					 android:layout_width="match_parent"
+					 android:layout_height="wrap_content"
+					 android:orientation="vertical"
+					
+					 >
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="match_parent"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="PC버전 바로가기"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+				</LinearLayout >
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+	            <LinearLayout
+					 android:id="@+id/setting_row_4"
+					 android:layout_width="match_parent"
+					 android:layout_height="wrap_content"
+					 android:orientation="vertical"
+					 >
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="match_parent"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="업데이트 사항"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+				</LinearLayout >
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+	            <LinearLayout
+					 android:id="@+id/setting_row_5"
+					 android:layout_width="match_parent"
+					 android:layout_height="wrap_content"
+					 android:orientation="vertical"
+
+					 >
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="match_parent"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="문의사항"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+				</LinearLayout >
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+				<LinearLayout
+					 android:id="@+id/setting_row_6"
+					 android:layout_width="match_parent"
+					 android:layout_height="wrap_content"
+					 android:orientation="vertical"
+					 
+					 >
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="match_parent"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="FAQ"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+				</LinearLayout >
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+	            <LinearLayout
+	                android:id="@+id/setting_row_7"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+					>
+
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="380px"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="MY Job 알림 사용"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+
+						<ToggleButton
+					         android:id="@+id/setting_toggle1"
+					         android:layout_width="wrap_content"
+					         android:layout_height="wrap_content"
+
+					         android:text="ToggleButton" />
+				</LinearLayout >
+				
+	            <LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="10px"
+				    android:background="@drawable/m_app_005_line"
+				    android:orientation="vertical" />
+	            <LinearLayout
+	                android:id="@+id/setting_row_8"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+					>
+
+				     <TextView
+				       	android:id="@+id/setting_row_title"
+				       	android:layout_width="380px"
+				       	android:layout_height="wrap_content"
+				       	android:ellipsize="end"
+				       	android:lines="1"
+				       	android:maxLines="1"
+				       	android:text="스크랩 마감일 알림 사용"
+				       	android:layout_marginLeft="10px"
+					 	android:layout_marginTop="10px"
+					 	android:layout_marginBottom="10px"
+				       	android:textColor="#FFFFFF"
+				    	android:textSize="32px"
+				    	 />
+
+						<ToggleButton
+					         android:id="@+id/setting_toggle2"
+					         android:layout_width="wrap_content"
+					         android:layout_height="wrap_content"
+
+					         android:text="ToggleButton" />
+				</LinearLayout >
+
+
+			</LinearLayout>
+
+	     </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

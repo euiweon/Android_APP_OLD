@@ -1,0 +1,1032 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E2343B" >
+    
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="725px"
+	    android:orientation="vertical"
+	    android:background="#E2343B"
+	    android:id="@+id/edu_main" >
+	    
+	    <FrameLayout 
+	        android:id="@+id/edu_head"
+		    android:layout_width="match_parent"
+		    android:layout_height="73px"
+		    android:orientation="vertical"
+		    android:background="@drawable/header_bg" >
+		    
+	        <ImageView
+				android:id="@+id/edu_back"
+				android:layout_width="95px"
+				android:layout_height="42px"			
+				android:layout_marginLeft="12px"
+	        	android:layout_marginTop="12px"
+	        	android:layout_gravity="left"
+				android:src="@drawable/m_app_004_header_btn01" />
+	        
+	         <TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="상세 교육정보"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="12px"
+		        android:textColor="#000000" android:textSize="24sp"/>
+	        
+
+	    </FrameLayout>
+	    
+	    
+	     <LinearLayout 
+	        android:id="@+id/edu_body"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#E2343B">
+	         
+			 
+			 <LinearLayout
+	             android:id="@+id/edu_body2"
+	             android:layout_width="match_parent"
+	             android:layout_height="match_parent"
+	             android:background="#E2343B"
+	             android:orientation="vertical" >
+				 
+				<ScrollView
+		        android:id="@+id/edu_detail_scroll_view"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		         >
+		        <LinearLayout
+			        android:orientation="vertical"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content">
+
+					<LinearLayout
+						 android:id="@+id/edu_more_detail_list_row_1"
+						 android:layout_width="match_parent"
+						 android:layout_height="wrap_content"
+						 android:orientation="vertical" 
+						 android:background="#FFFFFF">
+						 <TextView
+							android:id="@+id/edu_detail_list_row_title"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:ellipsize="end"
+							android:lines="1"
+							android:maxLines="1"
+							android:text="채용 제목"
+							android:textColor="#000000"
+							android:textSize="25px"
+							android:layout_marginLeft="15px" />
+					</LinearLayout >
+					
+
+					<LinearLayout
+						android:id="@+id/edu_more_detail_list_row_2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+						 
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_2_1"
+							 android:layout_width="wrap_content"
+							 android:layout_height="wrap_content"
+							 android:orientation="vertical" 
+							 >
+							 
+							<ImageView
+								android:id="@+id/edu_more_detail_list_row_2_1_image"
+								android:layout_width="152px"
+								android:layout_height="116px"
+								android:layout_marginLeft="10dip"
+								android:background="@drawable/m_app_004_bar" android:scaleType="fitXY" 
+								android:layout_marginTop="10px"
+								android:layout_marginBottom="10px"/>
+							
+						</LinearLayout >
+
+
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_2_2"
+							 android:layout_width="match_parent"
+							 android:layout_height="match_parent"
+							 android:orientation="vertical" 
+							 >
+							 <LinearLayout
+								 android:id="@+id/edu_more_detail_list_row_2_2_1"
+								 android:layout_width="match_parent"
+								 android:layout_height="wrap_content"
+								 android:orientation="horizontal" 
+								 android:gravity="right"
+								 android:layout_weight="1"
+								 >
+								<ImageView
+									android:id="@+id/edu_more_detail_list_row_2_2_1_image1"
+									android:layout_width="94px"
+									android:layout_height="42px"
+									android:background="@drawable/m_app_008_12" android:scaleType="fitXY" android:layout_marginTop="10px"
+									/>
+								<ImageView
+									android:id="@+id/edu_more_detail_list_row_2_2_1_image2"
+									android:layout_width="94px"
+									android:layout_height="42px"
+									android:background="@drawable/m_app_008_14" android:scaleType="fitXY" android:layout_marginTop="10px"
+									android:layout_marginRight="15px"
+									/>
+							</LinearLayout > 
+							
+							 <LinearLayout
+								 android:id="@+id/edu_more_detail_list_row_2_2_2"
+								 android:layout_width="match_parent"
+								 android:layout_height="wrap_content"
+								 android:orientation="horizontal" 
+								 android:gravity="left"
+								 android:layout_weight="1"
+								 >
+
+								<TextView
+									android:id="@+id/edu_detail_list_row_name"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="채용 제목"
+									android:textColor="#FFFFFF"
+									android:textSize="25px" />
+
+							</LinearLayout > 
+
+							
+						</LinearLayout > 
+					</LinearLayout >	
+					
+					<LinearLayout
+						 android:id="@+id/edu_more_detail_list_row_4"
+						 android:layout_width="match_parent"
+						 android:layout_height="wrap_content"
+						 android:orientation="vertical" 
+						 android:background="#232323"
+						 android:layout_marginTop="10px">
+
+						 <TextView
+							 android:id="@+id/edu_detail_list_row_name"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_marginBottom="10px"
+							 android:layout_marginLeft="15px"
+							 android:layout_marginTop="10px"
+							 android:ellipsize="end"
+							 android:gravity="center_horizontal"
+							 android:lines="1"
+							 android:maxLines="1"
+							 android:text="교육기관 정보"
+							 android:textColor="#FFFFFF"
+							 android:textSize="25px" />
+					</LinearLayout >
+					
+
+
+
+
+					<LinearLayout
+					    android:id="@+id/edu_more_detail_list_row_7"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:background="#E2343B"
+					    android:orientation="vertical"
+					    android:visibility="visible" >
+						 
+						 <LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_7_1"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_1_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_1_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="대표자"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_1_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_1_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="김성철"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						 <LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_7_2"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_2_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_2_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="전화번호"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_2_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_2_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="02-0000-0000"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_7_3"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_3_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_3_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="홈페이지"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_3_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_3_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="www.mbc.co.kr"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_7_4"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_4_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_4_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="교육과정"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_4_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_4_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="방송 교육"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_7_5"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_5_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_5_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="교육형태"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_7_5_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_7_5_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="재직자 과정 "
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+					</LinearLayout > 
+										
+
+						
+ 
+					<LinearLayout
+						 android:id="@+id/edu_more_detail_list_row_5"
+						 android:layout_width="match_parent"
+						 android:layout_height="wrap_content"
+						 android:orientation="vertical" 
+						 android:background="#232323"
+						 android:layout_marginTop="10px">
+
+						 <TextView
+							 android:id="@+id/edu_detail_list_row_name"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_marginBottom="10px"
+							 android:layout_marginLeft="15px"
+							 android:layout_marginTop="10px"
+							 android:ellipsize="end"
+							 android:gravity="center_horizontal"
+							 android:lines="1"
+							 android:maxLines="1"
+							 android:text="모집요강"
+							 android:textColor="#FFFFFF"
+							 android:textSize="25px" />
+					</LinearLayout >
+					
+
+
+					<LinearLayout
+					    android:id="@+id/edu_more_detail_list_row_8"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:background="#E2343B"
+					    android:orientation="vertical"
+					    android:visibility="visible" >
+						 
+						 <LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_8_1"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_1_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_1_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="교육인원"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_1_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_1_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="20명"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						 <LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_8_2"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_2_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_2_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="교육일"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_2_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_2_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="월요일 - 금요일"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_8_3"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_3_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_3_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="학력"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_3_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_3_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="고졸이상"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_8_4"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_4_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_4_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="접수기간"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_8_4_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_8_4_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="2012-05-28~2012-06-23"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+					</LinearLayout > 
+					
+
+					
+					
+					
+					<LinearLayout
+						 android:id="@+id/edu_more_detail_list_row_6"
+						 android:layout_width="match_parent"
+						 android:layout_height="wrap_content"
+						 android:orientation="vertical" 
+						 android:background="#232323"
+						 android:layout_marginTop="10px">
+
+						 <TextView
+							 android:id="@+id/edu_detail_list_row_name"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_marginBottom="10px"
+							 android:layout_marginLeft="15px"
+							 android:layout_marginTop="10px"
+							 android:ellipsize="end"
+							 android:gravity="center_horizontal"
+							 android:lines="1"
+							 android:maxLines="1"
+							 android:text="담당자 정보"
+							 android:textColor="#FFFFFF"
+							 android:textSize="25px" />
+					</LinearLayout >
+					
+					<LinearLayout
+					    android:id="@+id/edu_more_detail_list_row_9"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:background="#E2343B"
+					    android:orientation="vertical"
+					    android:visibility="visible" >
+						 
+						 <LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_9_1"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_9_1_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_9_1_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="담당자"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_9_1_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_9_1_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="홍길동"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						 <LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_9_2"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_9_2_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_9_2_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="연락처"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_9_2_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_9_2_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="000-0000-0000"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+						
+						<LinearLayout
+							 android:id="@+id/edu_more_detail_list_row_9_3"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_weight="1"
+							 android:gravity="left"
+							 android:orientation="horizontal"
+							 android:weightSum="10" android:layout_marginTop="5px">
+							 
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_9_3_1"
+								android:layout_width="140px"
+								android:layout_height="wrap_content"
+								android:gravity="left"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="0" >
+							
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_9_3_1_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="1"
+									android:text="이메일"
+									android:textColor="#FFFFFF"
+									android:textSize="23px" />
+							</LinearLayout >
+					
+							<LinearLayout
+								android:id="@+id/edu_more_detail_list_row_9_3_2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:gravity="right"
+								android:orientation="horizontal"
+								android:layout_alignParentTop="true"
+								android:layout_weight="10" >
+								
+								<TextView
+									android:id="@+id/edu_more_detail_list_row_9_3_2_text"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="15px"
+									android:ellipsize="end"
+									android:gravity="left"
+									android:lines="1"
+									android:maxLines="4"
+									android:text="2830@sdsda.com"
+									android:textColor="#FFb4b4"
+									android:textSize="23px" />
+							</LinearLayout >
+						</LinearLayout > 
+					</LinearLayout > 
+										
+					<LinearLayout
+						 android:id="@+id/edu_more_detail_list_row_3"
+						 android:layout_width="match_parent"
+						 android:layout_height="wrap_content"
+						 android:orientation="vertical" 
+						 android:background="#232323"
+						 android:layout_marginTop="10px">
+
+						 <TextView
+							 android:id="@+id/edu_detail_list_row_name"
+							 android:layout_width="match_parent"
+							 android:layout_height="wrap_content"
+							 android:layout_marginBottom="10px"
+							 android:layout_marginLeft="15px"
+							 android:layout_marginTop="10px"
+							 android:ellipsize="end"
+							 android:gravity="center_horizontal"
+							 android:lines="1"
+							 android:maxLines="1"
+							 android:text="상세 모집 내용 보러가기"
+							 android:textColor="#FFFFFF"
+							 android:textSize="25px" />
+					</LinearLayout >
+			    </LinearLayout>
+		    </ScrollView>
+				 
+			</LinearLayout>
+		    
+
+
+	     </LinearLayout>
+
+    </LinearLayout>
+ 
+    
+    <LinearLayout
+		android:id="@+id/edu_bottom"
+		android:layout_width="match_parent"
+		android:layout_height="77px"
+		android:orientation="vertical" 
+		android:layout_gravity="bottom" 
+		android:layout_weight="1" 
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/foot_bg"   android:gravity="center">
+		<LinearLayout
+			android:id="@+id/today_layout_4"
+			android:layout_width="480px"
+			android:layout_height="77px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/edu_bottom_home"
+					android:layout_width="120px"
+					android:layout_height="77px"
+					android:background="@drawable/foot_btn1"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/edu_bottom_myjob"
+					android:layout_width="120px"
+					android:layout_height="77px"
+					android:background="@drawable/foot_btn2"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/edu_bottom_scrap"
+					android:layout_width="120px"
+					android:layout_height="77px"
+					android:background="@drawable/foot_btn3"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/edu_bottom_setting"
+					android:layout_width="120px"
+					android:layout_height="77px"
+					android:background="@drawable/foot_btn4"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+	 </LinearLayout>
+</RelativeLayout>
