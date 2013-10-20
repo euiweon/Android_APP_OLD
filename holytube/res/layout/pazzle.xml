@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+   <FrameLayout 
+       android:id="@+id/layout_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="75px"
+	    android:orientation="vertical" 
+	    android:background="@drawable/top_01"
+	    >
+  	    
+  	   <Button
+			android:id="@+id/backbutton"
+		    android:layout_width="98px"
+		    android:layout_height="60px"
+		    android:src="@drawable/top" android:background="@drawable/back" android:layout_marginTop="5px"/>
+	    <TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="퍼즐 이야기"
+		    android:layout_gravity="center_vertical|center_horizontal"
+	        android:textColor="#FFFFFFFF" android:textSize="40px"/>
+	    
+	   <Button
+			android:id="@+id/homebutton"
+		    android:layout_width="54px"
+		    android:layout_height="52px"
+		    android:layout_marginLeft="410px"
+		    android:layout_marginTop="10px"
+		    android:src="@drawable/top" android:background="@drawable/home_btn" android:layout_gravity="left"/>
+    </FrameLayout>
+  
+    
+     
+    <LinearLayout
+		android:id="@+id/today_layout_2"
+		android:layout_width="match_parent"
+		android:layout_height="89px"
+		android:orientation="vertical" 
+		android:layout_gravity="bottom" 
+		android:layout_weight="1" 
+		android:layout_alignParentBottom="true"  >
+        <LinearLayout
+			android:id="@+id/today_layout_4"
+			android:layout_width="match_parent"
+			android:layout_height="89px"
+			android:orientation="horizontal"   android:gravity="center">
+
+			<Button
+				android:id="@+id/today_tab_btn_1"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_1_btn"
+				android:layout_gravity="left"/>
+			<Button
+				android:id="@+id/today_tab_btn_4"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_4_btn"
+				android:layout_gravity="left"/>		
+
+			<ImageView
+				android:id="@+id/today_tab_btn_3"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/holytube_menu_tema_over"
+				android:layout_gravity="left"/>
+
+				
+						<Button
+				android:id="@+id/today_tab_btn_2"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_2_btn"
+				android:layout_gravity="left"/>
+			<Button
+				android:id="@+id/today_tab_btn_5"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_5_btn"
+				android:layout_gravity="left"/>
+        </LinearLayout>
+	 </LinearLayout>
+  	<ListView
+	        android:id="@+id/kingway_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="75px"
+	     	android:background="#FFf5f5f5"
+       		android:layout_above="@id/today_layout_2"  android:divider="#00000000" android:dividerHeight="0px"/>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+  	<FrameLayout 
+  	    android:id="@+id/today_layout_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="75px"
+	    android:orientation="vertical" 
+	    android:background="@drawable/top_01"
+	    >
+  	    
+  	   <Button
+			android:id="@+id/backbutton"
+		    android:layout_width="98px"
+		    android:layout_height="60px"
+		    android:src="@drawable/top" android:background="@drawable/back" android:layout_marginTop="5px"/>
+	    <TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="오늘의 영상"
+		    android:layout_gravity="center_vertical|center_horizontal"
+	        android:textColor="#FFFFFFFF" android:textSize="40px"/>
+	    
+	   <Button
+			android:id="@+id/homebutton"
+		    android:layout_width="54px"
+		    android:layout_height="52px"
+		    android:layout_marginLeft="410px"
+		    android:layout_marginTop="10px"
+		    android:src="@drawable/top" android:background="@drawable/home_btn" android:layout_gravity="left"/>
+    </FrameLayout>
+
+  
+
+    <LinearLayout
+		android:id="@+id/today_layout_2"
+		android:layout_width="match_parent"
+		android:layout_height="89px"
+		android:orientation="vertical" 
+		android:layout_weight="1" 
+		android:gravity="center"
+		android:layout_alignParentBottom="true"  >
+        <LinearLayout
+			android:id="@+id/today_layout_4"
+			android:layout_width="match_parent"
+			android:layout_height="89px"
+			
+			android:orientation="horizontal"   android:layout_gravity="center" android:gravity="center">
+            <ImageView
+				android:id="@+id/today_tab_btn_1"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/holytube_menu_today_over"
+				/>
+			<Button
+				android:id="@+id/today_tab_btn_4"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_4_btn"
+				/>	
+			<Button
+				android:id="@+id/today_tab_btn_3"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_3_btn"
+				/>
+
+				
+			<Button
+				android:id="@+id/today_tab_btn_2"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_2_btn"
+				/>	
+			<Button
+				android:id="@+id/today_tab_btn_5"
+				android:layout_width="96px"
+				android:layout_height="89px"
+				android:background="@drawable/tab_5_btn"
+				/>
+        </LinearLayout>
+	 </LinearLayout>
+  	<ListView
+	        android:id="@+id/today_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="75px"
+	     	android:background="#FFf5f5f5"
+       		android:layout_above="@id/today_layout_2"  android:divider="#00000000"/>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"   android:orientation="vertical">
+  	<FrameLayout 
+  	    android:id="@+id/layout_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="75px"
+	    android:orientation="vertical" 
+	    android:background="@drawable/top_01"
+	    >
+  	    
+  	   <Button
+			android:id="@+id/backbutton"
+		    android:layout_width="98px"
+		    android:layout_height="60px"
+		    android:src="@drawable/top" android:background="@drawable/back" android:layout_marginTop="5px"/>
+	    <TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="후원"
+		    android:layout_gravity="center_vertical|center_horizontal"
+	        android:textColor="#FFFFFFFF" android:textSize="40px"/>
+	    
+	   <Button
+			android:id="@+id/homebutton"
+		    android:layout_width="54px"
+		    android:layout_height="52px"
+		    android:layout_marginLeft="410px"
+		    android:layout_marginTop="10px"
+		    android:src="@drawable/top" android:background="@drawable/home_btn" android:layout_gravity="left"/>
+    </FrameLayout>
+
+  	<FrameLayout 
+  	    android:id="@+id/layout_2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="75px"
+	    >
+	   <com.euiweonjeong.base.view.ObservableScrollView
+				android:id="@+id/scrollview_1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"    
+			    android:orientation="vertical"
+			    android:background="#FFFFFF"
+			    android:fillViewport="true"
+			    >
+			    
+	       <FrameLayout 
+			        android:id="@+id/main_layout_1_1"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"   
+				    android:orientation="vertical"
+				     android:background="#FFFFFF"
+				    >
+				    
+	           <ImageView
+				         android:id="@+id/main_image"
+				         android:layout_width="480px"
+				         android:layout_height="1532px"
+				         android:layout_gravity="left"
+				         android:background="@drawable/donation"
+				          />
+	           
+	           <ImageView
+				         android:id="@+id/pay_pal"
+				         android:layout_width="174px"
+				         android:layout_height="186px"
+				         android:layout_gravity="left"
+				         android:layout_marginLeft="280px"
+		    			 android:layout_marginTop="1349px"
+				         android:background="@drawable/donation_paypal"
+				          />
+			</FrameLayout>    
+	   </com.euiweonjeong.base.view.ObservableScrollView>
+
+  	    	    	 
+
+    </FrameLayout>
+  	
+  		
+
+</RelativeLayout>
+
+

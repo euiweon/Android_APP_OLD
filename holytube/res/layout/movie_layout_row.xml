@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF5F5F5" 
+    android:orientation="vertical"
+    android:layout_weight="1">
+    
+    <LinearLayout
+	   	android:id="@+id/movie_intro_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="82px"
+	    android:orientation="horizontal" android:background="@drawable/back_list01">
+	    
+        <ImageView
+	        android:id="@+id/movie_main_image"
+	        android:layout_width="130px"
+	        android:layout_height="82px"
+	        android:src="@drawable/holytube_contents01" android:layout_marginLeft="8px"/>
+	    
+        <LinearLayout
+	   		android:id="@+id/shop_intro_1_1"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical" >
+	    	
+		    <TextView
+		        android:id="@+id/movie_intro_name"
+		        android:layout_width="300px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10px"
+		        android:layout_marginTop="13px"
+		        android:text="영상 제목"
+		        android:textColor="#FF323232"
+		        android:textSize="25px" />
+		
+		    <TextView
+		        android:id="@+id/movie_intro_body"
+		        android:layout_width="300px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10px"
+		        android:layout_marginTop="5px"
+		        android:text="총 플레이 시간 / 용량"
+		        android:textColor="#FF323232"
+		        android:textSize="18px" />
+	    </LinearLayout >
+	</LinearLayout >
+</LinearLayout >
+
+
