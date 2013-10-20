@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:gravity="center">
+	
+    <FrameLayout
+	   	android:id="@+id/main_row_2"
+	    android:layout_width="480px"
+	    android:layout_height="193px"
+	    android:orientation="vertical">
+	    
+       
+        <TextView
+		     android:id="@+id/main_row_2_title"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="20px"
+		     android:layout_marginTop="8px"
+		     android:text="테스트1111"
+		     android:textColor="#FF323232"
+		     android:textSize="25px" 
+		     android:singleLine = "true"/>
+		
+	    
+	    	 <ImageView
+		        android:id="@+id/main_row_2_pic"
+		        android:layout_width="138px"
+		        android:layout_height="104px"
+		        android:layout_marginLeft="7px"
+		        android:layout_marginTop="42px"/>
+	    	 <ImageView
+		        android:id="@+id/main_row_2_pic_2"
+		        android:layout_width="138px"
+		        android:layout_height="104px"
+		        android:layout_marginLeft="7px"
+		        android:layout_marginTop="42px"
+		        android:background="@drawable/hotellist_best"/>
+	    	 
+
+		    <TextView
+		        android:id="@+id/main_row_2_class"
+		        android:layout_width="200px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="160px"
+		        android:layout_marginTop="42px"
+		        android:text="특1급"
+		        android:textColor="#FFFF3232"
+		        android:textSize="30px" />
+
+		    <ImageView
+		        android:id="@+id/main_row_2_reser"
+		        android:layout_width="90px"
+		        android:layout_height="32px"
+		        android:layout_marginLeft="385px"
+		        android:layout_marginTop="42px"
+		        android:background="@drawable/step1" />
+		    
+		    <TextView
+		        android:id="@+id/main_row_2_distance"
+		        android:layout_width="180px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="160px"
+		        android:layout_marginTop="94px"
+		        android:text="내 위치에서 약 5.0km "
+		        android:textColor="#FF888888"
+		        android:textSize="15px" />
+		    
+		    <TextView
+		        android:id="@+id/main_row_2_price"
+		        android:layout_width="170px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="307px"
+		        android:layout_marginTop="87px"
+		        android:gravity="right"
+		        android:text="￦82,000원"
+		        android:textColor="#FF3232FF"
+		        android:textSize="25px" />
+		   
+		    <ImageView
+		        android:id="@+id/main_row_2_pic2"
+		        android:layout_width="480px"
+		        android:layout_height="41px"
+		        android:layout_marginLeft="0px"
+		        android:layout_marginTop="142px"
+		         android:background="@drawable/promo_bar" />
+		    
+		    <TextView
+		        android:id="@+id/main_row_2_promo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="90px"
+		        android:layout_marginTop="155px"
+		        android:text="프로모션 : 휘트니스센터 무료| 조식 무료 |석식 무료"
+		        android:textColor="#FFBBBBBB"
+		        android:textSize="15px" />
+		    
+	</FrameLayout >
+	
+</LinearLayout >
+
+

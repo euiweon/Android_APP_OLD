@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pattern_1"  >
+
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="732px"   
+		     android:layout_marginTop="68px" 
+		    android:orientation="vertical"
+		     android:focusable="true"
+		     android:focusableInTouchMode="true"
+		    >
+
+
+           <ImageView
+                android:id="@+id/tab_1"
+                android:layout_width="193px"
+                android:layout_height="47px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="11px"
+                android:layout_marginTop="8px"
+                android:background="@drawable/a_1_bt" />
+           <ImageView
+                android:id="@+id/tab_2"
+                android:layout_width="193px"
+                android:layout_height="47px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="201px"
+                android:layout_marginTop="8px"
+                android:background="@drawable/b_1_bt" />
+           <ImageView
+                android:id="@+id/tab_3"
+                android:layout_width="78px"
+                android:layout_height="47px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="393px"
+                android:layout_marginTop="8px"
+                android:background="@drawable/c_1_bt" />
+           
+           <ImageView
+				android:id="@+id/title_line_2"
+				android:layout_width="480px"
+				android:layout_height="5px"
+				android:background="@drawable/title_bar"
+				android:layout_marginTop="63px"
+				android:layout_gravity="left"/>
+
+           <ListView
+			     android:id="@+id/search_list"
+			     android:layout_width="match_parent"
+			     android:layout_height="match_parent"
+			     android:layout_marginTop="68px"
+			      />
+           
+
+	    </FrameLayout>
+	    
+ 
+	    
+	    
+         <FrameLayout
+             android:id="@+id/title_bar"
+             android:layout_width="match_parent"
+             android:layout_height="68px"
+             android:orientation="vertical"
+             >
+		    
+            <TextView
+                 android:id="@+id/title_logo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 
+               	 android:layout_marginTop="12px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="00건의 검색 결과"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:textSize="40px" />
+            
+
+            <ImageView
+				android:id="@+id/title_line"
+				android:layout_width="480px"
+				android:layout_height="5px"
+				android:background="@drawable/title_bar"
+				android:layout_marginTop="63px"
+				android:layout_gravity="left"/>
+              
+	    </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

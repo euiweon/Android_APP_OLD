@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pattern_1"
+     >
+     
+        <ImageView
+			android:id="@+id/title_text"
+			android:layout_width="194px"
+			android:layout_height="28px"
+			android:layout_marginLeft="144px"
+			android:layout_marginTop="16px"
+			android:background="@drawable/title_text"
+			android:layout_gravity="left"/>
+        
+        <ImageView
+			android:id="@+id/title_line"
+			android:layout_width="480px"
+			android:layout_height="5px"
+			android:background="@drawable/title_bar"
+			android:layout_marginTop="68px"
+			android:layout_gravity="left"/>
+        
+         <ImageView
+			android:id="@+id/title_menu"
+			android:layout_width="53px"
+			android:layout_height="49px"
+			android:layout_marginLeft="417px"
+			android:layout_marginTop="10px"
+			android:background="@drawable/menu_1"
+			android:layout_gravity="left"/>
+         <LinearLayout
+            android:layout_marginTop="73px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <com.euiweonjeong.base.view.CustomScrollView
+                android:id="@+id/data_view_scroll"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical" >
+			    <LinearLayout
+			        android:id="@+id/data_view"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:orientation="vertical" >
+		            
+			        <LinearLayout
+			            android:id="@+id/view_header"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >
+			            
+			            <LinearLayout
+			                android:id="@+id/viewpager_body"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:gravity="center"
+			                android:orientation="horizontal">
+			                
+					        <android.support.v4.view.ViewPager
+					        	android:id="@+id/market_img"
+					            android:layout_width="480px"
+					            android:layout_height="295px" 
+					            android:layout_gravity="left"/>
+					     </LinearLayout>
+					     
+			            <LinearLayout
+			                android:id="@+id/dot_header"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:gravity="center_horizontal"
+			                android:orientation="horizontal" >
+			
+			                <ImageView
+					            android:id="@+id/imageView_dot_1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					           android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_2"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_4"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_5"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_6"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_7"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			
+			                <ImageView
+					            android:id="@+id/imageView_dot_8"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_9"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:adjustViewBounds="true"
+					            android:src="@drawable/dot_bt" />
+			                <ImageView
+					            android:id="@+id/imageView_dot_10"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:src="@drawable/dot_bt" />
+			            </LinearLayout>
+			            
+			            
+	        		</LinearLayout>
+
+					 <LinearLayout
+				        android:id="@+id/data_view_2"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >
+			        </LinearLayout>
+		        </LinearLayout>
+			</com.euiweonjeong.base.view.CustomScrollView>
+	</LinearLayout>
+</RelativeLayout>
