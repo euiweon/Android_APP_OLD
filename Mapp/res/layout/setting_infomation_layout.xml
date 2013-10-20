@@ -1,0 +1,239 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <FrameLayout 
+        android:id="@+id/home_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+         <FrameLayout 
+	        android:id="@+id/title_bar"
+		    android:layout_width="match_parent"
+		    android:layout_height="66px"
+		    android:orientation="vertical"
+		    android:background="@drawable/title_bar_bg" >
+		    
+            <ImageView
+                android:id="@+id/title_icon"
+                android:layout_width="45px"
+                android:layout_height="45px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="31px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/right_back_icon" />
+            
+            <TextView
+		      	android:id="@+id/title_name"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="98px"
+                android:layout_marginTop="10px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="Mapp와 함께 "
+		       	android:textColor="#FFFFFF"
+		    	android:textSize="15dip" />
+            
+            <TextView
+		      	android:id="@+id/title_desc"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="99px"
+                android:layout_marginTop="34px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="Information"
+		       	android:textColor="#FFFF00"
+		    	android:textSize="15dip" />
+
+	    </FrameLayout>
+	    
+         
+         <FrameLayout 
+	        android:id="@+id/infomation_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="131px"    
+		    android:layout_marginTop="66px"
+		    android:orientation="vertical"
+		    android:background="@drawable/title_bar_bg" >
+		    
+             <ImageView
+                 android:id="@+id/infomation_header"
+                 android:layout_width="match_parent"
+                 android:layout_height="131px"
+                 android:layout_gravity="left"
+                 android:background="@drawable/mapp" />
+             
+             <TextView
+		      	android:id="@+id/mapp_ver"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="161px"
+                android:layout_marginTop="43px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="Mapp "
+		       	android:textColor="#FFFF00"
+		    	android:textSize="18dip" />
+            
+            <TextView
+		      	android:id="@+id/mapp_desc"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="161px"
+                android:layout_marginTop="78px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="음악을 보다"
+		       	android:textColor="#FFFFFF"
+		    	android:textSize="18dip" />
+             
+
+	    </FrameLayout>
+	    
+         <FrameLayout 
+	        android:id="@+id/infomation_layout2"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"    
+		    android:layout_marginTop="197px"
+		    android:orientation="vertical"
+		    android:background="#FFFFFF" >
+            
+             <TextView
+		      	android:id="@+id/mapp_desc2"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="36px"
+                android:layout_marginTop="15px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="About HUMAP"
+		       	android:textColor="#000000"
+		    	android:textSize="18dip" />
+             
+             
+             <ImageView
+		      	android:id="@+id/mapp_ver2"
+		       	android:layout_width="432px"
+		       	android:layout_height="2px"
+		       	android:layout_marginLeft="24px"
+                android:layout_marginTop="50px"
+		       	android:layout_gravity="left"
+                android:background="@drawable/app_information_line"  />
+             
+             <TextView
+		         android:id="@+id/faq_row_content"
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_marginBottom="10px"
+		         android:layout_marginLeft="36px"
+		         android:layout_marginTop="62px"
+		         android:layout_marginRight="36px"
+		         android:ellipsize="end"
+		         android:text="HUMAP CONTENTS 는 소셜콘텐츠(영상, 음악, 광고 등)를 전문적으로 제작, 유통하며, 이를 기반으로 문화콘텐츠와 IT 서비스의 융합을 통한 스마트 콘텐츠를 생산하는 기업으로서, 다양한 분야의 전문인력과, 꾸준한 문화콘텐츠 연구, 국내외 문화콘텐츠 기업과의 제휴를 통해 국내 NO.1 스마트 엔터테인먼트 기업으로 발돋움 하는 기업입니다."
+		         android:textColor="#000000"
+		         android:textSize="15dip" />
+        </FrameLayout>
+    </FrameLayout>
+
+	<LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/home_k_icon"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/audition_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/album_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/squre_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/more_k_icon"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+		<LinearLayout
+			android:id="@+id/bottom_menu_2"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_6"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/search_k_icon"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_7"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/mypagehome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_8"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/favoriteshome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_9"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/settingshome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_10"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/logohome_icon"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+	 </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Mapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="exit_message">종료하시겠습니까?</string>
+    <string name="yes">예</string>
+	<string name="no">아니요</string>   
+	<string name="exit_title">종료</string>   
+</resources>

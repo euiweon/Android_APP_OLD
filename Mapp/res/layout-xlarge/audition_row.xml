@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+			android:id="@+id/audition_row_1"
+			android:layout_width="match_parent"
+			android:layout_height="260px"
+			android:gravity="left"
+			android:orientation="horizontal" 
+			  >
+
+	    <LinearLayout
+			android:id="@+id/audition_row_1_1"
+			android:layout_width="328px"
+			android:layout_height="245px"
+			android:orientation="vertical" 
+			android:layout_marginBottom="10px"
+			android:layout_marginTop="10px"
+			android:layout_marginLeft="51px"
+			android:background="@drawable/audition_area"  >
+			<ImageView
+					android:id="@+id/audition_row_1_img"
+					android:layout_width="328px"
+					android:layout_height="207px"
+					android:layout_marginLeft="1px"
+					android:layout_marginTop="1px"
+					android:layout_gravity="left"
+					android:background="@drawable/audition_vacuum" />
+				
+			<TextView
+					android:id="@+id/audition_row_1_text1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5px"
+					android:layout_marginTop="-30px"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"
+					android:text="슬픈 활용법"
+					android:textColor="#FFFFFF"
+					android:textSize="20px" />
+			<TextView
+					android:id="@+id/audition_row_1_text2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5px"
+					android:layout_marginTop="7px"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"
+					android:text="- Josh Moog"
+					android:textColor="#FFFF00"
+					android:textSize="15px" />
+			<ImageView
+					android:id="@+id/audition_row_1_del"
+					android:layout_width="45px"
+					android:layout_height="45px"
+					android:layout_marginLeft="1px"
+					android:layout_marginTop="-226px"
+					android:layout_gravity="left"
+					android:background="@drawable/right_cancel_icon" />
+		</LinearLayout>	
+
+		<LinearLayout
+			android:id="@+id/audition_row_1_2"
+			android:layout_width="328px"
+			android:layout_height="245px"
+			android:orientation="vertical" 
+			android:layout_marginBottom="10px"
+			android:layout_marginTop="10px"
+			android:layout_marginLeft="30px"
+			android:background="@drawable/audition_area"  >
+			<ImageView
+					android:id="@+id/audition_row_2_img"
+					android:layout_width="345px"
+					android:layout_height="207px"
+					android:layout_marginLeft="1px"
+					android:layout_marginTop="1px"
+					android:layout_gravity="left"
+					android:background="@drawable/audition_vacuum" />
+				
+			<TextView
+					android:id="@+id/audition_row_2_text1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5px"
+					android:layout_marginTop="-30px"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"
+					android:text="슬픈 활용법"
+					android:textColor="#FFFFFF"
+					android:textSize="20px" />
+			<TextView
+					android:id="@+id/audition_row_2_text2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5px"
+					android:layout_marginTop="7px"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"
+					android:text="- Josh Moog"
+					android:textColor="#FFFF00"
+					android:textSize="15px" />
+			<ImageView
+					android:id="@+id/audition_row_2_del"
+					android:layout_width="45px"
+					android:layout_height="45px"
+					android:layout_marginLeft="1px"
+					android:layout_marginTop="-226px"
+					android:layout_gravity="left"
+					android:background="@drawable/right_cancel_icon" />
+		</LinearLayout>	
+	</LinearLayout>	
+	
+	<LinearLayout
+			android:id="@+id/audition_row_2"
+			android:layout_width="match_parent"
+			android:layout_height="260px"
+			android:orientation="horizontal" 
+			android:gravity="left"
+			  >
+
+		<LinearLayout
+			android:id="@+id/audition_ad"
+			android:layout_width="685px"
+			android:layout_height="245px"
+			android:orientation="vertical" 
+			android:layout_marginBottom="10px"
+			android:layout_marginTop="10px"
+			android:layout_marginLeft="51px"
+			android:background="@drawable/audition_area"  >
+			<ImageView
+					android:id="@+id/audition_ad_img"
+					android:layout_width="685px"
+					android:layout_height="207px"
+					android:layout_marginLeft="1px"
+					android:layout_marginTop="1px"
+					android:layout_gravity="left"
+					android:background="@drawable/audition_vacuum" />
+				
+			<TextView
+					android:id="@+id/audition_ad_text1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5px"
+					android:layout_marginTop="-30px"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"
+					android:text="슬픈 활용법"
+					android:textColor="#FFFFFF"
+					android:textSize="20px" />
+			<TextView
+					android:id="@+id/audition_ad_text2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5px"
+					android:layout_marginTop="7px"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"
+					android:text="- Josh Moog"
+					android:textColor="#FFFFFF"
+					android:textSize="15px" />
+		</LinearLayout>	
+	</LinearLayout>	
+</LinearLayout>
+
+

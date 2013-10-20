@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/album_row_1"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:orientation="horizontal" 
+        android:background="@drawable/album_list" >
+
+        <ImageView
+                android:id="@+id/album_row_img"
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginTop="3sp"
+                android:layout_gravity="left"
+                android:background="@drawable/home_album_vacuum" />
+        
+            <LinearLayout
+                android:id="@+id/album_row_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+		        <TextView
+			      	android:id="@+id/album_row_text1"
+			       	android:layout_width="match_parent"
+			       	android:layout_height="wrap_content"
+			       	android:layout_marginLeft="5sp"
+			       	android:layout_marginTop="3sp"
+			       	android:ellipsize="end"
+			       	android:lines="1"
+			       	android:maxLines="1"
+			       	android:text="슬픈 활용법"
+			       	android:textColor="#FFFF00"
+			    	android:textSize="17sp" />
+	    		<TextView
+			      	android:id="@+id/album_row_text2"
+			       	android:layout_width="match_parent"
+			       	android:layout_height="wrap_content"
+			       	android:layout_marginLeft="5sp"
+			       	android:layout_marginTop="3sp"
+			       	android:ellipsize="end"
+			       	android:lines="1"
+			       	android:maxLines="1"
+			       	android:text="- Josh Moog"
+			       	android:textColor="#AAAAAA"
+			    	android:textSize="12sp" />
+	    		<TextView
+			      	android:id="@+id/album_row_text3"
+			       	android:layout_width="match_parent"
+			       	android:layout_height="wrap_content"
+			       	android:layout_marginLeft="5sp"
+			       	android:layout_marginTop="3sp"
+			       	android:ellipsize="end"
+			       	android:maxLines="2"
+			       	android:text=""
+			       	android:textColor="#AAAAAA"
+			    	android:textSize="10sp" />
+	    		
+
+            </LinearLayout>	
+			
+
+	</LinearLayout>		
+</LinearLayout>
+
+

@@ -1,0 +1,303 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    android:orientation="vertical" >
+
+       <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+         <FrameLayout 
+	        android:id="@+id/title_bar"
+		    android:layout_width="match_parent"
+		    android:layout_height="66px"
+		    android:orientation="vertical"
+		    android:background="@drawable/title_bar_bg" >
+		    
+            <ImageView
+                android:id="@+id/title_icon"
+                android:layout_width="45px"
+                android:layout_height="45px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="31px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/right_back_icon" />
+            
+            <TextView
+		      	android:id="@+id/title_name"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="98px"
+                android:layout_marginTop="10px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="스테이지 "
+		       	android:textColor="#FFFFFF"
+		    	android:textSize="15dip" />
+            
+            <TextView
+		      	android:id="@+id/title_desc"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="99px"
+                android:layout_marginTop="34px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="업로드"
+		       	android:textColor="#FFFF00"
+		    	android:textSize="15dip" />
+            
+            <ImageView
+                android:id="@+id/title_popup"
+                android:layout_width="45px"
+                android:layout_height="45px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="410px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/right_check_icon" />
+
+	    </FrameLayout>
+	    
+         
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"    
+		    android:layout_marginTop="68px"
+		    android:orientation="vertical"
+		    android:background="#FFFFFF" >
+
+
+             	<TextView
+	                 android:id="@+id/upload_tag_1"
+	                 android:layout_width="80px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="30px"
+	                 android:layout_marginTop="20px"
+	                 android:textColor="#000000"
+	                 android:text="URL"
+	                 android:textSize="20px" />
+
+             	<TextView
+	                 android:id="@+id/upload_tag_2"
+	                 android:layout_width="80px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="30px"
+	                 android:layout_marginTop="100px"
+	                 android:textColor="#000000"
+	                 android:text="분류"
+	                 android:textSize="20px" />
+             	
+             	<TextView
+	                 android:id="@+id/upload_tag_3"
+	                 android:layout_width="80px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="30px"
+	                 android:layout_marginTop="180px"
+	                 android:textColor="#000000"
+	                 android:text="제목"
+	                 android:textSize="20px" />
+             	<TextView
+	                 android:id="@+id/upload_tag_4"
+	                 android:layout_width="80px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="30px"
+	                 android:layout_marginTop="230px"
+	                 android:textColor="#000000"
+	                 android:text="영상소개"
+	                 android:textSize="20px" />
+             	<EditText
+	                 android:id="@+id/upload_url"
+	                 android:layout_width="360px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="100px"
+	                 android:layout_marginTop="20px"
+	                 android:background="@null"
+	                 android:textColor="#000000"
+	                 android:hint="유튜브 URL을 입력해주세요"
+	                 android:textCursorDrawable="@null"
+	                 android:textSize="20px" />
+             	
+             	<ImageView
+	                android:id="@+id/upload_url_dummy"
+	                android:layout_width="360px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="100px"
+	                 android:layout_marginTop="20px"
+	                 android:background="@null"
+	                />
+			    
+	             <ImageView
+	                android:id="@+id/upload_url_line"
+	                android:layout_width="440px"
+	                android:layout_height="2px"
+	                android:layout_gravity="left"
+	                android:layout_marginLeft="20px"
+	                android:layout_marginTop="55px"
+	                android:background="@drawable/yellow_bar" />
+	             
+	             <TextView
+	                 android:id="@+id/upload_cate"
+	                 android:layout_width="360px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="100px"
+	                 android:layout_marginTop="100px"
+	                 android:background="@null"
+	                 android:textColor="#000000"
+	                 android:text="Vocal"
+	                 android:textCursorDrawable="@null"
+	                 android:textSize="20px" />
+			    
+	             <ImageView
+	                android:id="@+id/upload_cate_line"
+	                android:layout_width="440px"
+	                android:layout_height="2px"
+	                android:layout_gravity="left"
+	                android:layout_marginLeft="20px"
+	                android:layout_marginTop="135px"
+	                android:background="@drawable/yellow_bar" />
+	             
+	             
+	             <EditText
+	                 android:id="@+id/upload_name"
+	                 android:layout_width="360px"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="100px"
+	                 android:layout_marginTop="180px"
+	                 android:background="@null"
+	                 android:textColor="#000000"
+	                 android:hint=""
+	                 android:textCursorDrawable="@null"
+	                 android:textSize="20px" />
+			    
+	             <ImageView
+	                android:id="@+id/upload_name_line"
+	                android:layout_width="440px"
+	                android:layout_height="2px"
+	                android:layout_gravity="left"
+	                android:layout_marginLeft="20px"
+	                android:layout_marginTop="215px"
+	                android:background="@drawable/yellow_bar" />
+	             
+	             
+	             <EditText
+	                 android:id="@+id/upload_intro"
+	                 android:layout_width="440px"
+	                 android:layout_height="match_parent"
+	                 android:layout_marginLeft="20px"
+	                 android:layout_marginTop="260px"
+	                 android:background="@null"
+	                 android:textColor="#000000"
+	                 android:hint="영상소개를 입력해주세요"
+	                 android:textCursorDrawable="@null"
+	                 android:gravity="left" 
+	                 android:inputType="textMultiLine"
+	                 android:textSize="20px" />
+           
+
+	    </FrameLayout>
+        
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:id="@+id/bottom_menu_1"
+		    android:layout_width="480px"
+		    android:layout_height="74px"
+		    android:orientation="horizontal"
+		    android:visibility="gone" >
+
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/home_k_icon"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/audition_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/album_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/squre_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/more_k_icon"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/bottom_menu_2"
+		    android:layout_width="480px"
+		    android:layout_height="74px"
+		    android:orientation="horizontal"
+		    android:visibility="gone" >
+
+			<ImageView
+					android:id="@+id/bottom_6"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/search_k_icon"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_7"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/mypagehome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_8"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/favoriteshome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_9"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/settingshome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_10"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/logohome_icon"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+	 </LinearLayout>
+	 
+</RelativeLayout>

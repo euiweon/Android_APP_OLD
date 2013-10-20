@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+         <FrameLayout 
+	        android:id="@+id/title_bar"
+		    android:layout_width="match_parent"
+		    android:layout_height="66px"
+		    android:orientation="vertical"
+		    android:background="@drawable/title_bar_bg" >
+		    
+            <ImageView
+                android:id="@+id/title_icon"
+                android:layout_width="45px"
+                android:layout_height="45px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="31px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/right_back_icon" />
+            
+            <TextView
+		      	android:id="@+id/title_name"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="98px"
+                android:layout_marginTop="10px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="오디션"
+		       	android:textColor="#FFFFFF"
+		    	android:textSize="15dip" />
+            
+            <TextView
+		      	android:id="@+id/title_desc"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_marginLeft="99px"
+                android:layout_marginTop="34px"
+		       	android:ellipsize="end"
+		       	android:lines="1"
+		       	android:maxLines="1"
+		       	android:text="주간베스트"
+		       	android:textColor="#FFFF00"
+		    	android:textSize="15dip" />
+
+            
+	    </FrameLayout>
+	    
+         
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"    
+		    android:layout_marginTop="68px"
+		    android:orientation="vertical"
+		    android:background="@drawable/bg" >
+            
+		<LinearLayout
+		    android:id="@+id/reply_main"
+		    android:layout_width="match_parent"
+		    android:layout_height="60px"
+		    android:background="#FFFFFF"
+		    android:orientation="vertical"
+		    android:visibility="gone" >
+			 
+			<LinearLayout
+				 android:id="@+id/reply_row_2"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+				 android:orientation="vertical"
+				 android:layout_marginLeft="10px"
+				 android:layout_marginTop="15px">
+			     <TextView
+			       	android:id="@+id/reply_title"
+			       	android:layout_width="match_parent"
+			       	android:layout_height="wrap_content"
+			       	android:ellipsize="end"
+			       	android:lines="1"
+			       	android:maxLines="1"
+			       	android:text="이전 댓글보기 "
+			       	android:textColor="#2222FF"
+			    	android:textSize="25px" />
+			</LinearLayout >
+			
+		</LinearLayout >
+
+			<ListView
+			    android:id="@+id/audition_info_listview"
+			    android:divider="#000000"
+			    android:dividerHeight="1px"
+			    android:layout_height="668px"
+			    android:background="#FFFFFF"
+			    
+			    android:layout_width="480px"
+			    android:layout_marginTop="0px"
+                 />
+			
+			<ImageView
+                android:id="@+id/reply_bar"
+                android:layout_width="480px"
+                android:layout_height="66px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="0px"
+                android:layout_marginTop="668px"
+                android:background="@drawable/title_bar_bg" />
+			<ImageView
+                android:id="@+id/reply_bar2"
+                android:layout_width="333px"
+                android:layout_height="38px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16px"
+                android:layout_marginTop="683px"
+                android:background="@drawable/text_tap" />
+			
+			<EditText
+                 android:id="@+id/reply_text"
+                 android:layout_width="320px"
+                 android:layout_height="33px"
+                 android:layout_marginLeft="20px"
+                 android:layout_marginTop="686px"
+                 android:background="@null"
+                 android:textColor="#000000"
+                 android:hint="댓글 내용을 입력해주세요."
+                 android:textCursorDrawable="@null"
+                 android:textSize="12dip" />
+			
+			<ImageView
+                android:id="@+id/reply_send"
+                android:layout_width="98px"
+                android:layout_height="51px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="371px"
+                android:layout_marginTop="676px"
+                android:background="@drawable/send" />
+	    </FrameLayout>
+        
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:id="@+id/bottom_menu_1"
+		    android:layout_width="480px"
+		    android:layout_height="74px"
+		    android:orientation="horizontal"
+		    android:visibility="gone" >
+
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/home_k_icon"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/audition_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/album_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/squre_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/more_k_icon"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/bottom_menu_2"
+		    android:layout_width="480px"
+		    android:layout_height="74px"
+		    android:orientation="horizontal"
+		    android:visibility="gone" >
+
+			<ImageView
+					android:id="@+id/bottom_6"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/search_k_icon"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_7"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/mypagehome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_8"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/favoriteshome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_9"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/settingshome_k_icon"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_10"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/logohome_icon"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+	 </LinearLayout>
+</RelativeLayout>
