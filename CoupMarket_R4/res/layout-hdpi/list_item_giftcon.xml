@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_dark"
+    android:orientation="horizontal"
+    android:padding="@dimen/dm_gab_6" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_round_corner"
+        android:padding="@dimen/dm_gab_6" >
+
+        <ImageView
+            android:id="@+id/imageView_photo"
+            android:layout_width="@dimen/dm_gab_140"
+            android:layout_height="@dimen/dm_gab_110"
+            android:scaleType="fitXY"
+            android:src="@drawable/area_body_bg" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dm_gab_2"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dm_gab_6"
+            android:layout_marginRight="@dimen/dm_gab_6"
+            android:background="#AAAAAAAA" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dm_gab_10"
+            android:paddingRight="@dimen/dm_gab_15"
+            android:paddingTop="@dimen/dm_gab_6" >
+
+            <TextView
+                android:id="@+id/textView_coop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="회사명"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제품명"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#396A76"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가격"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#B35800"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

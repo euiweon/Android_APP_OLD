@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_tab_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_tab_bar_height"
+        android:background="@null"
+        android:gravity="center" >
+        
+        
+         <ImageView
+            android:id="@+id/tab_imageView_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/tab_gift_bt" />
+
+        <ImageView
+            android:id="@+id/tab_imageView_parttime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/tab_jop_bt" />
+
+        <ImageView
+            android:id="@+id/tab_imageView_my_page"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/tab_mypage_bt" />
+
+      <!--  <ImageView
+            android:id="@+id/tab_imageView_mileage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/tab_mileage_bt" />-->  
+
+        <ImageView
+            android:id="@+id/tab_imageView_option"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/tab_option_bt" />
+    </LinearLayout>
+
+</LinearLayout>

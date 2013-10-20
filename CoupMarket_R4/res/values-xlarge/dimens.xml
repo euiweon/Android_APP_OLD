@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="dm_gab_2">3dip</dimen>
+    <dimen name="dm_gab_3">4dip</dimen>
+    <dimen name="dm_gab_4">6dip</dimen>
+    <dimen name="dm_gab_6">8dip</dimen>
+    <dimen name="dm_gab_8">11dip</dimen>
+    <dimen name="dm_gab_10">13dip</dimen>
+    <dimen name="dm_gab_15">20dip</dimen>
+	<dimen name="dm_gab_20">27dip</dimen>
+    <dimen name="dm_gab_25">33dip</dimen>
+	<dimen name="dm_gab_30">40dip</dimen>
+    <dimen name="dm_gab_35">47dip</dimen>
+	<dimen name="dm_gab_40">53dip</dimen>
+	<dimen name="dm_gab_45">60dip</dimen>
+	<dimen name="dm_gab_50">67dip</dimen>
+	<dimen name="dm_gab_55">73dip</dimen>
+	<dimen name="dm_gab_60">80dip</dimen>
+	<dimen name="dm_gab_70">93dip</dimen>
+	<dimen name="dm_gab_80">106dip</dimen>
+	<dimen name="dm_gab_90">120dip</dimen>
+	<dimen name="dm_gab_100">133dip</dimen>
+	<dimen name="dm_gab_110">146dip</dimen>
+	<dimen name="dm_gab_120">160dip</dimen>
+	<dimen name="dm_gab_140">186dip</dimen>
+	<dimen name="dm_gab_150">199dip</dimen>
+	<dimen name="dm_gab_160">213dip</dimen>
+	<dimen name="dm_gab_180">239dip</dimen>
+	<dimen name="dm_gab_200">266dip</dimen>
+	<dimen name="dm_gab_250">362dip</dimen>
+	<dimen name="dm_gab_300">399dip</dimen>
+     
+    <dimen name="dm_text_small">16sp</dimen>
+	<dimen name="dm_text_normal">22sp</dimen>
+	<dimen name="dm_text_medium">28sp</dimen>
+	<dimen name="dm_text_large">34sp</dimen>
+  	<dimen name="dm_text_big">40sp</dimen>
+  	
+  	
+  	<dimen name="dm_title_bar_height">60dip</dimen>
+  	<dimen name="dm_tab_bar_height">67dip</dimen>
+  			
+  		
+</resources>

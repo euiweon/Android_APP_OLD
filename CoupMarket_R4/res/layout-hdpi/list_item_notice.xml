@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dm_gab_50"
+        android:layout_weight="1"
+        android:background="@drawable/notice_listbar"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dm_gab_10"
+        android:paddingRight="@dimen/dm_gab_10" >
+
+        <TextView
+            android:id="@+id/textView_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:lines="1"
+            android:text="Subject"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView_new"
+            android:layout_width="@dimen/dm_gab_50"
+            android:layout_height="@dimen/dm_gab_20"
+            android:layout_marginLeft="@dimen/dm_gab_10"
+            android:layout_marginRight="@dimen/dm_gab_10"
+            android:scaleType="fitXY"
+            android:src="@drawable/notice_new_mark" />
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:lines="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:orientation="vertical"
+        android:padding="@dimen/dm_gab_10" >
+
+        <TextView
+            android:id="@+id/textView_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/dm_text_normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

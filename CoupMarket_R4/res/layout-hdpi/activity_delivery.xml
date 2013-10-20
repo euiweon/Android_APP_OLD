@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_main_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/common_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_140"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dm_gab_10"
+                android:paddingRight="@dimen/dm_gab_10" >
+
+                <ImageButton
+                    android:id="@+id/imageButton_chicken"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/deli_chicken_bt" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/dm_gab_10"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButton_pizza"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/deli_pizza_bt" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_140"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dm_gab_10"
+                android:paddingRight="@dimen/dm_gab_10" >
+
+                <ImageButton
+                    android:id="@+id/imageButton_china"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/deli_china_bt" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/dm_gab_10"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButton_korea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/deli_korea_bt" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_140"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dm_gab_10"
+                android:paddingRight="@dimen/dm_gab_10" >
+
+                <ImageButton
+                    android:id="@+id/imageButton_pig"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/deli_pig_bt" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/dm_gab_10"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButton_etc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/deli_etc_bt" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tab_bar" />
+
+</LinearLayout>

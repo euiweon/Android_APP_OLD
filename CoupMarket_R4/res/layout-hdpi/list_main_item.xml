@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dm_gab_90"
+    android:background="#EEEEEE"
+    android:orientation="horizontal"
+    android:scaleType="fitXY"
+    android:id="@+id/mainlist_data" >
+    
+    
+
+    <ImageView
+        android:id="@+id/imageView_photo"
+        android:layout_width="@dimen/dm_gab_90"
+        android:layout_height="@dimen/dm_gab_80"
+        android:layout_marginLeft="@dimen/dm_gab_4"
+        android:layout_marginTop="@dimen/dm_gab_6"
+        android:layout_marginBottom="@dimen/dm_gab_6"
+        android:scaleType="fitXY"
+        android:src="@drawable/area_body_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dm_gab_10"
+        android:paddingRight="@dimen/dm_gab_15"
+        android:paddingTop="@dimen/dm_gab_6" >
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm_gab_2"
+       		android:layout_marginTop="@dimen/dm_gab_6"
+            android:lines="1"
+            android:text="피자 팩토리 5% 할인권"
+            android:textColor="#FF000000"
+            android:textSize="@dimen/dm_text_medium"
+            android:textStyle="bold"  />
+
+        <TextView
+            android:id="@+id/textView_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm_gab_2"
+       		android:layout_marginTop="@dimen/dm_gab_2"
+            android:text="다양한 피자를 조금 더 저렴하게 즐기는 방법!"
+            android:lines="1"
+            android:textColor="#FF777777"
+            android:textSize="@dimen/dm_text_small" />
+        
+        
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dm_gab_6" >
+		        <TextView
+		            android:id="@+id/textView_new"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="@dimen/dm_gab_2"
+		            android:text="1000원"
+		            android:textColor="#FFFF3333"
+		            android:textSize="@dimen/dm_text_normal" />
+                
+                <TextView
+                    android:id="@+id/textView_old"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm_gab_4"
+                    android:text="5000원"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/dm_text_normal" />
+            </LinearLayout>
+     </LinearLayout>
+</LinearLayout>

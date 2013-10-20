@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_main_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/common_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/giftcon_mileage_bar_bg"
+            android:gravity="center"
+            android:padding="@dimen/dm_gab_6" >
+
+            <TextView
+                android:id="@+id/textView_my_mileage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="적립마일리지 : 0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FF0000" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView_category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_gab_80"
+            android:background="@drawable/giftcon_top_bar_bg"
+            android:paddingLeft="@dimen/dm_gab_20"
+            android:paddingRight="@dimen/dm_gab_20"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:scrollbarStyle="insideOverlay" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_category"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dm_gab_10"
+                android:paddingLeft="@dimen/dm_gab_10"
+                android:paddingRight="@dimen/dm_gab_10"
+                android:paddingTop="@dimen/dm_gab_4" >
+
+                <ImageView
+                    android:id="@+id/imageView_cafe"
+                    android:layout_width="@dimen/dm_gab_100"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dm_gab_4"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/giftcon_cafe_bt" />
+
+                <ImageView
+                    android:id="@+id/imageView_food"
+                    android:layout_width="@dimen/dm_gab_100"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dm_gab_4"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/giftcon_food_bt" />
+
+                <ImageView
+                    android:id="@+id/imageView_life"
+                    android:layout_width="@dimen/dm_gab_100"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dm_gab_4"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/giftcon_life_bt" />
+
+                <ImageView
+                    android:id="@+id/imageView_gift"
+                    android:layout_width="@dimen/dm_gab_100"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/giftcon_gift_bt" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ListView
+            android:id="@+id/listView_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarStyle="insideOverlay" >
+
+        </ListView>
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tab_bar" />
+
+</LinearLayout>

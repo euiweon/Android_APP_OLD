@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_main_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/common_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dm_gab_10" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_gab_2"
+            android:layout_marginTop="@dimen/dm_gab_10"
+            android:scaleType="fitXY"
+            android:src="@drawable/gray_bar" />
+
+        <ImageButton
+            android:id="@+id/imageButton_my_mileage_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_gab_110"
+            android:layout_marginTop="@dimen/dm_gab_10"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/mileage_info_bt" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_gab_2"
+            android:layout_marginTop="@dimen/dm_gab_10"
+            android:scaleType="fitXY"
+            android:src="@drawable/gray_bar" />
+
+        <ImageButton
+            android:id="@+id/imageButton_show_benefit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_gab_110"
+            android:layout_marginTop="@dimen/dm_gab_10"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/mileage_benefit_bt" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_gab_2"
+            android:layout_marginTop="@dimen/dm_gab_10"
+            android:scaleType="fitXY"
+            android:src="@drawable/gray_bar" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/tab_bar" />
+
+</LinearLayout>

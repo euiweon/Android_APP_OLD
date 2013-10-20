@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_main_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/common_bg"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dm_gab_10" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_before_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_2"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gray_bar" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_60"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/option_1_bt" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_2"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gray_bar" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_join"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_60"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/option_2_bt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_after_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_2"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gray_bar" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_60"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/option_6_bt" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_2"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gray_bar" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_edit_my_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_60"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/option_7_bt" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+
+            <ImageButton
+                android:id="@+id/imageButton_notice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_60"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/option_3_bt" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+
+            <ImageButton
+                android:id="@+id/imageButton_inquiry"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_60"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/option_4_bt" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+
+            <ImageButton
+                android:id="@+id/imageButton_select_area"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_60"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/option_5_bt" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm_gab_2"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:scaleType="fitXY"
+                android:src="@drawable/gray_bar" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tab_bar" />
+
+</LinearLayout>

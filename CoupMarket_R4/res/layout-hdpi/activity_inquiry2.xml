@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_title_bar_height"
+        layout="@layout/top_title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="vertical"
+            android:padding="@dimen/dm_gab_4" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_light_round_corner"
+                android:orientation="vertical"
+                android:padding="@dimen/dm_gab_10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dm_gab_4"
+                    android:paddingTop="@dimen/dm_gab_4" >
+
+                    <TextView
+                        android:layout_width="@dimen/dm_gab_90"
+                        android:layout_height="wrap_content"
+                        android:text="이름"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="@dimen/dm_text_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dm_gab_4" >
+
+                        <EditText
+                            android:id="@+id/editText_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="text" >
+
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dm_gab_4"
+                    android:paddingTop="@dimen/dm_gab_4" >
+
+                    <TextView
+                        android:layout_width="@dimen/dm_gab_90"
+                        android:layout_height="wrap_content"
+                        android:text="연락처"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="@dimen/dm_text_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dm_gab_4" >
+
+                        <EditText
+                            android:id="@+id/editText_contact_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dm_gab_4"
+                    android:paddingTop="@dimen/dm_gab_4" >
+
+                    <TextView
+                        android:layout_width="@dimen/dm_gab_90"
+                        android:layout_height="wrap_content"
+                        android:text="이메일"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="@dimen/dm_text_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dm_gab_4" >
+
+                        <EditText
+                            android:id="@+id/editText_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPassword" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dm_gab_4"
+                    android:paddingTop="@dimen/dm_gab_4" >
+
+                    <TextView
+                        android:layout_width="@dimen/dm_gab_90"
+                        android:layout_height="wrap_content"
+                        android:text="제목"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="@dimen/dm_text_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dm_gab_4" >
+
+                        <EditText
+                            android:id="@+id/editText_subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPassword" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_2"
+                    android:layout_marginBottom="@dimen/dm_gab_10"
+                    android:layout_marginTop="@dimen/dm_gab_6"
+                    android:background="#AAAAAAAA"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dm_gab_4"
+                    android:paddingTop="@dimen/dm_gab_4" >
+
+                    <TextView
+                        android:layout_width="@dimen/dm_gab_90"
+                        android:layout_height="match_parent"
+                        android:gravity="top|left"
+                        android:paddingTop="@dimen/dm_gab_6"
+                        android:text="내용"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="@dimen/dm_text_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dm_gab_4" >
+
+                        <EditText
+                            android:id="@+id/editText_contents"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textMultiLine"
+                            android:minHeight="@dimen/dm_gab_120" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dm_gab_10"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/imageButton_send"
+                        android:layout_width="@dimen/dm_gab_200"
+                        android:layout_height="@dimen/dm_gab_55"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/send_bt" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

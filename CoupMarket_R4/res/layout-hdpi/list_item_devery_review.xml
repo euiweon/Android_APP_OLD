@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/dm_gab_10"
+	android:layout_marginRight="@dimen/dm_gab_10" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"  >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dm_gab_4"
+            android:layout_marginRight="@dimen/dm_gab_4" 
+            android:layout_marginTop="@dimen/dm_gab_8">
+
+            <TextView
+                android:id="@+id/review_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="아브라카타브라"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                android:textStyle="bold"
+                android:visibility="gone" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/review_star1"
+                    android:layout_width="@dimen/dm_gab_15"
+                    android:layout_height="@dimen/dm_gab_15"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/star_1" />
+                <ImageView
+                    android:id="@+id/review_star2"
+                    android:layout_width="@dimen/dm_gab_15"
+                    android:layout_height="@dimen/dm_gab_15"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/star_1" />
+                <ImageView
+                    android:id="@+id/review_star3"
+                    android:layout_width="@dimen/dm_gab_15"
+                    android:layout_height="@dimen/dm_gab_15"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/star_1" />
+                <ImageView
+                    android:id="@+id/review_star4"
+                    android:layout_width="@dimen/dm_gab_15"
+                    android:layout_height="@dimen/dm_gab_15"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/star_1" />
+                <ImageView
+                    android:id="@+id/review_star5"
+                    android:layout_width="@dimen/dm_gab_15"
+                    android:layout_height="@dimen/dm_gab_15"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/star_2" 
+                    />
+                <TextView
+                    android:id="@+id/reviewer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm_gab_10"
+                    android:text="작성자"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/dm_text_normal"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/review_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm_gab_10"
+                    android:text="2111.11.11"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/dm_text_normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/review_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+            	android:layout_marginBottom="@dimen/dm_gab_4"
+                android:layout_marginTop="@dimen/dm_gab_10"
+                android:text="내 생의 최고의 치킨.... 맛은 있는데, 치킨은 양이 중요하다고 봐요. \n 양좀 늘려요.!!!!!!!asdajdjgf;klkghl;arehjkl;fha"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="@dimen/dm_text_normal" />
+			<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dm_gab_4"
+                    android:src="@drawable/line" 
+                    android:textColor="#555555"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

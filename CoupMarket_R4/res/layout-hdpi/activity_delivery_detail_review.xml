@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_title_bar_height"
+        layout="@layout/top_title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/detail_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/common_bg"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:padding="@dimen/dm_gab_6"
+	            android:visibility="gone" >
+	
+	            <ImageView
+	                android:id="@+id/imageView_photo"
+	                android:layout_width="@dimen/dm_gab_150"
+	                android:layout_height="@dimen/dm_gab_120"
+	                android:scaleType="fitXY"
+	                android:src="@drawable/area_body_bg" />
+	
+	            <LinearLayout
+	                android:layout_width="@dimen/dm_gab_2"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="@dimen/dm_gab_6"
+	                android:layout_marginRight="@dimen/dm_gab_6"
+	                android:background="#AAAAAAAA" >
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:orientation="vertical"
+	                android:paddingLeft="@dimen/dm_gab_10"
+	                android:paddingRight="@dimen/dm_gab_15"
+	                android:paddingTop="@dimen/dm_gab_2" >
+	
+	                <TextView
+	                    android:id="@+id/textView_coop_name"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:lines="1"
+	                    android:text="회사명"
+	                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+	                    android:textStyle="bold" />
+	
+	                <TextView
+	                    android:id="@+id/textView_point"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="@dimen/dm_gab_2"
+	                    android:text="적립금"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="#FF0000"
+	                    android:textSize="@dimen/dm_text_normal"
+	                    android:textStyle="bold" />
+	
+	                <TextView
+	                    android:id="@+id/textView_delivery_area"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="@dimen/dm_gab_2"
+	                    android:text="배달지역"
+	                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+	                    android:textSize="@dimen/dm_text_normal"
+	                    android:textStyle="bold" />
+	
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="@dimen/dm_gab_2"
+	                    android:gravity="center_vertical" >
+	
+	                    <ImageView
+	                        android:layout_width="@dimen/dm_gab_15"
+	                        android:layout_height="@dimen/dm_gab_15"
+	                        android:scaleType="fitXY"
+	                        android:src="@drawable/clock_icon" />
+	
+	                    <TextView
+	                        android:id="@+id/textView_work_time"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginLeft="@dimen/dm_gab_4"
+	                        android:text="영업시간"
+	                        android:textAppearance="?android:attr/textAppearanceMedium"
+	                        android:textColor="#B35800"
+	                        android:textSize="@dimen/dm_text_normal"
+	                        android:textStyle="bold" />
+	                </LinearLayout>
+	
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:layout_marginTop="@dimen/dm_gab_2"
+	                    android:gravity="bottom|left" >
+	
+	                    <ImageView
+	                        android:id="@+id/imageView_menu"
+	                        android:layout_width="@dimen/dm_gab_50"
+	                        android:layout_height="@dimen/dm_gab_25"
+	                        android:clickable="true"
+	                        android:focusable="false"
+	                        android:focusableInTouchMode="false"
+	                        android:scaleType="fitXY"
+	                        android:src="@drawable/deli_menu" />
+	
+	                    <ImageView
+	                        android:id="@+id/imageView_card"
+	                        android:layout_width="@dimen/dm_gab_50"
+	                        android:layout_height="@dimen/dm_gab_25"
+	                        android:layout_marginLeft="@dimen/dm_gab_6"
+	                        android:clickable="true"
+	                        android:focusable="false"
+	                        android:focusableInTouchMode="false"
+	                        android:scaleType="fitXY"
+	                        android:src="@drawable/deli_card" />
+	                </LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:paddingLeft="@dimen/dm_gab_10"
+	            android:paddingRight="@dimen/dm_gab_10" >
+	
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="@dimen/dm_gab_2"
+	                android:layout_marginTop="@dimen/dm_gab_10"
+	                android:scaleType="fitXY"
+	                android:src="@drawable/gray_bar" />
+	
+	            <TextView
+	                android:id="@+id/textView_saving_mileage"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	               
+	                android:textColor="#FFFFFF"
+	                android:gravity="center"
+	                android:text="Medium Text"
+	                android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+	
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="@dimen/dm_gab_2"
+	                android:layout_marginTop="@dimen/dm_gab_10"
+	                android:scaleType="fitXY"
+	                android:src="@drawable/gray_bar" />
+	
+	            <Button
+	                android:id="@+id/button_address"
+	                android:layout_width="match_parent"
+	                android:layout_height="@dimen/dm_gab_50"
+	                android:background="@drawable/deli_address_bt"
+	                android:lines="1"
+	                android:text="Button"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@android:color/primary_text_dark"
+	                android:textSize="@dimen/dm_text_normal"
+	                android:visibility="gone" />
+	
+	            <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="@dimen/dm_gab_10" >
+	
+	                <ImageButton
+	                    android:id="@+id/imageButton_order_call"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="@dimen/dm_gab_50"
+	                    android:layout_weight="1"
+	                    android:background="@null"
+	                    android:scaleType="fitXY"
+	                    android:src="@drawable/deli_bell_bt" />
+	
+	                <ImageButton
+	                    android:id="@+id/imageButton_show_menu"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="@dimen/dm_gab_50"
+	                    android:layout_marginLeft="@dimen/dm_gab_10"
+	                    android:layout_weight="1"
+	                    android:background="@null"
+	                    android:scaleType="fitXY"
+	                    android:src="@drawable/deli_nenu_bt" />
+	
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:id="@+id/detail_list_add"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="@dimen/dm_gab_10"
+	                android:layout_marginLeft="@dimen/dm_gab_3"
+	                android:layout_marginRight="@dimen/dm_gab_3">
+	
+
+	
+	            </LinearLayout>
+	            
+	            
+	        </LinearLayout>
+	        
+	    
+	    </LinearLayout>
+    
+    </ScrollView>    
+
+
+</LinearLayout>

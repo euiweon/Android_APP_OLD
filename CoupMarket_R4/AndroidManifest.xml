@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pricecode"
+    android:versionCode="13053001"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <supports-screens android:resizeable="true" android:largeScreens="true" android:smallScreens="true" android:anyDensity="true" android:normalScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="IntroActivity"
+            android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="LoginActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="MyPageActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="MemberInfoActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="SearchIdPasswordActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="ShowAgreementActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="SearchPostcodeActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="ParttimeActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="SelectAreaActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="MileageActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="OptionActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="DeliveryActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="GiftconActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="MyMileageInfoActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.coupmarket.ShowBenefitActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="NoticeActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="InquiryActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="GiftconDetailActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="GiftconPaymentActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="CMarketActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="CMarketHistoryActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="GiftconHistoryActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="ParttimeDetailActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="DeliveryListActivity" android:screenOrientation="portrait"></activity>
+        <activity android:screenOrientation="portrait" android:name="DeliveryDetailActivity"></activity>
+        <activity android:screenOrientation="portrait" android:name="ShowMenuActivity"></activity>
+        <activity android:name="DeliveryMapActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="DeliveryDetailReViewActivity" android:screenOrientation="portrait"></activity>
+        
+        
+        
+    </application>
+
+</manifest>
