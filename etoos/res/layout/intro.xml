@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6">
+
+    
+     	<ImageView
+	        android:id="@+id/logo"
+	        android:layout_width="288px"
+	        android:layout_height="210px"
+	        android:layout_gravity="left"
+	        android:layout_marginTop="200px"
+	        android:layout_marginLeft="102px"
+	        android:adjustViewBounds="true"
+	    	android:src="@drawable/intro_logo"
+	         />
+     
+         <TextView
+             android:id="@+id/title_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="left"
+             android:layout_marginLeft="132px"
+             android:layout_marginTop="436px"
+             android:text="매일매일 답이 보인다."
+             android:textColor="#0086B8"
+             android:textSize="23px" />
+         <TextView
+             android:id="@+id/title_text2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="left"
+             android:layout_marginLeft="152px"
+             android:layout_marginTop="732px"
+             android:text="Copyright © 2013 SMART CLOUD "
+             android:textColor="#3E3E3E"
+             android:textSize="12px" />
+
+</RelativeLayout>

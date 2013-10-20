@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48px" 
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    
+    >
+
+	    
+	<FrameLayout
+	   	android:id="@+id/result_data_0_2_layout"
+	    android:layout_width="450px"
+	    android:layout_height="48px"
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="14px"
+	    android:background="#F6F6F6"
+	     >
+	    
+        <TextView
+	        android:id="@+id/name"
+	        android:layout_width="225px"
+	        android:layout_height="match_parent"
+	        android:text="37"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center"
+	        android:textSize="20px"
+	        android:textColor ="#3E3E3E"
+	         />
+        
+        <TextView
+	        android:id="@+id/data"
+	        android:layout_width="225px"
+	        android:layout_height="match_parent"
+	        android:text="1"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center"
+	        android:textSize="20px"
+	        android:layout_marginLeft="226px" 
+	        android:textColor ="#3E3E3E"
+	         />
+
+        
+        
+        <View
+            android:id="@+id/line_1"
+        	android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="#FFCeCece"/>
+         <View
+            android:id="@+id/line_2"
+        	android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="#FFCeCece"
+	        android:layout_marginTop="47px" />
+         
+         <View
+             android:id="@+id/line_3"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:background="#FFCeCece"/>
+
+         <View
+            android:id="@+id/line_5"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:layout_marginLeft="225px" 
+	        android:background="#FFCeCece"/>
+         
+         <View
+            android:id="@+id/line_6"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:layout_marginLeft="449px" 
+	        android:background="#FFCeCece"/>
+	    
+	</FrameLayout >
+
+
+</LinearLayout >
+
+

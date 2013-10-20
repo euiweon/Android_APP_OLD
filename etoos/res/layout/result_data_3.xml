@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/result_data_3_text_2"
+        android:layout_width="461px"
+        android:layout_height="30px"
+        android:layout_gravity="left"
+        android:layout_marginTop="5px"
+        android:layout_marginLeft="10px"
+        android:gravity="left"
+        android:text="* 문항별 패턴"
+         android:textColor ="#3E3E3E"
+        android:textSize="22px" />
+    
+    <FrameLayout
+	   	android:id="@+id/result_data_3"
+	    android:layout_width="450px"
+	    android:layout_height="48px"
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="14px"
+	    android:layout_marginTop="0px"
+	    android:background="#E0E0E0"
+	     >
+	    
+        <TextView
+	        android:id="@+id/number"
+	        android:layout_width="49px"
+	        android:layout_height="match_parent"
+	        android:text="No."
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center"
+	        android:textSize="20px"
+	        android:textColor ="#3E3E3E"
+	         />
+        
+        <TextView
+	        android:id="@+id/number2"
+	        android:layout_width="200px"
+	        android:layout_height="match_parent"
+	        android:text="최종마킹"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center"
+	        android:textSize="20px"
+	        android:layout_marginLeft="50px" 
+	        android:textColor ="#3E3E3E"
+	         />
+        <TextView
+	        android:id="@+id/number3"
+	        android:layout_width="200px"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center"
+	        android:textSize="20px"
+	        android:layout_marginLeft="250px" 
+	        android:text="풀이시간"
+	         android:textColor ="#3E3E3E"
+	         />
+        
+        
+        <View
+            android:id="@+id/line_1"
+        	android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="#FFCeCece"/>
+         <View
+            android:id="@+id/line_2"
+        	android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="#FFCeCece"
+	        android:layout_marginTop="47px" />
+         
+         <View
+             android:id="@+id/line_3"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:background="#FFE0E0E0"/>
+         <View
+            android:id="@+id/line_4"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:layout_marginLeft="49px" 
+	        android:background="#FFCeCece"/>
+         
+         <View
+            android:id="@+id/line_5"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:layout_marginLeft="249px" 
+	        android:background="#FFCeCece"/>
+         
+         <View
+            android:id="@+id/line_6"
+	        android:layout_width="1px"
+	        android:layout_height="92px"
+	        android:layout_marginLeft="449px" 
+	        android:background="#FFCeCece"/>
+	</FrameLayout >
+
+</LinearLayout >
+
+

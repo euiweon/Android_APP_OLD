@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="68px"
+            android:background="@drawable/title_box"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="이어서 응시"
+                android:textColor="#FFFFFF"
+                android:textSize="25px" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="68px"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/main_tab_1_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46px"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="응시 중인 OMR 카드가 있습니다."
+                android:textColor="#000000"
+                android:textSize="24px" />
+
+            <ImageView
+                android:id="@+id/main_tab_1_line"
+               	android:layout_width="450px"
+                android:layout_height="2px"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="95px"
+                android:background="#D7DAD0" />
+
+  
+
+            <ImageView
+                android:id="@+id/main_tab_2_line"
+                android:layout_width="450px"
+                android:layout_height="2px"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="201px"
+                android:background="#D7DAD0" />
+
+            <TextView
+                android:id="@+id/test_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38px"
+                android:layout_marginRight="38px"
+                android:layout_marginTop="112px"
+                android:ellipsize="end"
+
+                android:text="수능 모의고사 / 수학 / 미적분과 통계 / 30 문항 문제를 풀어주세요"
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <ImageView
+                android:id="@+id/main_tab_3_line"
+                android:layout_width="450px"
+                android:layout_height="2px"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="256px"
+                android:background="#D7DAD0" />
+
+            <TextView
+                android:id="@+id/main_tab_4_name"
+                android:layout_width="210px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="218px"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="남은시간"
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <ImageView
+                android:id="@+id/main_tab_4_line"
+                android:layout_height="2px"
+                android:layout_marginLeft="15px"
+                android:layout_width="450px"
+                android:layout_marginTop="308px"
+                android:background="#D7DAD0" />
+
+            <TextView
+                android:id="@+id/main_tab_5_name_1"
+                android:layout_width="210px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="271px"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="남은 문항 수"
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <TextView
+                android:id="@+id/answer_time"
+                android:layout_width="240px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="226px"
+                android:layout_marginTop="218px"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="5분 22초"
+                android:textColor="#FF2222"
+                android:textSize="20px" />
+
+            <TextView
+                android:id="@+id/answer_count"
+                android:layout_width="240px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="226px"
+                android:layout_marginTop="271px"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="46"
+                android:textColor="#FF2222"
+                android:textSize="20px" />
+
+            <ImageView
+                android:id="@+id/main_tab_5_line"
+                android:layout_width="2px"
+                android:layout_height="213px"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="95px"
+                android:background="#D7DAD0" />
+
+            <ImageView
+                android:id="@+id/main_tab_5_line_1"
+                android:layout_width="2px"
+                android:layout_height="213px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="465px"
+                android:layout_marginTop="95px"
+                android:background="#D7DAD0" />
+
+            <ImageView
+                android:id="@+id/main_tab_5_line_2"
+                android:layout_width="2px"
+                android:layout_height="107px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="225px"
+                android:layout_marginTop="201px"
+                android:background="#D7DAD0" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="54px"
+                android:layout_marginRight="56px"
+                android:layout_marginTop="342px"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="응시를 계속 하시려면 확인 버튼을 선택하시고, 그렇지 않을 경우 취소버튼을 선택해주세요. \n취소를 선택시 마킹한 내용이 모두 삭제됩니다. "
+                android:textColor="#000000"
+                android:textSize="20px" />
+
+            <ImageView
+                android:id="@+id/bottom_1"
+                android:layout_width="152px"
+                android:layout_height="58px"
+                android:layout_marginLeft="82px"
+                android:layout_marginTop="472px"
+                android:layout_marginRight="8px"
+                android:background="@drawable/cancel_btn_" />
+
+            <ImageView
+                android:id="@+id/bottom_3"
+                android:layout_width="153px"
+                android:layout_height="58px"
+                android:layout_marginLeft="244px"
+                android:layout_marginTop="472px"
+                android:background="@drawable/ok_btn_" />
+        </FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

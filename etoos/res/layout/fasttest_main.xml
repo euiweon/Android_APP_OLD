@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/omr_bg">
+    
+    <FrameLayout 
+        android:id="@+id/top_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+	   
+
+	    <ImageView
+				android:id="@+id/title_box"
+				android:layout_width="480px"
+				android:layout_height="9px"
+				android:background="@drawable/title_box"
+				android:layout_gravity="left"/>
+	    
+	    <ImageView
+				android:id="@+id/title_line"
+				android:layout_width="480px"
+				android:layout_height="170px"
+				android:background="@drawable/omr_top_bg"
+				android:layout_marginTop="9px"
+				android:layout_gravity="left"/>
+	    
+	    <TextView
+	        android:id="@+id/title_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="26px"
+	        android:layout_marginRight="26px"
+	        android:layout_marginTop="40px"
+	        android:lines="2"
+	        android:maxLines="2"
+	        android:minLines="2"
+	        android:text="수능 모의고사 각 문제에 해당하는 정답을 풀어보세요. "
+	        android:textColor="#FF000000"
+	        android:textSize="20px" />
+	    
+	    <ImageView
+				android:id="@+id/clock_box"
+				android:layout_width="180px"
+				android:layout_height="60px"
+				android:layout_marginTop="100px"
+				android:background="@drawable/clock_box"
+				android:layout_marginLeft="23px"
+				android:layout_gravity="left"/>
+	    
+	    <TextView
+	        android:id="@+id/title_time"
+	        android:layout_width="180px"
+	        android:layout_height="60px"
+	        android:layout_marginLeft="23px"
+	        android:layout_marginRight="26px"
+	        android:layout_marginTop="100px"
+	        android:lines="1"
+	        android:maxLines="1"
+	        android:minLines="1"
+	        android:text="01:05"
+	        android:textColor="#FFFFFFFF"
+	        android:textSize="40px" 
+	        android:gravity="center"/>
+	    
+	    
+	    <ImageView
+				android:id="@+id/tab_1"
+				android:layout_width="85px"
+				android:layout_height="60px"
+				android:layout_marginTop="100px"
+				android:background="@drawable/pencil_off"
+				android:layout_marginLeft="208px"
+				android:layout_gravity="left"/>
+	    
+	    <ImageView
+				android:id="@+id/tab_2"
+				android:layout_width="85px"
+				android:layout_height="60px"
+				android:layout_marginTop="100px"
+				android:background="@drawable/pen_off_02"
+				android:layout_marginLeft="298px"
+				android:layout_gravity="left"/>
+	    <ImageView
+				android:id="@+id/tab_3"
+				android:layout_width="85px"
+				android:layout_height="60px"
+				android:layout_marginTop="100px"
+				android:background="@drawable/pen_off_03"
+				android:layout_marginLeft="388px"
+				android:layout_gravity="left"/>
+	</FrameLayout> 
+	
+    
+    <ListView
+			     android:id="@+id/test_list"
+			     android:layout_width="match_parent"
+			     android:layout_height="540px"
+			     android:background="#FFFFFF"
+			     android:layout_marginTop="179px"
+			      />
+    
+    <Chronometer
+        android:id="@+id/chron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layerType="hardware"
+        android:visibility="gone" />
+    
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bg_list" >
+
+		<LinearLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="60px"
+			android:layout_marginTop="10px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="140px"
+					android:layout_height="60px"
+					android:layout_marginLeft="15px"
+					android:layout_marginRight="7px"
+					android:background="@drawable/staring_cancel"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="140px"
+					android:layout_height="60px"
+					android:layout_marginLeft="7px"
+					android:layout_marginRight="7px"
+					android:background="@drawable/pause"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="140px"
+					android:layout_height="60px"
+					android:layout_marginLeft="7px"
+					android:layout_marginRight="7px"
+					android:background="@drawable/submitted"
+					android:layout_gravity="left"/>
+			
+
+			
+		</LinearLayout>
+		
+	 </LinearLayout>
+
+</RelativeLayout>
