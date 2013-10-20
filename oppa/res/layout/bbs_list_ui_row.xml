@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bbs_main_list_row" 
+    android:background="#FFF5F5F5" 
+    android:orientation="vertical"   >
+   
+   <LinearLayout
+        android:id="@+id/bbs_list_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+       	<LinearLayout
+	    	android:id="@+id/bbs_list_row_22132232"
+	        android:layout_width="match_parent"
+	        android:layout_height="86px"
+	        android:orientation="horizontal" android:background="@drawable/n_4_6">
+	        
+       	    <LinearLayout
+		    	android:id="@+id/bbs_list_row_1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" android:layout_marginTop="25px">
+       	        <TextView
+       	            android:id="@+id/bbs_list_row_title"
+       	            android:layout_width="220px"
+       	            android:layout_height="wrap_content"
+       	            android:layout_marginLeft="20px"
+       	            android:layout_marginTop="5px"
+       	            android:ellipsize="end"
+       	            android:lines="1"
+       	            android:maxLines="1"
+       	            android:text="작성자작성자작성자작성자제목제목제목"
+       	            android:textColor="#FF323232"
+       	            android:textSize="25px" />
+			</LinearLayout >
+ 
+		    <LinearLayout
+		    	android:id="@+id/bbs_list_row_2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" android:gravity="right" android:layout_marginTop="40px">
+		        <TextView
+		            android:id="@+id/bbs_list_row_reply_count"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10px"
+		            android:layout_marginTop="5px"
+		            android:text="(57)"
+		            android:textColor="#FFFF3232"
+		            android:textSize="15px" />
+		        
+		       <TextView
+					android:id="@+id/bbs_title_writer_6"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:layout_marginTop="5px"
+				    android:text="홍길동"
+					android:textColor="#FF323232"
+					android:textSize="15px"/>
+
+		      <ImageView
+			        android:id="@+id/bbs_title_writer_2_icon"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="5px"
+			        android:background="@drawable/t_1" />
+					            
+			   	<TextView
+					android:id="@+id/bbs_title_writer_2"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:layout_marginTop="5px"
+				    android:text="00-00 12:12"
+					android:textColor="#FF323232"
+					android:layout_marginRight="20px"
+					android:textSize="15px"/>
+			</LinearLayout >
+	    </LinearLayout >
+       	
+		
+	    <LinearLayout
+	    	android:id="@+id/bbs_list_row_22132"
+	        android:layout_width="match_parent"
+	        android:layout_height="100px"
+	        android:orientation="vertical" android:background="@drawable/n_2_17_2">
+	        <LinearLayout
+	            android:id="@+id/bbs_list_row_3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30px"
+	            android:orientation="horizontal" >
+	            <LinearLayout
+	                android:id="@+id/bbs_main_header_sub123"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="left"
+	                android:orientation="horizontal" >
+	                <TextView
+	                    android:id="@+id/bbs_title_writer_112"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="5px"
+	                    android:text="킬러키스방"
+	                    android:textColor="#FF323232"
+	                    android:textSize="25px" />
+	            </LinearLayout>
+	        </LinearLayout>
+	        <LinearLayout
+	            android:id="@+id/bbs_list_row_4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            <TextView
+	                android:id="@+id/bbs_list_row_title2"
+	                android:layout_width="400px"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="30px"
+	                android:layout_marginRight="10px"
+	                android:layout_marginTop="5px"
+	                android:ellipsize="end"
+	                android:lines="1"
+	                android:maxLines="1"
+	                android:text="1232312312738912738923123123123123123127389127389137129"
+	                android:textColor="#FF646464"
+	                android:textSize="18px" />
+	            <TextView
+	                android:id="@+id/bbs_list_row_reply_count2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5px"
+	                android:layout_marginTop="5px"
+	                android:text="(57)"
+	                android:textColor="#FFFF3232"
+	                android:textSize="15px" />
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/bbs_list_row_5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	            
+	        <TextView
+		            android:id="@+id/bbs_title_writer_8"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="홍길동 "
+		            android:textColor="#FFFFB1CC"
+		            android:layout_marginLeft="30px"
+		            android:layout_marginTop="10px"
+		            android:textSize="15px" />
+	            		        
+	            <ImageView
+				    android:id="@+id/bbs_title_writer_4_icon"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="10px"
+				    android:layout_marginTop="5px"
+				    android:background="@drawable/t_1" />
+		        <TextView
+		            android:id="@+id/bbs_title_writer_4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5px"
+		            android:layout_marginRight="20px"
+		            android:text="00-00 12:12"
+		            android:textColor="#FFFFB1CC"
+		            android:layout_marginTop="10px"
+		            android:textSize="15px" />
+	        </LinearLayout>
+	    </LinearLayout >
+	</LinearLayout >
+</LinearLayout >

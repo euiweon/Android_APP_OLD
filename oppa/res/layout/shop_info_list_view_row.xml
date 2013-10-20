@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="159px"
+    android:id="@+id/shop_info_list_view_main" 
+    android:gravity="center_vertical"
+    android:orientation="vertical" 
+    android:background="#FFF5F5F5" 
+	>
+    
+   <LinearLayout
+        android:id="@+id/linearlayout_bar_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" 
+         android:layout_marginTop="20px" 
+        android:layout_marginBottom="20px" 
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+             >
+
+            <ImageView
+                android:id="@+id/shop_info_list_view_row_image"
+                android:layout_width="152px"
+                android:layout_height="116px"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/n_2_5" android:scaleType="fitXY" android:layout_marginTop="10px"/>
+
+       	</LinearLayout>
+       	<LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+       	    <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+			        android:id="@+id/shop_info_list_view_row_title"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="10px"
+			        android:text="킬러키스방"
+			        android:textColor="#FF323232"
+			        android:textSize="25px" android:layout_marginTop="10px"/>
+                
+                 <TextView
+			        android:id="@+id/shop_info_list_view_row_cate"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="10px"
+			        android:text="키스방"
+			        android:textColor="#FF646464"
+			        android:textSize="15px" android:layout_marginTop="10px"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+			        android:id="@+id/shop_info_list_view_row_addr"
+			        android:layout_width="152dp"
+			        android:layout_height="25dp"
+			        android:text="서울시 강남구 논현동 \n 가로수 2길 동화빌딩 지하1층"
+			        android:textColor="#FF323232"
+			        android:textSize="15px" android:layout_marginTop="5px" android:layout_marginLeft="10px"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+			      android:id="@+id/shop_info_list_view_row_score"
+			      android:layout_width="wrap_content"
+			      android:layout_height="20px"
+			      android:text="평점 :"
+			      android:textColor="#FF323232"
+			      android:textSize="15px" android:layout_marginTop="10px" android:layout_marginLeft="10px"/>
+
+				<ImageView
+					android:id="@+id/shop_info_main_score1"
+					android:layout_width="12px"
+					android:layout_height="12px"
+					android:src="@drawable/n2" android:layout_marginTop="13px" android:layout_marginLeft="2px"/>
+			   <ImageView
+					android:id="@+id/shop_info_main_score2"
+					android:layout_width="12px"
+					android:layout_height="12px"
+					android:src="@drawable/n2" 
+					android:layout_marginTop="13px"/>
+				
+			   <ImageView
+					android:id="@+id/shop_info_main_score3"
+					android:layout_width="12px"
+					android:layout_height="12px"
+					 android:src="@drawable/n2" 
+					android:layout_marginTop="13px"/>
+					
+			   <ImageView
+					android:id="@+id/shop_info_main_score4"
+					android:layout_width="12px"
+					android:layout_height="12px"
+					 android:src="@drawable/n2" 
+					android:layout_marginTop="13px"/>
+			   
+			   <ImageView
+					android:id="@+id/shop_info_main_score5"
+					android:layout_width="12px"
+					android:layout_height="12px"
+					android:src="@drawable/n2" 
+					android:layout_marginTop="13px"/>
+			    <TextView
+	                android:id="@+id/shop_main_content_reply_count"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10px"
+	                android:text="(57)"
+	                android:layout_marginTop="13px"
+	                android:textColor="#FFFF3232"
+	                android:textSize="15px" />
+
+			    <LinearLayout
+			        android:id="@+id/linearLayout7"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="10px"
+			        android:layout_marginTop="13px"
+			        android:gravity="right"
+			        android:orientation="horizontal" >
+
+			        <TextView
+			            android:id="@+id/shop_info_list_view_row_distance"
+			            android:layout_width="wrap_content"
+			            android:layout_height="20px"
+			            android:text="거리 : 49km"
+			            android:textColor="#FF323232"
+			            android:textSize="15px" />
+			    </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout >

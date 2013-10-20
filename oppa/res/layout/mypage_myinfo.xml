@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+         <!-- 상단바 -->
+         
+    <FrameLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="680px"
+        android:orientation="vertical">
+		<!-- 상단바 -->
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="66px"
+	        android:src="@drawable/main_title_bar" />
+	    <ImageView
+	        android:id="@+id/imageView2"
+	        android:layout_width="150px"
+	        android:layout_height="60px"
+	        android:src="@drawable/n_5_title2"
+	        android:layout_gravity="center_horizontal" />
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="ID"
+	        android:textAppearance="?android:attr/textAppearanceLarge" 
+	        android:textSize="18px" 
+	        android:textColor="#FF323232" 
+	        android:layout_gravity="right" android:layout_marginTop="166px" android:layout_marginRight="360px"/>
+	
+	    <TextView
+	        android:id="@+id/my_account_id_text"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="150px"
+	        android:layout_marginTop="166px"
+	        android:text="아이디"
+	        android:textSize="18px" />
+	
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="360px"
+	        android:layout_marginTop="218px"
+	        android:text="닉네임"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="right"/>
+	
+	
+	    <EditText
+	        android:id="@+id/my_account_nickname"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="130px"
+	        android:layout_marginTop="208px"
+	        android:textSize="18px" />
+	
+	    <Button
+	        android:id="@+id/mypage_nick_overlap"
+	        android:layout_width="87px"
+	        android:layout_height="39px"
+	        android:layout_marginLeft="370px"
+	        android:layout_marginTop="208px"
+	        android:background="@drawable/home_login_account_overlap_btn" android:layout_gravity="left"/>
+	
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="360px"
+	        android:layout_marginTop="270px"
+	        android:text="비밀번호"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="right"/>
+	
+	    <EditText
+	        android:id="@+id/my_account_pass1"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="130px"
+	        android:layout_marginTop="260px"
+	        android:textSize="18px" android:layout_gravity="left" android:inputType="textPassword"/>
+	    
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="360px"
+	        android:layout_marginTop="322px"
+	        android:text="변경비밀번호"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="right"/>
+	
+	    <EditText
+	        android:id="@+id/my_account_newpass"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="130px"
+	        android:layout_marginTop="312px"
+	        android:inputType="textPassword"
+	        android:textSize="18px" android:layout_gravity="left"/>
+	    
+	
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="360px"
+	        android:layout_marginTop="372px"
+	        android:text="비밀번호확인"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="right"/>
+	
+	    <EditText
+	        android:id="@+id/my_account_pass2"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="130px"
+	        android:layout_marginTop="362px"
+	        android:inputType="textPassword"
+	        android:textSize="18px" android:layout_gravity="left"/>
+	
+	    <TextView
+	        android:id="@+id/TextView04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="360px"
+	        android:layout_marginTop="424px"
+	        android:text="비밀번호질문"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="right" android:visibility="gone"/>
+	
+	    <Spinner
+	        android:id="@+id/my_account_spinner"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp" android:layout_gravity="left" android:layout_marginLeft="130px" android:layout_marginTop="414px"
+	        android:visibility="gone"/>
+	
+	    <TextView
+	        android:id="@+id/TextView05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="360px"
+	        android:layout_marginTop="476px"
+	        android:text="비밀번호답"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="right"
+	    	android:visibility="gone"/>
+	
+	    <EditText
+	        android:id="@+id/my_account_pass3"
+	        android:layout_width="150dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="130px"
+	        android:layout_marginTop="466px"
+	        android:textSize="18px" android:layout_gravity="left"
+	        android:visibility="gone"/>
+	
+	    <Button
+	        android:id="@+id/my_account_terms"
+	        android:layout_width="87px"
+	        android:layout_height="39px"
+	        android:layout_gravity="left" android:layout_marginLeft="370px" android:layout_marginTop="414px" android:background="@drawable/n_5_19_btn"/>
+	
+	    <Button
+	        android:id="@+id/mypage_myinfo_rewrite"
+	        android:layout_width="186px"
+	        android:layout_height="57px"
+	        android:layout_gravity="left" android:layout_marginLeft="148px" android:layout_marginTop="604px" android:background="@drawable/n_5_21_btn"/>
+	
+	    <TextView
+	        android:id="@+id/TextView06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="425px"
+	        android:text="회원 등급"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="left" android:layout_marginLeft="40px"/>
+	
+	    <ImageView
+	        android:id="@+id/my_mypage_grade_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="135px"
+	        android:layout_marginTop="425px"
+	        android:background="@drawable/t_1" 
+	        android:layout_gravity="left"/>
+	                
+	    <TextView
+	        android:id="@+id/my_mypage_grade"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="170px"
+	        android:layout_marginTop="425px"
+	        android:text="등급		100000point"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:layout_gravity="left"/>
+	</FrameLayout>
+	
+    	<LinearLayout
+	    android:id="@+id/home_main_layout_2"
+	    android:layout_width="480px"
+	    android:layout_height="74px"
+	    android:background="@drawable/tab_n1"
+	    android:orientation="horizontal" 
+	    android:layout_gravity="bottom" 
+	    android:layout_weight="1" 
+	    android:layout_alignParentBottom="true"  >
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_1"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n2_xml"
+	        android:layout_gravity="left"/>
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_2"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n3_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_3"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n4_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_4"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n5_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <ImageView
+	        android:id="@+id/mypage1_main_tab_btn_5"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_05_on"
+	        android:layout_gravity="left"/>
+     </LinearLayout>
+   
+</RelativeLayout>

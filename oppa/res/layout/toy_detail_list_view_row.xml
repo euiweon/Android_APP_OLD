@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toy_detail_list_view_row123" 
+    android:orientation="vertical"
+    android:layout_weight="1" android:layout_marginTop="10px" android:background="#FFF5F5F5">
+    
+    <ImageView
+        android:id="@+id/top_detail_sample_image"
+        android:layout_width="130px"
+        android:layout_height="150px"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12px"
+        android:src="@drawable/top_detail_sample_image" />
+    
+    <TextView
+        android:id="@+id/toy_detail_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="13px"
+        android:text="서희 / [ 키스방 ] "
+        android:textColor="#FF323232"
+        android:textSize="25px" />
+
+    <TextView
+        android:id="@+id/toy_detail_list_comment"
+        android:layout_width="300px"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="45px"
+        android:layout_weight="1"
+        android:text="날보러 오지 말고 \n 집에 들어가 쉬세요."
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="#FF323232"
+        android:textSize="18px" />
+    
+    <TextView
+        android:id="@+id/toy_detail_list_date123"
+        android:layout_width="300px"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="100px"
+        android:layout_weight="1"
+        android:text="댓글 : 23 / 조회 : 12030122 /  시간 : 12-12 12:12"
+        android:textColor="#FF323232"
+        android:textSize="15px" />
+   <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="19px"
+        android:layout_height="25px"
+        android:layout_gravity="left"
+        android:layout_marginLeft="437px"
+        android:layout_marginTop="80px"
+        android:src="@drawable/toy_detail_list_curser_btn" />
+
+</FrameLayout >

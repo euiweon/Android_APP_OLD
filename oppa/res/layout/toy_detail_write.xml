@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:screenOrientation="portrait" android:background="#FFF5F5F5">
+
+     <!-- 상단바 -->
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="66px"
+	        android:src="@drawable/main_title_bar" />
+
+    
+         <TextView
+	        android:id="@+id/toy_detail_eplilog_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="10px"
+	        android:layout_marginTop="235px"
+	        android:text="이미지를 등록하시려면 + 영역을 선택해주세요"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" />
+         
+
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="180px"
+             android:layout_height="60px"
+             android:src="@drawable/toy_detail_write_title" android:layout_gravity="center_horizontal"/>
+   		 <EditText
+             android:id="@+id/toy_wr_content"
+             android:layout_width="match_parent"
+             android:layout_height="144dp"
+             android:inputType="textMultiLine" android:layout_marginTop="280px" android:layout_gravity="left" android:gravity="top">
+
+         </EditText>
+         
+         <Button
+	       android:id="@+id/toy_detail_write_save_btn"
+	       android:layout_width="186px"
+	       android:layout_height="57px"
+	       android:layout_gravity="left" android:layout_marginLeft="280px" android:layout_marginTop="540px" android:background="@drawable/toy_detail_write_save_btn"/>
+       	   
+	<ImageButton
+	       android:id="@+id/toy_detail_write_pic1_btn"
+	       android:layout_width="147px"
+	       android:layout_height="126px"
+	       android:layout_gravity="left"
+	        android:layout_marginLeft="12px" 
+	        android:layout_marginTop="84px" 
+	        android:background="@drawable/toy_detail_write_add_pic_btn" android:scaleType="fitXY"/>
+	<ImageButton
+	       android:id="@+id/toy_detail_write_pic2_btn"
+	       android:layout_width="147px"
+	       android:layout_height="126px"
+	       android:layout_gravity="left"
+	        android:layout_marginLeft="168px" 
+	        android:layout_marginTop="84px" 
+	        android:background="@drawable/toy_detail_write_add_pic_btn" android:scaleType="fitXY"/>
+	<ImageButton
+	       android:id="@+id/toy_detail_write_pic3_btn"
+	       android:layout_width="147px"
+	       android:layout_height="126px"
+	       android:layout_gravity="left"
+	        android:layout_marginLeft="328px" 
+	        android:layout_marginTop="84px" 
+	        android:background="@drawable/toy_detail_write_add_pic_btn" android:scaleType="fitXY"/>
+       	   
+    </FrameLayout>

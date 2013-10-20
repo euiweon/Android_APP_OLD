@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF5F5F5" >
+	<!-- 상단바 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="480px"
+        android:layout_height="66px"
+        android:src="@drawable/main_title_bar" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150px"
+        android:layout_height="60px"
+        android:src="@drawable/home_login_account_create_title"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="18px" android:textColor="#FF323232" android:layout_gravity="right" android:layout_marginTop="166px" android:layout_marginRight="360px"/>
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/home_account_id_text"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="156px"
+        android:textSize="18px" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/home_login_account_overlap1"
+        android:layout_width="87px"
+        android:layout_height="39px"
+        android:layout_gravity="left" android:layout_marginTop="156px" android:layout_marginLeft="370px" android:background="@drawable/home_login_account_overlap_btn"/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="360px"
+        android:layout_marginTop="218px"
+        android:text="닉네임"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF323232"
+        android:textSize="18px" android:layout_gravity="right"/>
+
+
+    <EditText
+        android:id="@+id/home_account_nickname"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="208px"
+        android:textSize="18px" />
+
+    <Button
+        android:id="@+id/home_login_account_overlap2"
+        android:layout_width="87px"
+        android:layout_height="39px"
+        android:layout_marginLeft="370px"
+        android:layout_marginTop="208px"
+        android:background="@drawable/home_login_account_overlap_btn" android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="360px"
+        android:layout_marginTop="270px"
+        android:text="비밀번호"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF323232"
+        android:textSize="18px" android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/home_account_pass1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="260px"
+        android:textSize="18px" android:layout_gravity="left" android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="360px"
+        android:layout_marginTop="322px"
+        android:text="비밀번호확인"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF323232"
+        android:textSize="18px" android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/home_account_pass2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="312px"
+        android:inputType="textPassword"
+        android:textSize="18px" android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="360px"
+        android:layout_marginTop="374px"
+        android:text="비밀번호질문"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF323232"
+        android:textSize="18px" android:layout_gravity="right"/>
+
+    <Spinner
+        android:id="@+id/home_account_spinner"
+        android:layout_width="150dp"
+        android:layout_height="30dp" android:layout_gravity="left" android:layout_marginLeft="130px" android:layout_marginTop="364px"/>
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="360px"
+        android:layout_marginTop="426px"
+        android:text="비밀번호답"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF323232"
+        android:textSize="18px" android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/home_account_pass3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="416px"
+        android:textSize="18px" android:layout_gravity="left"/>
+
+    <CheckBox
+        android:id="@+id/home_login_account_terms_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치 기반 서비스 활용 동의" android:layout_gravity="left" android:layout_marginLeft="77px" android:layout_marginTop="482px" android:textColor="#FF323232"/>
+
+    <Button
+        android:id="@+id/home_login_account_terms"
+        android:layout_width="87px"
+        android:layout_height="39px"
+        android:layout_gravity="left" android:layout_marginLeft="370px" android:layout_marginTop="492px" android:background="@drawable/home_login_account_terms_btn"/>
+
+    <Button
+        android:id="@+id/home_login_account_create"
+        android:layout_width="186px"
+        android:layout_height="57px"
+        android:layout_gravity="left" android:layout_marginLeft="148px" android:layout_marginTop="554px" android:background="@drawable/home_login_account_account_create_btn"/>
+
+</FrameLayout >

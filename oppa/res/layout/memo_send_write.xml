@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+         <!-- 상단바 -->
+         
+    <FrameLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF5F5F5">
+     <!-- 상단바 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="66px"
+        android:src="@drawable/main_title_bar" />
+
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="150px"
+             android:layout_height="60px"
+             android:src="@drawable/n_5_title6"
+              android:layout_gravity="center_horizontal"/>
+         
+
+
+         <EditText
+             android:id="@+id/memo_send_text123"
+             android:layout_width="match_parent"
+             android:layout_height="228dp"
+             android:layout_gravity="left"
+             android:layout_marginTop="80px"
+             android:gravity="top"
+             android:inputType="textMultiLine" >
+
+         </EditText>
+         
+         <Button
+	       android:id="@+id/memo_send_write_btn"
+	       android:layout_width="180px"
+	       android:layout_height="57px"
+	       android:layout_gravity="left" android:layout_marginLeft="280px" android:layout_marginTop="440px" android:background="@drawable/n_5_28_btn"/>   
+	</FrameLayout>
+	
+    	<LinearLayout
+	    android:id="@+id/home_main_layout_2"
+	    android:layout_width="480px"
+	    android:layout_height="74px"
+	    android:background="@drawable/tab_n1"
+	    android:orientation="horizontal" 
+	    android:layout_gravity="bottom" 
+	    android:layout_weight="1" 
+	    android:layout_alignParentBottom="true"  >
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_1"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n2_xml"
+	        android:layout_gravity="left"/>
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_2"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n3_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_3"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n4_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_4"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n5_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <ImageView
+	        android:id="@+id/mypage1_main_tab_btn_5"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_05_on"
+	        android:layout_gravity="left"/>
+     </LinearLayout>
+   
+</RelativeLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 <style name="custom_theme" parent="android:Theme">
+	 	<item name ="android:windowNoTitle">true</item>
+	 	<item name ="android:windowFullscreen">false</item>
+	 	<item name ="android:textSize">18px</item>
+	 	<item name ="android:textColor">#FF000000</item>
+	 </style>
+</resources>

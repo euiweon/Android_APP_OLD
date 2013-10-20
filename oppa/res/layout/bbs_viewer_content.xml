@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+    <!-- 상단바 -->
+    
+    <LinearLayout
+        android:id="@+id/bbs_main_viewer_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="480px"
+	        android:layout_height="66px"
+	        android:src="@drawable/main_title_bar" />
+	     <ImageView
+	    	android:id="@+id/bbs_main_list_title"
+	        android:layout_width="150px"
+	        android:layout_height="60px"
+	        android:layout_marginTop="-60px"
+	        android:src="@drawable/n_4_title5" android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+		android:id="@+id/bbs_main_viewer_tab"
+		android:layout_width="480px"
+		android:layout_height="74px"
+		android:background="@drawable/tab_n1"
+		android:orientation="vertical" 
+		android:layout_gravity="bottom" 
+		android:layout_weight="1" 
+		android:layout_alignParentBottom="true"  >
+        <LinearLayout
+			android:id="@+id/bbs_main_viewer_layout_4"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<Button
+				android:id="@+id/bbs_main_viewer_tab_btn_1"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n2_xml"
+				android:layout_gravity="left"/>
+			<Button
+				android:id="@+id/bbs_main_viewer_tab_btn_2"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n3_xml"
+				android:layout_gravity="left"/>
+			
+			<Button
+				android:id="@+id/bbs_main_viewer_tab_btn_3"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n4_xml"
+				android:layout_gravity="left"/>
+					
+			<ImageView
+				android:id="@+id/bbs_main_viewer_tab_btn_4"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_04_on"
+				android:layout_gravity="left"/>
+					
+			<Button
+				android:id="@+id/bbs_main_viewer_tab_btn_5"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n6_xml"
+				android:layout_gravity="left"/>
+            
+        </LinearLayout>
+	</LinearLayout>
+	<ListView
+	        android:id="@+id/bbs_main_list_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="66px"
+	     	android:background="#FFf5f5f5"
+       		android:layout_above="@id/bbs_main_viewer_tab"  />
+</RelativeLayout>

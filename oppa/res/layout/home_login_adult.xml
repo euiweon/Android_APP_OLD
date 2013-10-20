@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF5F5F5" >
+	<!-- 상단바 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="480px"
+        android:layout_height="66px"
+        android:src="@drawable/main_title_bar" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120px"
+        android:layout_height="60px"
+        android:src="@drawable/home_login_adulttitle"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="210px"
+        android:layout_height="210px"
+        android:src="@drawable/home_login_adult_logo" android:layout_gravity="left" android:layout_marginLeft="126px" android:layout_marginTop="125px"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="350px"
+        android:text=" 이정보 내용은 청소년 유해매체물로 정보통신망이용촉진법\n 및 정보보호등에 관한 법률및 청소년 보호법 규정에 의하여\n 19세미만의 청소년은 사용할 수 없습니다."
+        android:textColor="#FF969696"
+        android:textSize="15px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="left"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="428px" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주민등록번호"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="468px" />
+
+    <EditText
+        android:id="@+id/home_adult_name"
+        android:layout_width="200px"
+        android:layout_height="31dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="114px"
+        android:layout_marginTop="418px"
+        android:lines="1">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/home_adult_jumin1"
+        android:layout_width="150px"
+        android:layout_height="31dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="114px"
+        android:layout_marginTop="462px" android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/home_adult_jumin2"
+        android:inputType="textPassword"
+        android:layout_width="150px"
+        android:layout_height="31dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="270px"
+        android:layout_marginTop="462px" />
+
+    <Button
+        android:id="@+id/home_login_adult_ok"
+        android:layout_width="183px"
+        android:layout_height="57px"
+        android:layout_marginLeft="243px"
+        android:layout_marginTop="556px"
+        android:layout_gravity="left"
+        android:background="@drawable/home_login_adult_ok_btn"/>
+
+    <Button
+        android:id="@+id/home_login_adult_cancel"
+        android:layout_width="183px"
+        android:layout_height="57px"
+        android:layout_marginLeft="54px"
+        android:layout_marginTop="556px"
+        android:layout_gravity="left"
+        android:background="@drawable/home_login_adult_cancel_btn" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:text="           ※ 위 사항은 성인인증을 위해서만\n 사용되며 어떠한 개인정보도 남지 않습니다."
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#FFFF0000" android:layout_gravity="center_horizontal" android:layout_marginTop="510px" android:textSize="15px"/>
+
+</FrameLayout >

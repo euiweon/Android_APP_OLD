@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+    <!-- 상단바 -->
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:screenOrientation="portrait">
+
+	     <!-- 상단바 -->
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="480px"
+	        android:layout_height="66px"
+	        android:src="@drawable/main_title_bar" />
+
+	   	<ImageView
+	    	android:id="@+id/imageView2"
+	        android:layout_width="150px"
+	        android:layout_height="60px"
+	        android:src="@drawable/shop_info_detail_title" android:layout_gravity="center_horizontal"/>
+	         
+	    <ImageView
+	        android:id="@+id/shop_detail_main_image"
+	        android:layout_width="152px"
+	        android:layout_height="116px"
+	        android:layout_marginLeft="12px"
+	        android:layout_marginTop="79px"
+	        android:layout_gravity="left"
+	        android:src="@drawable/shop_list_view_temp_image" />
+	    
+	
+	    <TextView
+	        android:id="@+id/shop_detail_main_title"
+	        android:layout_width="300px"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="172px"
+	        android:layout_marginTop="79px"
+	        android:text="킬러키스방"
+	        android:textColor="#FF323232"
+	        android:textSize="25px" />
+	    
+	    <TextView
+	        android:id="@+id/shop_detail_main_cate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="172px"
+	        android:layout_marginTop="85px"
+	        android:text="24시 키스방"
+	        android:textColor="#FF505050"
+	        android:textSize="18px" android:layout_gravity="right" android:layout_marginRight="76px"/>
+	    
+	   <Button
+             android:id="@+id/shop_detail_call_btn"
+             android:layout_width="69px"
+             android:layout_height="33px"
+             android:layout_gravity="right" android:layout_marginRight="5px" android:layout_marginTop="75px" android:background="@drawable/shop_detail_call_btn"/>
+  
+	
+	    <TextView
+	        android:id="@+id/shop_detail_main_tel"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="170px"
+	        android:layout_marginTop="130px"
+	        android:text="전화 : 010-2343-3921"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" />
+	
+	
+	   <TextView
+	        android:id="@+id/shop_detail_main_temp1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="170px"
+	        android:layout_marginTop="170px"
+	        android:text="주소 : "
+	        android:textColor="#FF323232"
+	        android:textSize="18px" />
+	
+	    <TextView
+	        android:id="@+id/shop_detail_main_addr"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="230px"
+	        android:layout_marginTop="170px"
+	        android:text="서울시 강남구 논현동 \n 가로수 2길 동화빌딩 지하1층"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" android:ellipsize="end" android:lines="2"/>
+	
+	
+	    <TextView
+	        android:id="@+id/shop_detail_main_score"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginLeft="10px"
+	        android:layout_marginTop="220px"
+	        android:layout_weight="1"
+	        android:text="평점 :"
+	        android:textColor="#FF323232"
+	        android:textSize="25px" />
+	    <ImageView
+	        android:id="@+id/shop_detail_main_score1"
+	        android:layout_gravity="left"
+	        android:layout_width="21px"
+	        android:layout_height="21px"
+	        android:src="@drawable/n1" 
+	        android:layout_marginLeft="80px"
+	        android:layout_marginTop="227px"/>
+	   <ImageView
+	        android:id="@+id/shop_detail_main_score2"
+	        android:layout_gravity="left"
+	        android:layout_width="21px"
+	        android:layout_height="21px"
+	        android:src="@drawable/n1" 
+	        android:layout_marginLeft="110px"
+	        android:layout_marginTop="227px"/>
+	    
+	   <ImageView
+	        android:id="@+id/shop_detail_main_score3"
+	        android:layout_gravity="left"
+	        android:layout_width="21px"
+	        android:layout_height="21px"
+	        android:src="@drawable/n1" 
+	        android:layout_marginLeft="140px"
+	        android:layout_marginTop="227px"/>
+	        
+	   <ImageView
+	        android:id="@+id/shop_detail_main_score4"
+	        android:layout_gravity="left"
+	        android:layout_width="21px"
+	        android:layout_height="21px"
+	        android:src="@drawable/n1" 
+	        android:layout_marginLeft="170px"
+	        android:layout_marginTop="227px"/>
+	   
+	   <ImageView
+	        android:id="@+id/shop_detail_main_score5"
+	        android:layout_gravity="left"
+	        android:layout_width="21px"
+	        android:layout_height="21px"
+	        android:src="@drawable/n1" 
+	        android:layout_marginLeft="200px"
+	        android:layout_marginTop="227px"/>
+	   
+	  <TextView
+	        android:id="@+id/shop_detail_main_zzimcounter"
+	        android:layout_gravity="left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="230px"
+	        android:layout_marginTop="227px"
+	        android:text="(11)"
+	        android:textColor="#FFF53232"
+	        android:textSize="15px"/>
+	   
+	   <TextView
+	        android:id="@+id/shop_detail_main_distance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginRight="10px"
+	        android:layout_marginTop="227px"
+	        android:text="거리 : 49km"
+	        android:textColor="#FF323232"
+	        android:textSize="18px" />
+	   
+	            
+
+
+
+    </FrameLayout>
+    <LinearLayout
+	        android:id="@+id/shop_main_tab"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="270px">
+		    <ImageButton
+		        android:id="@+id/shop_detail_tab_btn_1"
+		        android:layout_width="120px"
+		        android:layout_height="48px"
+		        android:background="@drawable/n_2_23" android:layout_gravity="left"/>
+		    <ImageButton
+		        android:id="@+id/shop_detail_tab_btn_2"
+		        android:layout_width="118px"
+		        android:layout_height="48px"
+		        android:background="@drawable/n_2_24" android:layout_gravity="left"/>
+		    <ImageButton
+		        android:id="@+id/shop_detail_tab_btn_3"
+		        android:layout_width="120px"
+		        android:layout_height="48px"
+		        android:background="@drawable/n_2_25" android:layout_gravity="left"/>
+		    <ImageButton
+		        android:id="@+id/shop_detail_tab_btn_4"
+		        android:layout_width="122px"
+		        android:layout_height="48px"
+		        android:background="@drawable/n_2_26on" android:layout_gravity="left"/>
+	
+	</LinearLayout>
+
+    <LinearLayout
+		android:id="@+id/shop_main_layout_2"
+		android:layout_width="480px"
+		android:layout_height="74px"
+		android:background="@drawable/tab_n1"
+		android:orientation="vertical" 
+		android:layout_gravity="bottom" 
+		android:layout_weight="1" 
+		android:layout_alignParentBottom="true"  >
+        <LinearLayout
+			android:id="@+id/shop_main_layout_4"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<Button
+				android:id="@+id/shop_main_tab_btn_11"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n2_xml"
+				android:layout_gravity="left"/>
+			<ImageView
+				android:id="@+id/shop_main_tab_btn_21"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_02_on"
+				android:layout_gravity="left"/>
+			
+			<Button
+				android:id="@+id/shop_main_tab_btn_31"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n4_xml"
+				android:layout_gravity="left"/>
+					
+			<Button
+				android:id="@+id/shop_main_tab_btn_41"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n5_xml"
+				android:layout_gravity="left"/>
+					
+			<Button
+				android:id="@+id/shop_main_tab_btn_51"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n6_xml"
+				android:layout_gravity="left"/>
+        </LinearLayout>
+	 </LinearLayout>
+	 
+    
+    <LinearLayout
+		android:id="@+id/shop_news_2_1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" 
+		android:layout_marginTop="328px" 
+		android:layout_marginLeft="10px"
+		android:layout_marginRight="10px" 
+		android:layout_marginBottom="10px" 
+		android:layout_above="@id/shop_main_layout_2"
+		android:background="#FFAAAAAA">
+	    <LinearLayout
+			android:id="@+id/shop_news_2_1_1"
+			android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" 
+		    android:layout_marginTop="2px" 
+			android:layout_marginLeft="2px"
+			android:layout_marginRight="2px" 
+			android:layout_marginBottom="2px" android:background="#FFFFFFFF">
+			<TextView
+			    android:id="@+id/shop_detail_news_text"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="left"
+			    android:layout_marginLeft="10px"
+		        android:layout_marginTop="10px"
+		        android:layout_marginRight="10px" 
+				android:layout_marginBottom="10px" 
+			    android:text="가나다라마"/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
+

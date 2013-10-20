@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF5F5F5" 
+    android:orientation="vertical"
+    android:layout_weight="1">
+    
+    <LinearLayout
+	   	android:id="@+id/shop_intro_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+        <ImageView
+	        android:id="@+id/shop_intro_image"
+	        android:layout_width="130px"
+	        android:layout_height="133px"
+	        android:layout_marginLeft="9px"
+	        android:layout_marginTop="13px"
+	        android:src="@drawable/shop_detail_intro_list_temp_photo" />
+	    
+        <LinearLayout
+	   		android:id="@+id/shop_intro_1_1"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical" >
+	    	
+
+		    <TextView
+		        android:id="@+id/shop_intro_name"
+		        android:layout_width="300px"
+		        android:layout_height="wrap_content"
+
+		        android:layout_marginLeft="10px"
+		        android:layout_marginTop="13px"
+		        android:text="이름 : 알려고 하지마"
+		        android:textColor="#FF323232"
+		        android:textSize="25px" />
+		
+		
+		
+		    <TextView
+		        android:id="@+id/shop_intro_body"
+		        android:layout_width="300px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10px"
+		        android:layout_marginTop="5px"
+		        android:text="키 : 165cm / 몸무게 : 45kg"
+		        android:textColor="#FF323232"
+		        android:textSize="18px" />
+		    <TextView
+		        android:id="@+id/shop_intro_content"
+		        android:layout_width="300px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10px"
+		        android:layout_marginTop="5px"
+		        android:layout_weight="1"
+		        android:text="성격 : 활발하고 잘 웃어요. \n 왜 날 뷁 \n 우리집에 왜왔냐?"
+		        android:textColor="#FF323232"
+		        android:textSize="18px" />
+	    </LinearLayout >
+	</LinearLayout >
+	
+    
+    <LinearLayout
+		android:id="@+id/shop_intro_2"
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+        <LinearLayout
+			android:id="@+id/shop_intro_2_1_1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" 
+			android:layout_marginTop="2px" 
+			android:layout_marginLeft="2px"
+			android:layout_marginRight="2px" 
+			android:layout_marginBottom="2px" android:background="#FFAAAAAA">
+
+			<TextView
+				android:id="@+id/shop_intro_text"
+			    android:layout_width="fill_parent"
+			    android:layout_height="250px"
+			    android:text="가나라마마ㅏㄴ아낭ㅁㅇ\n 아나임나ㅣ임나임ㄴㅁ\n djaskldjasdas\n " 
+			    android:layout_gravity="left"
+			    android:layout_marginTop="2px" 
+			    android:layout_marginLeft="2px"
+			    android:layout_marginRight="2px" 
+				android:layout_marginBottom="2px"
+			    android:background="#FFFFFFFF"/>
+			</LinearLayout>
+		<ImageView
+		    android:id="@+id/shop_intro_bar"
+		    android:layout_width="480px"
+		    android:layout_height="39px"
+		    android:src="@drawable/shop_detail_introduce_list_title" />
+	</LinearLayout>
+</LinearLayout >

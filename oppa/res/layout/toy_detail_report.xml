@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+    <!-- 상단바 -->
+    
+    
+    <FrameLayout 
+        android:id="@+id/shop_main_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:screenOrientation="portrait" android:background="#FFF5F5F5">
+
+        	     <!-- 상단바 -->
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="480px"
+	        android:layout_height="66px"
+	        android:src="@drawable/main_title_bar" />
+	
+	    
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="150px"
+             android:layout_height="60px"
+             android:src="@drawable/shop_detail_report_title" android:layout_gravity="center_horizontal"/>
+
+
+         <EditText
+             android:id="@+id/report_content"
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:layout_gravity="left"
+             android:layout_marginTop="290px"
+             android:inputType="textMultiLine" android:gravity="top">
+         </EditText>
+         
+         <Button
+	       android:id="@+id/sendreportbtn"
+	       android:layout_width="186px"
+	       android:layout_height="57px"
+	       android:layout_gravity="left" android:layout_marginLeft="280px" android:layout_marginTop="420px" 
+	       android:background="@drawable/shop_report_btn"/>
+
+         <CheckBox
+             android:id="@+id/report_check1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="불법 홍보 게시물" android:layout_marginTop="67px" android:layout_gravity="left" android:layout_marginLeft="20px" android:textColor="#FF323232" android:textSize="18px"/>
+
+         <CheckBox
+             android:id="@+id/report_check2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20px"
+             android:layout_marginTop="117px"
+             android:text="동일내용의 게시글 도배"
+             android:textColor="#FF323232"
+             android:textSize="18px" android:layout_gravity="left"/>
+
+         <CheckBox
+             android:id="@+id/report_check3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20px"
+             android:layout_marginTop="167px"
+             android:text="음란성 게시물"
+             android:textColor="#FF323232"
+             android:textSize="18px" android:layout_gravity="left"/>
+
+         <CheckBox
+             android:id="@+id/report_check4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20px"
+             android:layout_marginTop="217px"
+             android:text="기타"
+             android:textColor="#FF323232"
+             android:textSize="18px" android:layout_gravity="left"/>	</FrameLayout>
+    <LinearLayout
+		android:id="@+id/shop_main_layout_2"
+		android:layout_width="480px"
+		android:layout_height="74px"
+		android:background="@drawable/tab_n1"
+		android:orientation="vertical" 
+		android:layout_gravity="bottom" 
+		android:layout_weight="1" 
+		android:layout_alignParentBottom="true"  >
+        <LinearLayout
+			android:id="@+id/shop_main_layout_4"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<Button
+				android:id="@+id/shop_main_tab_btn_11"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n2_xml"
+				android:layout_gravity="left"/>
+			<Button
+				android:id="@+id/shop_main_tab_btn_21"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n3_xml"
+				android:layout_gravity="left"/>
+			
+			<ImageView
+				android:id="@+id/shop_main_tab_btn_31"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_03_on"
+				android:layout_gravity="left"/>
+					
+			<Button
+				android:id="@+id/shop_main_tab_btn_41"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n5_xml"
+				android:layout_gravity="left"/>
+					
+			<Button
+				android:id="@+id/shop_main_tab_btn_51"
+				android:layout_width="96px"
+				android:layout_height="74px"
+				android:background="@drawable/tab_n6_xml"
+				android:layout_gravity="left"/>
+            
+        </LinearLayout>
+	 </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+         <!-- 상단바 -->
+     
+    <FrameLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF5F5F5">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="66px"
+        android:src="@drawable/main_title_bar" />
+
+         <ImageView
+             android:id="@+id/bbs_detail_reply_title"
+             android:layout_width="150px"
+             android:layout_height="60px"
+             android:src="@drawable/n_3_title3"
+              android:layout_gravity="center_horizontal"/>
+         
+
+
+
+         <EditText
+             android:id="@+id/bbs_detail_epil_reply_content"
+             android:layout_width="match_parent"
+             android:layout_height="110dp"
+             android:layout_gravity="left"
+             android:layout_marginTop="70px"
+             android:gravity="top"
+             android:inputType="textMultiLine" >
+         </EditText>
+         
+         <Button
+	       android:id="@+id/bbs_detail_after_write_reply_btn"
+	       android:layout_width="186px"
+	       android:layout_height="57px"
+	       android:layout_gravity="left" android:layout_marginLeft="280px" android:layout_marginTop="250px" android:background="@drawable/n_3_25_btn"/>
+       	</FrameLayout>
+    <LinearLayout
+	    android:id="@+id/layout_2"
+	    android:layout_width="480px"
+	    android:layout_height="74px"
+	    android:layout_gravity="bottom"
+	    android:background="@drawable/tab_n1"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" >
+
+	    <Button
+	        android:id="@+id/commu_main_tab_btn_1"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n2_xml"
+	        android:layout_gravity="left"/>
+	    <Button
+	        android:id="@+id/commu_main_tab_btn_2"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n3_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/commu_main_tab_btn_3"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n4_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <ImageView
+	        android:id="@+id/commu_main_tab_btn_4"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_04_on"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/commu_main_tab_btn_5"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n6_xml"
+	        android:layout_gravity="left"/>
+     </LinearLayout>  
+	   
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toy_list_view_row123" 
+    android:orientation="vertical"
+    xmlns:android1="http://schemas.android.com/apk/res/android" >
+    
+   <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="480px"
+        android:layout_height="153px"
+        android:layout_gravity="left"
+        android:src="@drawable/n_3_6" android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/toy_list_view_row_image"
+        android:layout_width="130px"
+        android:layout_height="139px"
+        android:layout_gravity="left"
+        android:layout_marginLeft="12px"
+        android:layout_marginTop="5px"
+        android:src="@drawable/toy_main_list_picture" android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/toy_list_view_row_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="172px"
+        android:layout_marginTop="13px"
+        android:text="서희 "
+        android:textColor="#FF323232"
+        android:textSize="25px" />
+
+    <ImageView
+        android:id="@+id/TextView01"
+        android:layout_width="324px"
+        android:layout_height="81px"
+        android:layout_marginLeft="141px"
+        android:layout_marginTop="50px"
+		android:src="@drawable/toy_main_list_ball"
+		android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/toy_list_view_row_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="172px"
+        android:layout_marginTop="60px"
+        android:layout_weight="1"
+        android:text="날보러 오지 말고 \n 집에 들어가 쉬세요."
+        android:textColor="#FF323232"
+        android:textSize="15px" />
+
+    <TextView
+        android:id="@+id/toy_list_view_row_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="172px"
+        android:layout_marginTop="20px"
+        android:text="24시 키스방"
+        android:textColor="#FF505050"
+        android:textSize="18px" android:layout_gravity="right" android:layout_marginRight="30px"/>
+    <TextView
+        android:id="@+id/toy_list_view_row_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="172px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="107px"
+        android:text="0000-00-00 12:12:12"
+        android:textColor="#FF505050"
+        android:textSize="15px" android:layout_gravity="right"/>
+</FrameLayout >

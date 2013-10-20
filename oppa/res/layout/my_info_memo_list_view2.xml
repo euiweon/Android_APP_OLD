@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<ListView
+	    android:id="@+id/myinfo_memo_listview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="357dp"
+	    android:layout_gravity="left"
+	    android:background="#FFf5f5f5"
+	    android:cacheColorHint="#00000000" />
+
+	<Button
+	    android:id="@+id/myinfo_memo_listview_more_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="39px"
+	    android:layout_marginLeft="0px"
+
+	    android:background="@drawable/shop_list_view_more_btn" android:layout_gravity="left"/>
+	
+</LinearLayout>

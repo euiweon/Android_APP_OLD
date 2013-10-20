@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#FFF5F5F5">
+         <!-- 상단바 -->
+         
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/bbs_main_list_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    <!-- 상단바 -->
+	    <ImageView
+	    	android:id="@+id/imageView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="66px"
+	        android:src="@drawable/main_title_bar" />
+		<ImageView
+		 	android:id="@+id/bbs_main_list_title"
+		    android:layout_width="180px"
+		    android:layout_height="60px"
+		    android:layout_marginTop="-66px"
+		    android:src="@drawable/n_5_title3" android:layout_gravity="center_horizontal"/>	
+	 </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bbs_main_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+		
+        <TextView
+	       android:id="@+id/my_grade_list_row_title"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_marginLeft="50px"
+	       android:layout_marginRight="10px"
+	       android:layout_marginTop="5px"
+	       android:ellipsize="end"
+	       android:lines="1"
+	       android:text="등급정책"
+	       android:textColor="#FF323232"
+	       android:textSize="25px" />
+	
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bbs_main_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="1. 이병"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_1" />
+
+            <TextView
+                android:id="@+id/TextView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 1 ~ 200P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="2. 일병"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_2" />
+
+            <TextView
+                android:id="@+id/TextView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 201 ~ 500P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="3. 상병"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_3" />
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 501 ~ 1000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="4. 병장"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_4" />
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 1 ~ 1500P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="5. 하사"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_5" />
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 1501 ~ 2000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="6. 중사"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_6" />
+
+            <TextView
+                android:id="@+id/TextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 2 ~ 3000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="7. 상사"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_7" />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 3 ~ 4000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="8. 소위"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_8" />
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 4000 ~ 5000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="9. 중위"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_9" />
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 5000 ~ 7000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="10. 대위"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_10" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="11. 소령"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_11" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="12. 중령"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_12" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="13. 대령"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_13" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="14. 준장"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_14" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="15. 소장"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_15" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text=" 7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="16. 중장"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_16" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text="  7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="5px"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="17. 대장"
+                android:textColor="#FF323232"
+                android:textSize="15px" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t_17" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:text="  7 ~ 10000P"
+                android:textSize="15px" />
+        </LinearLayout>
+    </LinearLayout>
+	</LinearLayout>
+	
+    	<LinearLayout
+	    android:id="@+id/home_main_layout_2"
+	    android:layout_width="480px"
+	    android:layout_height="74px"
+	    android:background="@drawable/tab_n1"
+	    android:orientation="horizontal" 
+	    android:layout_gravity="bottom" 
+	    android:layout_weight="1" 
+	    android:layout_alignParentBottom="true"  >
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_1"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n2_xml"
+	        android:layout_gravity="left"/>
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_2"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n3_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_3"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n4_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <Button
+	        android:id="@+id/mypage1_main_tab_btn_4"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_n5_xml"
+	        android:layout_gravity="left"/>
+	    
+	    <ImageView
+	        android:id="@+id/mypage1_main_tab_btn_5"
+	        android:layout_width="96px"
+	        android:layout_height="74px"
+	        android:background="@drawable/tab_05_on"
+	        android:layout_gravity="left"/>
+     </LinearLayout>
+   
+</RelativeLayout>
+

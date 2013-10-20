@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#FFF5F5F5" 
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    
+   <LinearLayout
+        android:id="@+id/linearlayout_bar_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+       	<LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+       	    <LinearLayout
+       	        android:id="@+id/linearLayout5"
+       	        android:layout_width="wrap_content"
+       	        android:layout_height="wrap_content"
+       	        android:orientation="horizontal" >
+
+       	        <LinearLayout
+       	            android:id="@+id/linearLayout10"
+       	            android:layout_width="380px"
+       	            android:layout_height="wrap_content"
+       	            android:orientation="vertical" >
+
+       	            <TextView
+       	                android:id="@+id/my_info_memo_title"
+       	                android:layout_width="wrap_content"
+       	                android:layout_height="wrap_content"
+       	                android:layout_marginLeft="10px"
+       	                android:layout_marginTop="10px"
+       	                android:text="보낸사람 : ㅁㄴㅇ"
+       	                android:textColor="#FF323232"
+       	                android:textSize="25px" />
+
+       	            <TextView
+       	                android:id="@+id/my_info_memo_content"
+       	                android:layout_width="wrap_content"
+       	                android:layout_height="wrap_content"
+       	                android:layout_marginLeft="10px"
+       	                android:layout_marginTop="5px"
+       	                android:text="ㄴㅇㅁㄴㅇㅁㄴㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ"
+       	                android:textColor="#FF323232"
+       	                android:textSize="15px" />
+       	        </LinearLayout>
+
+       	        <LinearLayout
+       	            android:id="@+id/linearLayout20"
+       	            android:layout_width="wrap_content"
+       	            android:layout_height="wrap_content"
+       	            android:layout_marginTop="30px"
+       	            android:orientation="vertical" >
+
+       	            <ImageButton
+       	                android:id="@+id/n_memo_del_btn"
+       	                android:layout_width="84px"
+       	                android:layout_height="33px"
+       	                android:background="@drawable/select_btn2"
+       	                android:scaleType="fitXY" />
+       	        </LinearLayout>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+			      android:id="@+id/my_info_memo_writer"
+			      android:layout_width="wrap_content"
+			      android:layout_height="20px"
+			      android:text="홍길동 12.16 19:00"
+			      android:textColor="#FF323232"
+			      android:textSize="15px" android:layout_marginTop="10px" android:layout_marginLeft="10px"/>
+                
+              	<LinearLayout
+	                android:id="@+id/linearLayout4"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal" android:gravity="right">
+	               <TextView
+				      android:id="@+id/my_info_memo_confirm"
+				      android:layout_width="wrap_content"
+				      android:layout_height="20px"
+				      android:text="운영자 미확인"
+				      android:textColor="#FF323232"
+				      android:textSize="15px" android:layout_marginTop="10px" android:layout_marginLeft="10px"/>
+				</LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout >
