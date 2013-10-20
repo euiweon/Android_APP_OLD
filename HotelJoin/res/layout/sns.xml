@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="658px"    
+		    android:layout_marginTop="68px"
+		    android:orientation="vertical"
+		     android:background="@drawable/common_bg"
+		    >
+		    
+             
+		    <ImageView
+                android:id="@+id/image_bar_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="65px"
+                android:layout_gravity="left"
+                android:background="@drawable/tap_bt_bg" />
+             
+			 
+			<ImageView
+                android:id="@+id/sns_1_btn"
+                android:layout_width="155px"
+                android:layout_height="52px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="6px"
+                android:layout_marginTop="5px"
+                android:background="@drawable/sns_blog_bt" />
+           <ImageView
+                android:id="@+id/sns_2_btn"
+                android:layout_width="155px"
+                android:layout_height="52px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="162px"
+                android:layout_marginTop="5px"
+                android:background="@drawable/sns_facebook_bt" />
+           <ImageView
+                android:id="@+id/sns_3_btn"
+                android:layout_width="155px"
+                android:layout_height="52px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="317px"
+                android:layout_marginTop="5px"
+                android:background="@drawable/sns_kakao_bt" />
+           
+           <WebView
+			     android:id="@+id/pay_web"
+			     android:layout_width="match_parent"
+			     android:layout_marginTop="65px"
+			     android:layout_height="598px"
+			     android:background="#FFFFFF"
+			      />
+           <ImageView
+                android:id="@+id/kakao_image"
+                android:layout_width="480px"
+                android:layout_height="91px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="0px"
+                android:layout_marginTop="65px"
+                android:background="@drawable/sns_k_1_bt" />
+           
+		    
+
+	    </FrameLayout>
+	    
+         <FrameLayout 
+	        android:id="@+id/title_bar"
+		    android:layout_width="match_parent"
+		    android:layout_height="68px"
+		    android:orientation="vertical"
+		    android:background="@drawable/top_tap_bg" >
+		    
+             <TextView
+                 android:id="@+id/title_logo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+               	 android:layout_marginTop="12px"
+                 android:background="@null"
+                 android:gravity="center"
+                 android:text="SNS"
+                 android:textColor="#000000"
+                 android:textCursorDrawable="@null"
+                 android:singleLine="true" 
+                 android:textSize="40px" />
+             
+            <ImageView
+                android:id="@+id/sub_bar"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="418px"
+                android:layout_marginTop="12px"
+                android:background="@drawable/profile_bt_1"
+                android:visibility="gone" />
+              
+	    </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_1_1_bt"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_2_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_3_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_4_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_5_1_bt"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+
+	 </LinearLayout>
+</RelativeLayout>

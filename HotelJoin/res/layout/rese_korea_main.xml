@@ -1,0 +1,376 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="724px"   
+		    android:orientation="vertical"
+		     android:background="#FFFFFF"
+		     android:focusable="true"
+		     android:focusableInTouchMode="true"
+		    >
+		    <com.euiweonjeong.base.view.ObservableScrollView
+				android:id="@+id/scrollview_1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"    
+			    android:orientation="vertical"
+			    android:background="#FFFFFF"
+			    >
+			    <FrameLayout 
+			        android:id="@+id/main_layout_1_1"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"   
+				    android:orientation="vertical"
+				     android:background="#FFFFFF"
+				    >
+				     <ImageView
+		                android:id="@+id/backimage"
+		                android:layout_width="480px"
+		                android:layout_height="1344px"
+		                android:layout_gravity="left"
+		               android:background="@drawable/k_bg" />
+				     <ImageView
+		                android:id="@+id/backimage2"
+		                android:layout_width="480px"
+		                android:layout_height="941px"
+		                android:layout_marginTop="401px"
+		                android:layout_gravity="left"
+		               android:background="@drawable/hotelreserve_reserve_k_bg3" />
+				     <FrameLayout
+			             android:id="@+id/title_bar"
+			             android:layout_width="match_parent"
+			             android:layout_height="68px"
+			             android:background="@drawable/top_tap_bg"
+			             android:orientation="vertical"
+			             >
+					    
+			            <TextView
+			                 android:id="@+id/title_logo"
+			                 android:layout_width="200px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="12px"
+			                 android:background="@null"
+			                 android:gravity="center"
+			                 android:text="상세정보"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="40px" />
+			            
+			            <ImageView
+			                android:id="@+id/sub_bar"
+			                android:layout_width="48px"
+			                android:layout_height="48px"
+			                android:layout_gravity="left"
+			                android:layout_marginLeft="418px"
+			                android:layout_marginTop="12px"
+			                android:background="@drawable/profile_bt_1" 
+			                android:visibility="gone" />
+			              
+				    </FrameLayout>
+				    
+				      <ImageView
+						android:id="@+id/login_btn"
+						android:layout_width="450px"
+						android:layout_height="65px"
+						android:layout_gravity="left"
+						android:layout_marginLeft="16px"
+						android:layout_marginTop="410px"
+						android:background="@drawable/login_btn" />
+				      
+				      <TextView
+			                 android:id="@+id/roomname"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="78px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px" android:singleLine = "true" />
+				      <TextView
+			                 android:id="@+id/roomday"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="108px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px"  android:singleLine = "true"/>
+				      
+				      <TextView
+			                 android:id="@+id/roomcount"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="138px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px"  android:singleLine = "true"/>
+				      
+				      <TextView
+			                 android:id="@+id/roomman"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="175px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px"  android:singleLine = "true"/>
+				      <TextView
+			                 android:id="@+id/roomreop"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="205px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px"  android:singleLine = "true"/>
+				      
+				      <TextView
+			                 android:id="@+id/roomtype"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="245px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px" />
+				       <TextView
+			                 android:id="@+id/roomseop"
+			                 android:layout_width="320px"
+			                 android:layout_height="wrap_content"
+			                 android:layout_marginLeft="140px"
+			               	 android:layout_marginTop="275px"
+			                 android:background="@null"
+			                 android:text="방 번호!!"
+			                 android:textColor="#000000"
+			                 android:textCursorDrawable="@null"
+			                 android:textSize="20px"  android:singleLine = "true"/>
+				       
+				       <TextView
+						     android:id="@+id/main_row_9_day"
+						     android:layout_width="wrap_content"
+						     android:layout_height="wrap_content"
+						     android:layout_marginLeft="20px"
+						     android:layout_marginTop="320px"
+						     android:layout_marginRight="10px"
+						     android:text=" 82,000 원"
+						     android:textColor="#FF3333FF"
+						     android:layout_gravity="right"
+						     android:textSize="25px" 
+						     android:singleLine = "true"
+						     />
+				      <EditText
+							android:id="@+id/name1"
+							 android:layout_width="340px"
+							 android:layout_height="wrap_content"
+							 android:layout_marginLeft="135px"
+							 android:layout_marginTop="560px"
+							 android:background="@null"
+							 android:textColor="#000000"
+							 android:hint="예약자명"
+							 android:textCursorDrawable="@null"
+							 android:textSize="20px" 
+							 android:singleLine = "true"/>
+	
+				      <EditText
+							android:id="@+id/tel1"
+							 android:layout_width="340px"
+							 android:layout_height="wrap_content"
+							 android:layout_marginLeft="135px"
+							 android:layout_marginTop="630px"
+							 android:background="@null"
+							 android:textColor="#000000"
+							 android:hint="연락처"
+							 android:textCursorDrawable="@null"
+							 android:textSize="20px" 
+							 android:singleLine = "true"/>
+				      <EditText
+							android:id="@+id/tel2"
+							 android:layout_width="340px"
+							 android:layout_height="wrap_content"
+							 android:layout_marginLeft="135px"
+							 android:layout_marginTop="700px"
+							 android:background="@null"
+							 android:textColor="#000000"
+							 android:hint="핸드폰"
+							 android:textCursorDrawable="@null"
+							 android:textSize="20px" 
+							 android:singleLine = "true"/>
+
+				      <EditText
+							android:id="@+id/mail"
+							 android:layout_width="340px"
+							 android:layout_height="wrap_content"
+							 android:layout_marginLeft="135px"
+							 android:layout_marginTop="770px"
+							 android:background="@null"
+							 android:textColor="#000000"
+							 android:hint="이메일"
+							 android:textCursorDrawable="@null"
+							 android:textSize="20px"
+							 android:singleLine = "true" />
+				      
+				      <EditText
+				            android:id="@+id/write_text"
+				            android:layout_width="340px"
+				            android:layout_height="122px"
+				            android:layout_marginLeft="135px"
+				            android:layout_marginTop="840px"
+				            android:background="@null"
+				            android:textColor="#000000"
+				            android:hint="전달사항"
+				            android:textCursorDrawable="@null"
+				            android:gravity="left" 
+				            android:inputType="textMultiLine"
+				            android:textSize="20px" />
+				      
+				      <EditText
+				            android:id="@+id/name2"
+				            android:layout_width="340px"
+				            android:layout_height="wrap_content"
+				            android:layout_marginLeft="135px"
+				            android:layout_marginTop="985px"
+				            android:background="@null"
+				            android:textColor="#000000"
+				            android:hint="투숙자명"
+				            android:textCursorDrawable="@null"
+				            android:gravity="left" 
+				            
+				            android:textSize="20px" 
+				            android:singleLine = "true"/>
+				       <ImageView
+							android:id="@+id/checkbox_1"
+							android:layout_width="40px"
+							android:layout_height="40px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="121px"
+							android:layout_marginTop="1034px"
+							android:background="@drawable/checkbox_1" />
+					  <ImageView
+							android:id="@+id/checkbox_2"
+							android:layout_width="40px"
+							android:layout_height="40px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="37px"
+							android:layout_marginTop="1097px"
+							android:background="@drawable/checkbox_1" />
+					  <ImageView
+							android:id="@+id/checkbox_3"
+							android:layout_width="40px"
+							android:layout_height="40px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="37px"
+							android:layout_marginTop="1146px"
+							android:background="@drawable/checkbox_1" />
+					  <ImageView
+							android:id="@+id/detail_btn_1"
+							android:layout_width="114px"
+							android:layout_height="33px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="353px"
+							android:layout_marginTop="1097px"
+							android:background="@drawable/detail_bt_1" />
+					 <ImageView
+							android:id="@+id/detail_btn_2"
+							android:layout_width="114px"
+							android:layout_height="33px"
+							android:layout_gravity="left"
+							android:layout_marginLeft="353px"
+							android:layout_marginTop="1146px"
+							android:background="@drawable/detail_bt_1" />
+					 <ImageView
+						android:id="@+id/reservation_btn"
+						android:layout_width="450px"
+						android:layout_height="65px"
+						android:layout_gravity="left"
+						android:layout_marginLeft="15px"
+						android:layout_marginTop="1217px"
+						android:background="@drawable/reservation_entry1" />
+		    	</FrameLayout>	    
+			 </com.euiweonjeong.base.view.ObservableScrollView>
+	    </FrameLayout>
+
+	    
+	    
+         
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_1_1_bt"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_2_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_3_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_4_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_5_1_bt"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+
+	 </LinearLayout>
+</RelativeLayout>

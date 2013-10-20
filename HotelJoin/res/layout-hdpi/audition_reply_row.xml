@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+    
+	
+	<LinearLayout
+        android:id="@+id/audition_deteil_row_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+		
+	    <LinearLayout
+	        android:id="@+id/audition_deteil_row_3_111"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="left"
+	         >
+
+
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:orientation="horizontal"
+			    android:layout_alignParentTop="true"
+			    android:layout_weight="1" >
+        
+		        <TextView
+		            android:id="@+id/audition_deteil_row_reply_nick"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5px"
+		            android:layout_marginTop="5px"
+		            android:ellipsize="end"
+		            android:gravity="left"
+		            android:text="Nick"
+		            android:textColor="#000000"
+		            android:textSize="15dip"
+		            android:textStyle="bold" />
+
+	    	</LinearLayout >
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true"
+		        android:layout_weight="1" >
+		        
+		        <TextView
+				   android:id="@+id/audition_deteil_row_reply_time"
+			       	android:layout_width="match_parent"
+			       	android:layout_height="wrap_content"
+			       	android:ellipsize="end"
+			       	android:text="11:11:11 "
+			       	android:layout_marginTop="5px"
+			       	android:layout_marginRight="5px"
+			       	android:textColor="#000000"
+			    	android:textSize="15dip"
+			    	android:gravity="right" />
+			</LinearLayout >
+	    </LinearLayout >
+    
+		<TextView
+		      	android:id="@+id/audition_deteil_row_reply"
+		       	android:layout_width="match_parent"
+		       	android:layout_height="wrap_content"
+		       	android:ellipsize="end"
+		       	android:text="내용 내용 내용 "
+		       	android:layout_marginLeft="20px"
+		       	android:layout_marginRight="20px"
+                android:layout_marginTop="5px"
+                android:layout_marginBottom="10px"
+		       	android:textColor="#000000"
+		    	android:textSize="15dip"
+		    	android:gravity="left" />
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="800px"   
+		    android:orientation="vertical"
+		     android:focusable="true"
+		     android:focusableInTouchMode="true"
+		     android:background="@drawable/reser_detail_bg"
+		    >
+           
+            <ImageView
+                android:id="@+id/reser_cancel"
+                android:layout_width="424px"
+                android:layout_height="56px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="28px"
+                android:layout_marginTop="345px"
+                android:background="@drawable/reser_cancel_bt" />
+             <ImageView
+                android:id="@+id/reser_save"
+                android:layout_width="205px"
+                android:layout_height="56px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="28px"
+                android:layout_marginTop="410px"
+                android:background="@drawable/reser_vo" />
+             
+             <ImageView
+                android:id="@+id/reser_save_1"
+                android:layout_width="205px"
+                android:layout_height="56px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="247px"
+                android:layout_marginTop="410px"
+                android:background="@drawable/reser_export_bt" />
+             
+             <FrameLayout 
+		        android:id="@+id/main_layout_222"
+			    android:layout_width="430px"
+			    android:layout_height="175px"   
+			    android:orientation="vertical"
+			    android:focusable="true"
+			    android:focusableInTouchMode="true"
+			    android:layout_marginLeft="20px"
+			    android:layout_marginTop="148px"
+			    android:background="#FFFFFF" 
+			    >
+	             <TextView
+					android:id="@+id/reser_data_1"
+					android:layout_width="420px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8px"
+					android:text="숙박 시설명 : 해운대"
+					android:textColor="#FF323232"
+					android:textSize="20px" 
+					android:singleLine = "true"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"/>
+	             <TextView
+					android:id="@+id/reser_data_2"
+					android:layout_width="420px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8px"
+					android:layout_marginTop="33px"
+					android:text="투숙기간 : 2013-01-01 ~ 2013-12-31 ( 323박)"
+					android:textColor="#FF323232"
+					android:textSize="20px" 
+					android:singleLine = "true"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"/>
+	             <TextView
+					android:id="@+id/reser_data_3"
+					android:layout_width="420px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8px"
+					android:layout_marginTop="63px"
+					android:text="객실종류 : 디럭스"
+					android:textColor="#FF323232"
+					android:textSize="20px" 
+					android:singleLine = "true"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"/>
+	             <TextView
+					android:id="@+id/reser_data_4"
+					android:layout_width="420px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8px"
+					android:layout_marginTop="93px"
+					android:text="객실수 : 100개"
+					android:textColor="#FF323232"
+					android:textSize="20px" 
+					android:singleLine = "true"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"/>
+	             <TextView
+					android:id="@+id/reser_data_5"
+					android:layout_width="420px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8px"
+					android:layout_marginTop="123px"
+					android:text="객실당 인원 : 100/100 [성인/소인]"
+					android:textColor="#FF323232"
+					android:textSize="20px" 
+					android:singleLine = "true"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"/>
+	             <TextView
+					android:id="@+id/reser_data_6"
+					android:layout_width="420px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8px"
+					android:layout_marginTop="153px"
+					android:text="추가선택 : [더블]"
+					android:textColor="#FF323232"
+					android:textSize="20px" 
+					android:singleLine = "true"
+					android:ellipsize="end"
+					android:lines="1"
+					android:maxLines="1"/>
+           	</FrameLayout >
+             		    
+             <FrameLayout
+			   	android:id="@+id/main_row_1"
+			    android:layout_width="480px"
+			    android:layout_height="59px"
+			    android:layout_marginTop="70px"
+			    android:orientation="vertical">
+			    
+		        <ImageView
+				     android:id="@+id/main_row_1_bar"
+				     android:layout_width="330px"
+				     android:layout_height="47px"
+				     android:layout_marginLeft="17px"
+				     android:layout_marginTop="6px"
+				     android:background="@drawable/title_1_bar"
+				     />
+		       
+		        <TextView
+				     android:id="@+id/main_row_1_title"
+				     android:layout_width="310px"
+				     android:layout_height="wrap_content"
+				     android:layout_marginLeft="25px"
+				     android:layout_marginTop="15px"
+				     android:text="내생의 최고의 선물"
+				     android:textColor="#FF323232"
+				     android:textSize="25px" 
+				     android:singleLine = "true"
+				     android:ellipsize="end"
+				     android:lines="1"
+				     android:maxLines="1"
+				     />
+				
+		
+				<ImageView
+				     android:id="@+id/main_row_1_class"
+				     android:layout_width="100px"
+				     android:layout_height="32px"
+				     android:layout_marginLeft="370px"
+				     android:layout_marginTop="15px"
+				     android:background="@drawable/state_3"
+				     />
+				<TextView
+				     android:id="@+id/main_row_1_sub"
+				     android:layout_width="80px"
+				     android:layout_height="wrap_content"
+				     android:layout_marginLeft="390px"
+				     android:layout_marginTop="20px"
+				     android:text="결제완료"
+				     android:textColor="#FF323232"
+				     android:textSize="20px" 
+				     android:singleLine = "true"
+				     android:ellipsize="end"
+				     android:lines="1"
+				     android:maxLines="1"
+				     />
+		
+		
+				    
+			</FrameLayout >
+	
+             
+		    <FrameLayout
+				android:id="@+id/title_bar"
+			    android:layout_width="match_parent"
+			    android:layout_height="68px"
+			    android:background="@drawable/top_tap_bg"
+			    android:orientation="vertical"
+			    >
+					    
+			    <TextView
+			    	android:id="@+id/title_logo"
+			        android:layout_width="200px"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="140px"
+			        android:layout_marginTop="12px"
+			        android:background="@null"
+			        android:gravity="center"
+			        android:text="예약확인"
+			        android:textColor="#000000"
+			        android:textCursorDrawable="@null"
+			        android:textSize="40px" />
+			            
+			   <ImageView
+			        android:id="@+id/sub_bar"
+			        android:layout_width="48px"
+			        android:layout_height="48px"
+			        android:layout_gravity="left"
+			        android:layout_marginLeft="418px"
+			        android:layout_marginTop="12px"
+			        android:background="@drawable/profile_bt_1" 
+			        android:visibility="gone" />
+			              
+			</FrameLayout>
+	
+	    </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_1_1_bt"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_2_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_3_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_4_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_5_1_bt"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+
+	 </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hoteljoin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+	<uses-permission android:name="android.permission.USE_CREDENTIALS"></uses-permission>
+	 <permission
+        android:name="com.example.hoteljoin.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+    <uses-permission android:name="com.example.hoteljoin.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".AppManagement"
+         android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+        android:largeHeap="true">
+         
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".JoinActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".HotelSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".MyLocationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".EventMainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".EventDetailMainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".HotelSearchListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".HotelDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".HotelLocationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".HotelImageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".SNSActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ZzimActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReviewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReviewDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".CompanyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".TravelActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".TravelDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".TravelWriteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".Reservatio_KoreanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".Reservatio_WorldActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".ReservationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".Reservation1Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".HotelSNSActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".Reservation2Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".Reservation3Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReservationConfirmActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReservationWebActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReviewDetailActivity2" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".WebActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReservationDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ReservationConfirm2Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".HotelDetail2Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".MyTravelActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".TravelActivity2" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+       	<activity android:name=".TravelReWriteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        	<activity android:name=".TravelAddWriteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".TravelWrite2Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        <activity android:name=".MyTravel2Activity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/> 
+        
+        
+        <!--집  -->
+        <!--<meta-data android:value="AIzaSyBeB-7WUrdRXgIVmZydETSTOJOtABgTnCg" android:name="com.google.android.maps.v2.API_KEY"/>-->
+        <!--회사 -->
+       <meta-data android:value="AIzaSyDPUNf76_KqbQJAJjAtzFyzCz-PYNxKkuY" android:name="com.google.android.maps.v2.API_KEY"/> 
+        
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <FrameLayout 
+        android:id="@+id/main_screen"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	     >
+	     
+         <FrameLayout 
+	        android:id="@+id/main_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="800px"   
+		    android:orientation="vertical"
+		     android:focusable="true"
+		     android:focusableInTouchMode="true"
+		     android:background="@drawable/common_bg"
+		    >
+		    <ImageView
+		        android:id="@+id/hotel_bar"
+		        android:layout_width="match_parent"
+		        android:layout_height="51px"
+		        android:layout_gravity="left"
+		        android:layout_marginTop="68px"
+		        android:background="@drawable/name_bar" />
+				     
+			<TextView
+		        android:id="@+id/hotel_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="0px"
+		        android:layout_marginTop="77px"
+		        android:background="@null"
+		        android:gravity="center"
+		        android:text="르네상스 호텔"
+		        android:textColor="#FFFFFF"
+		        android:textCursorDrawable="@null"
+		        android:textSize="30px" />
+			
+			<ListView
+			     android:id="@+id/main_list"
+			     android:layout_width="match_parent"
+			     android:layout_height="610px"
+			     android:background="#FFFFFF"
+			     android:layout_marginTop="119px"
+			      />
+			
+		    
+	
+	    </FrameLayout>
+    </FrameLayout>
+    <FrameLayout
+		android:id="@+id/title_bar"
+		android:layout_width="match_parent"
+		android:layout_height="68px"
+		android:background="@drawable/top_tap_bg"
+		android:orientation="vertical"
+		>
+					    
+		<TextView
+		   	android:id="@+id/title_logo"
+		    android:layout_width="200px"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="140px"
+		    android:layout_marginTop="12px"
+		    android:background="@null"
+		    android:gravity="center"
+		    android:text="예약하기"
+		    android:textColor="#000000"
+		    android:textCursorDrawable="@null"
+		    android:textSize="40px" />
+			            
+		<ImageView
+		    android:id="@+id/sub_bar"
+		    android:layout_width="48px"
+		    android:layout_height="48px"
+		    android:layout_gravity="left"
+			android:layout_marginLeft="418px"
+			android:layout_marginTop="12px"
+			android:background="@drawable/profile_bt_1" 
+			android:visibility="gone" />
+			              
+	</FrameLayout>
+	
+
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:id="@+id/bottom_menu_1"
+			android:layout_width="480px"
+			android:layout_height="74px"
+			android:orientation="horizontal"   >
+			<ImageView
+					android:id="@+id/bottom_1"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_1_1_bt"
+					android:layout_gravity="left"/>
+			<ImageView
+					android:id="@+id/bottom_2"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_2_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_3"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_3_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_4"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_4_1_bt"
+					android:layout_gravity="left"/>
+			
+			<ImageView
+					android:id="@+id/bottom_5"
+					android:layout_width="96px"
+					android:layout_height="74px"
+					android:background="@drawable/bt_5_1_bt"
+					android:layout_gravity="left"/>
+		</LinearLayout>
+		
+
+	 </LinearLayout>
+</RelativeLayout>

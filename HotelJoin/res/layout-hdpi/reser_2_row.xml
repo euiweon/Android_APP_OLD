@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="#F2F4F6"
+    >
+    
+	<FrameLayout
+		android:id="@+id/main_row_1"
+		android:layout_width="480px"
+		android:layout_height="42px"
+		android:background="@drawable/option_1_bg"
+		android:orientation="vertical">
+			    
+		       
+		<TextView
+		    android:id="@+id/main_row_1_title"
+		    android:layout_width="300px"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="20px"
+		    android:layout_marginTop="8px"
+		    android:text="Deluxe 더블 "
+		    android:textColor="#FF323232"
+		    android:textSize="25px" 
+		    android:singleLine = "true"
+		     />
+
+		<TextView
+		     android:id="@+id/main_row_1_day"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="20px"
+		     android:layout_marginTop="10px"
+		     android:layout_marginRight="10px"
+		     android:text=" 82,000 원"
+		     android:textColor="#FF3333FF"
+		     android:layout_gravity="right"
+		     android:textSize="25px" 
+		     android:singleLine = "true"
+		     />
+	</FrameLayout >
+	
+	<LinearLayout
+		android:id="@+id/main_row_2"
+		android:layout_width="480px"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+			    
+		       
+		<TextView
+		    android:id="@+id/main_row_2_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10px"
+		    android:layout_marginTop="8px"
+		    android:text="Deluxe 더블 "
+		    android:textColor="#FF323232"
+		    android:textSize="20px" 
+		    
+		     />
+
+
+	</LinearLayout >
+	<LinearLayout
+		android:id="@+id/main_row_3"
+		android:layout_width="480px"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+	    <ImageView
+			android:id="@+id/main_row_3_pic"
+			android:layout_width="480px"
+			android:layout_height="32px"
+			android:background="@drawable/hotelreserve_detail2_option_1_1" />
+
+	</LinearLayout >
+	
+	<LinearLayout
+		android:id="@+id/main_row_4"
+		android:layout_width="480px"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+	    <ImageView
+			android:id="@+id/main_row_4_pic"
+			android:layout_width="480px"
+			android:layout_height="32px"
+			android:background="@drawable/hotelreserve_detail2_option_1" />
+
+	</LinearLayout >
+	
+	<FrameLayout
+	    android:id="@+id/main_row_5"
+	    android:layout_width="480px"
+	    android:layout_height="50px"
+	    android:orientation="horizontal" >
+		
+	    <ImageView
+			android:id="@+id/main_row_5_pic"
+			android:layout_width="38px"
+			android:layout_height="38px"
+			android:layout_marginLeft="10px"
+			android:layout_marginTop="10px"
+			android:background="@drawable/hotelreserve_detail2_r_1_bt" />
+	    <TextView
+		    android:id="@+id/main_row_5_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="13px"
+		    android:layout_marginLeft="60px"
+		    android:text="Deluxe 더블 "
+		    android:textColor="#FF323232"
+		    android:textSize="25px" 
+		    android:singleLine = "true"
+		     />
+	    <TextView
+		     android:id="@+id/main_row_5_day"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginRight="20px"
+		     android:layout_marginTop="13px"
+		     android:text=" 82,000 원"
+		     android:textColor="#FF3333FF"
+		     android:layout_gravity="right"
+		     android:textSize="25px" 
+		     android:singleLine = "true"
+		     />
+
+	</FrameLayout >
+	<LinearLayout
+		android:id="@+id/main_row_6"
+		android:layout_width="480px"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+	    <ImageView
+			android:id="@+id/main_row_6_pic"
+			android:layout_width="480px"
+			android:layout_height="32px"
+			android:background="@drawable/hotelreserve_detail2_option_2" />
+
+	</LinearLayout >
+	
+	<FrameLayout
+	    android:id="@+id/main_row_7"
+	    android:layout_width="480px"
+	    android:layout_height="50px"
+	    android:orientation="horizontal" >
+	    <ImageView
+			android:id="@+id/main_row_7_pic"
+			android:layout_width="38px"
+			android:layout_height="38px"
+			android:layout_marginLeft="10px"
+			android:layout_marginTop="10px"
+			android:background="@drawable/checkbox_1" />
+	    <TextView
+		    android:id="@+id/main_row_7_title"
+		    android:layout_width="200px"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="13px"
+		     android:layout_marginLeft="60px"
+		    android:text="Deluxe 더블 "
+		    android:textColor="#FF323232"
+		    android:textSize="25px" 
+		    android:singleLine = "true"
+		     />
+	    <TextView
+		     android:id="@+id/main_row_7_day"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginRight="20px"
+		     android:layout_marginTop="13px"
+		     android:text=" 82,000 원"
+		     android:textColor="#FF3333FF"
+		     android:layout_gravity="right"
+		     android:textSize="25px" 
+		     android:singleLine = "true"
+		     />
+
+	</FrameLayout >
+
+	<FrameLayout
+	    android:id="@+id/main_row_8"
+	    android:layout_width="480px"
+	    android:layout_height="76px"
+	    android:background="@drawable/hotelreserve_detail2_baby"
+	    >
+	    
+	    <ImageView
+                android:id="@+id/inn_man_p"
+                android:layout_width="45px"
+                android:layout_height="45px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="413px"
+                android:layout_marginTop="17px"
+                android:background="@drawable/plus_bt_1" />
+		    
+		     <ImageView
+                android:id="@+id/inn_man_m"
+                android:layout_width="45px"
+                android:layout_height="45px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="227px"
+                android:layout_marginTop="17px"
+                android:background="@drawable/minus_bt_1" />
+		     
+		     <TextView
+		         android:id="@+id/hotel_room_man"
+		         android:layout_width="80px"
+		         android:layout_height="wrap_content"
+		         android:layout_marginLeft="300px"
+		         android:layout_marginTop="30px"
+		         android:background="@null"
+		         android:gravity="center"
+		         android:text="0"
+		         android:textColor="#000000"
+		         android:textCursorDrawable="@null"
+		         android:textSize="14px" />
+		     
+	</FrameLayout>
+	
+	<FrameLayout
+	    android:id="@+id/main_row_9"
+	    android:layout_width="480px"
+	    android:layout_height="186px"
+	    android:background="@drawable/hotelreserve_detail2_option_3"
+	    >
+
+	    <TextView
+		     android:id="@+id/main_row_9_day"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="20px"
+		     android:layout_marginTop="20px"
+		     android:layout_marginRight="10px"
+		     android:text=" 82,000 원"
+		     android:textColor="#FF3333FF"
+		     android:layout_gravity="right"
+		     android:textSize="25px" 
+		     android:singleLine = "true"
+		     />
+	    <TextView
+		     android:id="@+id/main_row_9_day_2"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginLeft="20px"
+		     android:layout_marginTop="50px"
+		     android:layout_marginRight="10px"
+		     android:text=" 세금 및 봉사료 포함"
+		     android:textColor="#FF3333FF"
+		     android:layout_gravity="right"
+		     android:textSize="15px" 
+		     android:singleLine = "true"
+		     />
+		<ImageView
+                android:id="@+id/login_btn"
+                android:layout_width="450px"
+                android:layout_height="68px"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="100px"
+                android:background="@drawable/hotelreserve_detail2_reserve_1_bt" />
+	</FrameLayout>
+	
+	<FrameLayout
+	    android:id="@+id/main_row_10"
+	    android:layout_width="480px"
+	    android:layout_height="50px"
+	    android:orientation="horizontal" >
+		
+	    <ImageView
+			android:id="@+id/main_row_10_pic"
+			android:layout_width="38px"
+			android:layout_height="38px"
+			android:layout_marginLeft="10px"
+			android:layout_marginTop="10px"
+			android:background="@drawable/hotelreserve_detail2_r_1_bt" />
+	    <TextView
+		    android:id="@+id/main_row_10_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="13px"
+		    android:layout_marginLeft="60px"
+		    android:text="Deluxe 더블 "
+		    android:textColor="#FF323232"
+		    android:textSize="25px" 
+		    android:singleLine = "true"
+		     />
+	    <TextView
+		     android:id="@+id/main_row_10_day"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginRight="20px"
+		     android:layout_marginTop="13px"
+		     android:text=" 82,000 원"
+		     android:textColor="#FF3333FF"
+		     android:layout_gravity="right"
+		     android:textSize="25px" 
+		     android:singleLine = "true"
+		     />
+
+	</FrameLayout >
+
+</LinearLayout >
+
+

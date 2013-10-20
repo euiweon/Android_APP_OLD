@@ -1,0 +1,184 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:id="@+id/menu_1"
+	    android:layout_width="340px"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/menu_bg"
+	    android:orientation="vertical"
+	    android:visibility="visible" >
+	    
+	    <LinearLayout
+	        android:id="@+id/main_menu_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="79px"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <TextView
+			   android:id="@+id/main_menu_text"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10px"
+			   android:layout_marginTop="38px"
+			   android:ellipsize="end"
+			   android:gravity="left"
+			   android:text="내정보 "
+			   android:textColor="#FFFFFF"
+			   android:textSize="30px"
+			    />
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/main_menu_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/main_menu_2_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/re_call_1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/main_menu_3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/main_menu_3_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/my_tra_1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/main_menu_4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/main_menu_4_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/zzim_1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/main_menu_5"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:orientation="horizontal" >
+	
+	        <ImageView
+				android:id="@+id/main_menu_5_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/event_btn"
+				android:layout_gravity="left"/>
+	
+	        <Switch
+	            android:id="@+id/main_menu_5_switch"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="" 
+	            android:layout_marginLeft="-161px"
+				android:layout_marginTop="30px"/>
+	
+		</LinearLayout>
+		
+		<LinearLayout
+	        android:id="@+id/main_menu_6"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="horizontal" >
+	        <ImageView
+				android:id="@+id/main_menu_6_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/auto_login"
+				android:layout_gravity="left"/>
+	        
+	        <Switch
+	            android:id="@+id/main_menu_6_switch"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="" 
+	            android:layout_marginLeft="-161px"
+				android:layout_marginTop="30px"/>
+		</LinearLayout>
+		
+		
+	</LinearLayout>
+	
+	<LinearLayout  
+	    android:id="@+id/menu_2"
+	    android:layout_width="340px"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/login_bg_menu"
+	    android:orientation="vertical" >
+		
+	    <EditText
+        	android:id="@+id/login_id_data"
+            android:layout_width="300px"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20px"
+                 android:layout_marginTop="105px"
+                 android:background="@null"
+                 android:textColor="#000000"
+                 android:hint="아이디"
+                 android:textCursorDrawable="@null"
+                 android:textSize="20px" />
+             
+              <EditText
+                  android:id="@+id/login_pass_data"
+                  android:layout_width="300px"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20px"
+                  android:layout_marginTop="45px"
+                  android:background="@null"
+                  android:hint="비밀번호"
+                  android:inputType="textPassword"
+                  android:textColor="#000000"
+                  android:textCursorDrawable="@null"
+                  android:textSize="20px" />
+	    
+		<LinearLayout
+	        android:id="@+id/menu_2_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_1"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:layout_marginTop="20px"
+				android:background="@drawable/login_member1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/menu_2_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_2"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/entry1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+</LinearLayout>

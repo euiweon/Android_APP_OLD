@@ -1,0 +1,511 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:id="@+id/menu_1"
+	    android:layout_width="340px"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/menu_bg"
+	    android:orientation="vertical"
+	    android:visibility="gone" >
+	    
+	    <LinearLayout
+	        android:id="@+id/main_menu_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="79px"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <TextView
+			   android:id="@+id/main_menu_text"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10px"
+			   android:layout_marginTop="38px"
+			   android:ellipsize="end"
+			   android:gravity="left"
+			   android:text="정렬방식 "
+			   android:textColor="#FFFFFF"
+			   android:textSize="30px"
+			    />
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/main_menu_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/main_menu_2_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/sort1_1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/main_menu_3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/main_menu_3_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/sort2_1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/main_menu_4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/main_menu_4_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/sort3_1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/main_menu_5"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:orientation="horizontal" >
+	
+
+	
+		</LinearLayout>
+		
+		<LinearLayout
+	        android:id="@+id/main_menu_6"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="horizontal" >
+	        <ImageView
+				android:id="@+id/main_menu_6_btn"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/sort5_1"
+				android:layout_gravity="left"/>
+	        
+		</LinearLayout>
+		
+		
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/menu_2"
+	    android:layout_width="340px"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/menu_bg"
+	    android:orientation="vertical"
+	    android:visibility="gone"
+	     >
+
+	    <LinearLayout
+	        android:id="@+id/menu_2_5"
+	        android:layout_width="match_parent"
+	        android:layout_height="79px"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <TextView
+			   android:id="@+id/menu_2_1_5"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10px"
+			   android:layout_marginTop="38px"
+			   android:ellipsize="end"
+			   android:gravity="left"
+			   android:text="접수방법"
+			   android:textColor="#FFFFFF"
+			   android:textSize="30px"
+			    />
+		</LinearLayout>		
+		<LinearLayout
+	        android:id="@+id/menu_2_6"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_6"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/allselect1"
+				android:layout_gravity="left"/>
+	    </LinearLayout>
+		<LinearLayout
+	        android:id="@+id/menu_2_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_1"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/hotellistfilter_confirm_reserve1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/menu_2_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_2"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/hotellistfilter_reserve1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+				<LinearLayout
+	        android:id="@+id/menu_2_3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_3"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/hotellistfilter_confirm_regist1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+		
+		<LinearLayout
+	        android:id="@+id/menu_2_4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <ImageView
+				android:id="@+id/menu_2_1_4"
+				android:layout_width="359px"
+				android:layout_height="103px"
+				android:background="@drawable/hotellistfilter_normal1"
+				android:layout_gravity="left"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/menu_3"
+	    android:layout_width="340px"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/menu_bg"
+	    android:orientation="vertical"
+	    android:visibility="visible" >
+
+	    <LinearLayout
+	        android:id="@+id/menu_3_1_ex"
+	        android:layout_width="match_parent"
+	        android:layout_height="79px"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <TextView
+			   android:id="@+id/menu_3_1_1_ex"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10px"
+			   android:layout_marginTop="38px"
+			   android:ellipsize="end"
+			   android:gravity="left"
+			   android:text="호텔 등급(국내)"
+			   android:textColor="#FFFFFF"
+			   android:textSize="30px"
+			    />
+		</LinearLayout>		
+
+	    <ScrollView
+				android:id="@+id/scrollview_1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"    
+			    android:orientation="vertical"
+			    >
+	        <LinearLayout
+		        android:id="@+id/menu_3_ex"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_alignParentBottom="true"
+		        android:orientation="vertical" >
+		        <LinearLayout
+			        android:id="@+id/menu_3_100"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_100_1"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/allselect1"
+						android:layout_gravity="left"/>
+	    		</LinearLayout>
+	        	<LinearLayout
+			        android:id="@+id/menu_3_1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_1"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/bigstar1_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_2"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_2"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/bigstar2_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_3"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_3"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/star1_lv1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_4"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_4"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/star2_lv1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_5"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_5"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/star3_lv1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_6"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_6"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/residence1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_7"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_7"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/business1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_8"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_8"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/condo1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_9"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_9"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/youth1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_3_10"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_3_1_10"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/pension1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>	
+	</LinearLayout>
+	
+		<LinearLayout
+		    android:id="@+id/menu_4"
+		    android:layout_width="340px"
+		    android:layout_height="match_parent"
+		    android:background="@drawable/menu_bg"
+		    android:orientation="vertical"
+		    android:visibility="gone" >
+
+	    <LinearLayout
+	        android:id="@+id/menu_4_1_1_ex"
+	        android:layout_width="match_parent"
+	        android:layout_height="79px"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="vertical" >
+	        <TextView
+			   android:id="@+id/menu_4_1_1_ex_1"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="10px"
+			   android:layout_marginTop="38px"
+			   android:ellipsize="end"
+			   android:gravity="left"
+			   android:text="호텔 등급(해외)"
+			   android:textColor="#FFFFFF"
+			   android:textSize="30px"
+			    />
+		</LinearLayout>		
+
+	   		<ScrollView
+				android:id="@+id/scrollview_2"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"    
+			    android:orientation="vertical"
+			    >
+	        <LinearLayout
+		        android:id="@+id/menu_4_ex"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_alignParentBottom="true"
+		        android:orientation="vertical" >
+				
+	            <LinearLayout
+			        android:id="@+id/menu_4_100"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_4_100_1"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/allselect1"
+						android:layout_gravity="left"/>
+	    		</LinearLayout>
+	    		
+	        	<LinearLayout
+			        android:id="@+id/menu_4_1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_4_1_1"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/hotellistgrade_global1_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_4_2"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_4_1_2"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/hotellistgrade_global2_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_4_3"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_4_1_3"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/hotellistgrade_global3_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_4_4"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_4_1_4"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/hotellistgrade_global4_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+				<LinearLayout
+			        android:id="@+id/menu_4_5"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentBottom="true"
+			        android:orientation="vertical" >
+			        <ImageView
+						android:id="@+id/menu_4_1_5"
+						android:layout_width="359px"
+						android:layout_height="103px"
+						android:background="@drawable/hotellistgrade_global5_1"
+						android:layout_gravity="left"/>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>	
+	</LinearLayout>
+	
+	
+</LinearLayout>
